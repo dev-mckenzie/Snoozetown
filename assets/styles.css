@@ -339,13 +339,10 @@ figcaption { padding-top: .3rem; }
 }
 .reply cite { font-style: normal; }
 
-/* placeholder state: obvious enough that it cannot ship by accident */
-.reply.pending {
-  background: transparent;
-  border: 1px dashed var(--rule);
-  border-left: 3px solid var(--rule);
-}
-.reply.pending p { font-style: normal; color: var(--muted); font-size: .95rem; }
+/* Awaiting-statement state. Reads as a deliberate editorial holding note
+   rather than an unfinished one, since it is published while we wait. */
+.reply.pending { border-left-color: var(--rule); }
+.reply.pending p { font-style: normal; color: var(--muted); }
 
 /* ---------- footer ---------- */
 
