@@ -1,0 +1,15 @@
+# Never commit original camera files — they carry EXIF, device IDs and timestamps.
+# Only the stripped, resized plates in photos/ belong in this repository.
+originals/
+*-original.*
+*.HEIC
+*.heic
+*.dng
+*.DNG
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~
