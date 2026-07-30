@@ -5,9 +5,14 @@ scientific field study.
 
 ## Writing rules
 
-**Never use the em dash (—) in any text.** This applies to everything: site copy, README,
-code comments, commit messages, and pull request descriptions. Restructure the sentence
-instead. A colon, a semicolon, a comma, parentheses, or a full stop will do the job.
+**Never use a dash as punctuation.** No em dashes (—) in site copy, README, code comments,
+commit messages, or pull request descriptions. Restructure the sentence instead. A colon, a
+semicolon, a comma, parentheses, or a full stop will do the job.
+
+The one exception: a dash **inside a date or number range** is fine, and there are two in
+the site already (`27 Mar 2022 – 3 Aug 2025` in the masthead, `2022–2025` in the meta
+description). Leave them alone. If you find a dash anywhere that is not spanning a range,
+it is a mistake and should be rewritten out.
 
 Other conventions for site copy:
 
