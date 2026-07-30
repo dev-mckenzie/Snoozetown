@@ -1,0 +1,5 @@
+# Snoozetown is meant to be shared by link, not found by search.
+# Anyone given the URL can read it; crawlers are asked to stay out.
+
+User-agent: *
+Disallow: /

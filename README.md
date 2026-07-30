@@ -73,6 +73,21 @@ The original camera files are deliberately **not** in this repository, and `.git
 is set up to keep it that way. Capture timestamps were transcribed by hand into the
 captions before stripping, because they are the most interesting part of the data.
 
+## Discoverability
+
+The site is meant to be shared by link rather than found by search. Two things ask
+crawlers to stay away:
+
+- `robots.txt` disallows everything
+- `index.html` carries `<meta name="robots" content="noindex, nofollow, noarchive,
+  noimageindex">`, which also keeps the photographs out of image search
+
+Both are requests, not enforcement. Well behaved crawlers honour them; nothing stops a
+determined one, and anyone with the URL can still read the site. Note also that this
+repository is public, which is what makes free GitHub Pages work, so the images remain
+reachable through GitHub itself regardless of these settings. Making the repository
+private would close that gap, but Pages on a private repository requires a paid plan.
+
 ## Consent
 
 The subject has reviewed the survey and consented to its publication. She would like it
