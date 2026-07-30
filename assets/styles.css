@@ -1,4 +1,4 @@
-/* Snoozetown — Field Report No. 1
+/* Snoozetown: Field Report No. 1
    Specimen-sheet styling: warm paper, hairline rules, monospace data fields. */
 
 :root {
@@ -312,6 +312,40 @@ figcaption { padding-top: .3rem; }
 .findings h3 { margin: 0 0 .45rem; font-size: 1.1rem; }
 .findings p { margin: 0; max-width: var(--measure); color: var(--muted); }
 .findings strong { color: var(--ink); }
+
+/* ---------- right of reply ---------- */
+
+.reply {
+  margin: 2.2rem 0;
+  padding: 1.8rem 2rem;
+  max-width: 44rem;
+  background: var(--paper-alt);
+  border-left: 3px solid var(--accent);
+}
+.reply p {
+  margin: 0 0 1rem;
+  font-size: 1.12rem;
+  font-style: italic;
+  max-width: 42ch;
+}
+.reply p:last-of-type { margin-bottom: 1.2rem; }
+.reply footer {
+  font-family: var(--mono);
+  font-size: .66rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 0;
+}
+.reply cite { font-style: normal; }
+
+/* placeholder state: obvious enough that it cannot ship by accident */
+.reply.pending {
+  background: transparent;
+  border: 1px dashed var(--rule);
+  border-left: 3px solid var(--rule);
+}
+.reply.pending p { font-style: normal; color: var(--muted); font-size: .95rem; }
 
 /* ---------- footer ---------- */
 

@@ -1,4 +1,4 @@
-/* Snoozetown — plate viewer and night-observation mode.
+/* Snoozetown: plate viewer and night-observation mode.
    No dependencies. Degrades to a plain scrolling document without JS. */
 
 (function () {
@@ -51,7 +51,7 @@
 
     img.src = plate.dataset.full;
     img.alt = thumb.alt;
-    cap.textContent = desig + ' — ' + stamp + ' · ' + (current + 1) + ' of ' + plates.length;
+    cap.textContent = desig + ' · ' + stamp + ' · ' + (current + 1) + ' of ' + plates.length;
   }
 
   function open(i) {
