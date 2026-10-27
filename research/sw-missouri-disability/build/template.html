@@ -1,0 +1,595 @@
+<title>Ozarks Care Navigator</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Disability programs, rules, and next steps for young adults and adults in Southwest Missouri.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: one calm reading column. A sticky tab bar. The screener form comes first, then the results. Cards open in place. */
+:root{
+  --bg:#F2F5F4; --surface:#FFFFFF; --ink:#13211D; --muted:#4A5C56; --line:#CBD7D3;
+  --accent:#0A6152; --accent-ink:#FFFFFF; --accent-soft:#DCEEE9;
+  --warn-bg:#FFF0D4; --warn-ink:#5E3600; --warn-line:#E2B66A;
+  --yes:#1B6536; --maybe:#6E5200; --low:#9A2B2B; --focus:#1F5FBF;
+  --font:"Atkinson Hyperlegible", Verdana, "Segoe UI", system-ui, sans-serif;
+  --s-1:.875rem; --s0:1.0625rem; --s1:1.25rem; --s2:1.55rem; --s3:2rem;
+  --radius:6px; --measure:44rem;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1513; --surface:#16211E; --ink:#E3ECE9; --muted:#A0B2AC; --line:#2C3B37;
+  --accent:#5DC3AD; --accent-ink:#04201A; --accent-soft:#163A33;
+  --warn-bg:#33260F; --warn-ink:#F2CD8B; --warn-line:#6E5427;
+  --yes:#86D7A0; --maybe:#E6C76E; --low:#F29C9C; --focus:#8AB4F8; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1513; --surface:#16211E; --ink:#E3ECE9; --muted:#A0B2AC; --line:#2C3B37;
+  --accent:#5DC3AD; --accent-ink:#04201A; --accent-soft:#163A33;
+  --warn-bg:#33260F; --warn-ink:#F2CD8B; --warn-line:#6E5427;
+  --yes:#86D7A0; --maybe:#E6C76E; --low:#F29C9C; --focus:#8AB4F8; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:var(--s0);line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:var(--measure);margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3,h4{line-height:1.2;text-wrap:balance;margin:0}
+h1{font-size:var(--s3)} h2{font-size:var(--s2)} h3{font-size:var(--s1)} h4{font-size:var(--s0);margin-top:.25rem}
+p{margin:0} ul,ol{margin:0;padding-left:1.3rem} li+li{margin-top:.3rem}
+a{color:var(--accent);text-underline-offset:2px}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:3px}
+.label{font-size:var(--s-1);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)} .num{font-variant-numeric:tabular-nums}
+
+/* Header */
+.masthead{background:var(--surface);border-bottom:1px solid var(--line)}
+.masthead .wrap{display:grid;gap:.6rem;padding-block:1.4rem 1.1rem}
+.masthead .sub{color:var(--muted);max-width:38rem}
+.level{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .75rem}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--bg)}
+.seg button{font:inherit;font-size:var(--s-1);font-weight:700;border:0;border-radius:999px;padding:.45rem .9rem;min-height:40px;background:transparent;color:var(--ink);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+
+/* Tabs */
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+.tabs .wrap{overflow-x:auto;scrollbar-width:thin}
+.tabs ul{display:flex;gap:.25rem;list-style:none;padding:0;margin:0;white-space:nowrap}
+.tabs li+li{margin-top:0}
+.tabs a{display:inline-block;padding:.75rem .7rem;font-weight:700;color:var(--muted);text-decoration:none;border-bottom:3px solid transparent}
+.tabs a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
+
+main .wrap{display:grid;gap:1.5rem;padding-block:1.5rem 4rem}
+section[data-view]{display:grid;gap:1.25rem}
+
+/* Alerts */
+.alerts{display:grid;gap:.6rem}
+.alert{background:var(--warn-bg);color:var(--warn-ink);border:1px solid var(--warn-line);border-radius:var(--radius);padding:.85rem 1rem;display:grid;gap:.3rem}
+.alert .date{font-size:var(--s-1);font-weight:700;letter-spacing:.04em}
+.alert a{color:inherit}
+
+/* Form */
+form{display:grid;gap:1.25rem}
+.qgroup{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1rem 1.2rem;display:grid;gap:1.1rem}
+.qgroup>h3{display:flex;gap:.6rem;align-items:baseline}
+.qgroup>h3 .label{font-size:var(--s-1)}
+fieldset{border:0;margin:0;padding:0;min-width:0;display:grid;gap:.45rem}
+legend{font-weight:700;padding:0;margin-bottom:.45rem}
+.hint{font-size:var(--s-1);color:var(--muted);margin-top:-.25rem}
+.opts{display:flex;flex-wrap:wrap;gap:.45rem}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;width:1px;height:1px}
+.opt span{display:inline-flex;align-items:center;min-height:44px;padding:.5rem .85rem;border:1px solid var(--line);border-radius:var(--radius);background:var(--bg);cursor:pointer}
+.opt input:checked+span{background:var(--accent-soft);border-color:var(--accent);font-weight:700}
+.opt input:focus-visible+span{outline:3px solid var(--focus);outline-offset:2px}
+.opt input[type="checkbox"]:checked+span::before{content:"\2713";margin-right:.4rem}
+select,input[type="number"],input[type="search"]{font:inherit;min-height:44px;padding:.45rem .7rem;border:1px solid var(--line);border-radius:var(--radius);background:var(--bg);color:var(--ink);max-width:100%}
+input[type="number"]{width:7rem}
+.actions{display:flex;flex-wrap:wrap;gap:.6rem}
+.btn{font:inherit;font-weight:700;min-height:46px;padding:.6rem 1.1rem;border-radius:var(--radius);border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.privacy{font-size:var(--s-1);color:var(--muted)}
+
+/* Results */
+.results{display:grid;gap:1.25rem}
+.results-head{display:grid;gap:.4rem}
+.empty{border:1px dashed var(--line);border-radius:var(--radius);padding:1.1rem;display:grid;gap:.6rem;color:var(--muted)}
+.empty ol{color:var(--ink)}
+.group{display:grid;gap:.6rem}
+.group>h3{display:flex;gap:.5rem;align-items:baseline;flex-wrap:wrap}
+.count{font-size:var(--s-1);font-weight:700;color:var(--muted)}
+.example-note{background:var(--accent-soft);border-radius:var(--radius);padding:.6rem .85rem;font-weight:700}
+
+/* Cards */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+.card>summary{list-style:none;cursor:pointer;padding:.85rem 1rem;display:grid;gap:.3rem}
+.card>summary::-webkit-details-marker{display:none}
+.card>summary .top{display:flex;justify-content:space-between;align-items:baseline;gap:.75rem}
+.card-title{font-weight:700;font-size:var(--s1);line-height:1.25}
+.card-title::after{content:" +";color:var(--accent)}
+.card[open] .card-title::after{content:" \2212"}
+.card .next{font-size:var(--s-1)}
+.card .next strong{color:var(--accent)}
+.card-body{padding:0 1rem 1rem;display:grid;gap:.75rem;border-top:1px solid var(--line);padding-top:.85rem}
+.chips{display:flex;flex-wrap:wrap;gap:.35rem}
+.chip{font-size:var(--s-1);font-weight:700;padding:.1rem .5rem;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.chip.yes{color:var(--yes);border-color:currentColor}
+.chip.maybe{color:var(--maybe);border-color:currentColor}
+.chip.have{color:var(--accent);border-color:currentColor}
+.chip.low{color:var(--low);border-color:currentColor}
+.facts{display:grid;grid-template-columns:minmax(7rem,max-content) minmax(0,1fr);gap:.35rem 1rem;margin:0}
+.facts dt{font-weight:700;color:var(--muted)} .facts dd{margin:0;min-width:0}
+.alert-inline{background:var(--warn-bg);color:var(--warn-ink);border:1px solid var(--warn-line);border-radius:var(--radius);padding:.55rem .75rem}
+.contacts{list-style:none;padding:0;display:grid;gap:.5rem}
+.contacts li{border:1px solid var(--line);border-radius:var(--radius);padding:.55rem .75rem;margin:0}
+.contacts .phone{font-weight:700;font-variant-numeric:tabular-nums}
+.src{font-size:var(--s-1);color:var(--muted)}
+.src a{color:var(--muted)}
+@media (max-width:30rem){.facts{grid-template-columns:1fr}.facts dd{margin-bottom:.35rem}}
+
+/* Guide filters */
+.filters{display:grid;gap:.75rem;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:1rem}
+.filters .row{display:flex;flex-wrap:wrap;gap:.75rem;align-items:end}
+.filters label{display:grid;gap:.25rem;font-weight:700;font-size:var(--s-1)}
+.catbar{display:flex;flex-wrap:wrap;gap:.35rem}
+.catbar button{font:inherit;font-size:var(--s-1);font-weight:700;min-height:38px;padding:.3rem .7rem;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.catbar button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.list{display:grid;gap:.6rem}
+
+/* Pathways */
+.path{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:1rem;display:grid;gap:.8rem}
+.steps{list-style:none;padding:0;display:grid;gap:0}
+.steps li{display:grid;grid-template-columns:4.2rem minmax(0,1fr);gap:.75rem;padding:.65rem 0;border-top:1px solid var(--line);margin:0}
+.steps .age{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+.steps .deadline{display:inline-block;margin-top:.25rem;font-weight:700;color:var(--warn-ink);background:var(--warn-bg);padding:0 .4rem;border-radius:4px}
+.steps .links{font-size:var(--s-1);margin-top:.2rem}
+.warnbox{background:var(--warn-bg);color:var(--warn-ink);border:1px solid var(--warn-line);border-radius:var(--radius);padding:.75rem 1rem}
+.warnbox a{color:inherit}
+
+/* Tables */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:44rem;font-size:var(--s-1)}
+th,td{text-align:left;vertical-align:top;padding:.6rem .7rem;border-bottom:1px solid var(--line)}
+th{background:var(--bg);font-weight:700}
+td.deadline{font-weight:700;white-space:nowrap}
+
+.glossary{display:grid;grid-template-columns:minmax(6rem,max-content) minmax(0,1fr);gap:.5rem 1rem;margin:0}
+.glossary dt{font-weight:700} .glossary dd{margin:0}
+@media (max-width:30rem){.glossary{grid-template-columns:1fr}.glossary dd{margin-bottom:.5rem}}
+.prose{display:grid;gap:.8rem;max-width:40rem}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:var(--s-1)}
+footer .wrap{padding-block:1.25rem 2rem;display:grid;gap:.4rem}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+
+<header class="masthead">
+  <div class="wrap">
+    <p class="label">Southwest Missouri · Disability services · Ages 16 and older</p>
+    <h1>Ozarks Care Navigator</h1>
+    <p class="sub">Answer some questions about the person you help. The page shows the programs that may fit, what to do first, and who to call. It also has a full guide to each program.</p>
+    <div class="level">
+      <span class="label" id="level-label">Text level</span>
+      <div class="seg" role="group" aria-labelledby="level-label">
+        <button type="button" id="lvl-plain" data-level="plain" aria-pressed="true">Caregiver</button>
+        <button type="button" id="lvl-pro" data-level="pro" aria-pressed="false">Professional</button>
+      </div>
+      <span class="privacy" id="checked-line"></span>
+    </div>
+  </div>
+</header>
+<nav class="tabs" aria-label="Sections">
+  <div class="wrap">
+    <ul>
+      <li><a href="#screener" data-tab="screener">Screener</a></li>
+      <li><a href="#pathways" data-tab="pathways">Plans by age</a></li>
+      <li><a href="#programs" data-tab="programs">All programs</a></li>
+      <li><a href="#appeals" data-tab="appeals">If the answer is no</a></li>
+      <li><a href="#glossary" data-tab="glossary">Words</a></li>
+      <li><a href="#about" data-tab="about">About</a></li>
+    </ul>
+  </div>
+</nav>
+<noscript><div class="wrap"><p class="alert">This page needs JavaScript to show the screener and the guide. Turn on JavaScript, or ask your helper for a printed copy.</p></div></noscript>
+<main>
+  <div class="wrap">
+    <div class="alerts" id="alerts" aria-label="Current changes"></div>
+
+    <section data-view="screener" aria-labelledby="h-screener">
+      <h2 id="h-screener">Find programs for one person</h2>
+      <form id="screener-form" novalidate></form>
+      <div class="results" id="results" aria-live="polite"></div>
+    </section>
+
+    <section data-view="pathways" aria-labelledby="h-pathways" hidden>
+      <h2 id="h-pathways">Plans by age and event</h2>
+      <p class="muted" id="pathways-intro"></p>
+      <div class="list" id="pathways"></div>
+    </section>
+
+    <section data-view="programs" aria-labelledby="h-programs" hidden>
+      <h2 id="h-programs">All programs</h2>
+      <div class="filters">
+        <div class="row">
+          <label for="f-search">Search<input type="search" id="f-search" placeholder="For example: SSI, respite, bus"></label>
+          <label for="f-county">County<select id="f-county"></select></label>
+        </div>
+        <div class="catbar" id="f-cats" role="group" aria-label="Topic"></div>
+      </div>
+      <p class="count" id="programs-count" aria-live="polite"></p>
+      <div class="list" id="programs"></div>
+    </section>
+
+    <section data-view="appeals" aria-labelledby="h-appeals" hidden>
+      <h2 id="h-appeals">If the answer is no</h2>
+      <div class="warnbox" id="appeals-intro"></div>
+      <div class="tablewrap"><table id="appeals"></table></div>
+    </section>
+
+    <section data-view="glossary" aria-labelledby="h-glossary" hidden>
+      <h2 id="h-glossary">Words and short names</h2>
+      <dl class="glossary" id="glossary"></dl>
+    </section>
+
+    <section data-view="about" aria-labelledby="h-about" hidden>
+      <h2 id="h-about">About this navigator</h2>
+      <div class="prose" id="about"></div>
+    </section>
+  </div>
+</main>
+<footer><div class="wrap" id="footer"></div></footer>
+
+<script type="application/json" id="nav-data">__DATA__</script>
+<script>
+(function(){
+'use strict';
+var DATA = JSON.parse(document.getElementById('nav-data').textContent);
+var P = DATA.programs || [];
+var byId = {}; P.forEach(function(p){ byId[p.id] = p; });
+var META = DATA.meta || {};
+var state = { level:'plain', answers:{}, example:false, cat:'all', q:'', county:'' };
+try { var saved = localStorage.getItem('ocn-level'); if (saved === 'plain' || saved === 'pro') state.level = saved; } catch(e){}
+
+var CATS = {start:'First calls', dd:'DD services', health:'Health coverage', money:'Money and benefits', school:'School and transition', work:'Work', decisions:'Decisions and guardianship', home:'Home care and respite', housing:'Housing', transport:'Transport', equipment:'Equipment', sensory:'Deaf and blind services', rights:'Rights and legal help'};
+
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+function L(v){ if (v == null) return ''; if (typeof v === 'object' && !Array.isArray(v)) { var x = v[state.level]; if (x == null || (Array.isArray(x) && !x.length) || x === '') x = v.plain; return x == null ? '' : x; } return v; }
+function arr(v){ v = L(v); return Array.isArray(v) ? v : (v ? [v] : []); }
+function safeUrl(u){ return /^https:\/\//i.test(u || '') ? u : ''; }
+var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function fmtDate(d){ var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d || ''); return m ? (+m[3]) + ' ' + MONTHS[+m[2]-1] + ' ' + m[1] : esc(d); }
+function countyName(id){ var c = (DATA.counties || []).filter(function(x){ return x.id === id; })[0]; return c ? c.name : id; }
+
+/* ---------- Screener questions ---------- */
+var NOTSURE = ['unsure','Not sure'];
+var GROUPS = [
+  {title:'About the person', qs:[
+    {id:'county', type:'select', text:'Which county does the person live in?'},
+    {id:'age', type:'number', text:'How old is the person?', hint:'Write the age in years.'},
+    {id:'dis', type:'multi', text:'What kind of disability does the person have? Choose all that fit.', opts:[['idd','Intellectual or developmental disability (includes autism and cerebral palsy)'],['physical','Physical disability or complex medical needs'],['deaf','Deaf or hard of hearing'],['blind','Blind or low vision'],['tbi','Brain injury'],['mh','Mental health condition'],NOTSURE]},
+    {id:'onset22', type:'single', text:'Did the disability start before age 22?', opts:[['yes','Yes'],['no','No'],NOTSURE]}
+  ]},
+  {title:'Services and money now', qs:[
+    {id:'dd_elig', type:'single', text:'Is the person eligible with the Missouri Division of Developmental Disabilities (DMH DD)?', opts:[['yes','Yes'],['applied','Applied, no answer yet'],['no','No'],NOTSURE]},
+    {id:'waiver', type:'single', text:'Does the person get services from a DD waiver now?', hint:'Waivers pay for services at home, at work, and in the community.', opts:[['yes','Yes'],['waiting','On a wait list'],['no','No'],NOTSURE]},
+    {id:'mhn', type:'single', text:'Does the person have MO HealthNet (Missouri Medicaid)?', opts:[['yes','Yes'],['applied','Applied, no answer yet'],['no','No'],NOTSURE]},
+    {id:'ssa', type:'multi', text:'Does the person get money from Social Security? Choose all that fit.', opts:[['ssi','SSI'],['ssdi','SSDI (on their own work record)'],['cdb','Childhood Disability Benefits (on a parent\'s record)'],['none','None'],NOTSURE]},
+    {id:'resources_over', type:'single', text:'', opts:[['yes','Yes'],['no','No'],NOTSURE]}
+  ]},
+  {title:'School and work', qs:[
+    {id:'school', type:'single', text:'Is the person in school?', opts:[['iep','Yes, with an IEP'],['504','Yes, with a 504 plan'],['none_in_school','Yes, with no plan'],['left','No, the person left school'],NOTSURE]},
+    {id:'work', type:'single', text:'Does the person have a job, or want one?', opts:[['working','Has a job'],['wants','Wants a job'],['no','No'],NOTSURE]}
+  ]},
+  {title:'Daily life and family', qs:[
+    {id:'daily', type:'single', text:'Does the person need hands-on help with daily care, for example bathing, dressing, or eating?', opts:[['yes','Yes'],['no','No'],NOTSURE]},
+    {id:'nursing', type:'single', text:'Does the person need skilled nursing care, for example a trach, a ventilator, or tube feeding?', opts:[['yes','Yes'],['no','No'],NOTSURE]},
+    {id:'guardian', type:'single', text:'Does the person have a legal guardian?', opts:[['has','Yes'],['considering','No, but the family is thinking about it'],['no','No'],NOTSURE]},
+    {id:'caregiver55', type:'single', text:'Is the main unpaid caregiver age 55 or older?', opts:[['yes','Yes'],['no','No'],NOTSURE]},
+    {id:'caregiver_risk', type:'single', text:'Is the caregiver sick or unable to continue, or has the caregiver died?', opts:[['yes','Yes'],['no','No'],NOTSURE]},
+    {id:'needs', type:'multi', text:'What else does the person need now? Choose all that fit.', opts:[['transport','Rides'],['housing','A place to live'],['equipment','Equipment or technology'],['respite','A break for the caregiver'],['money','Money for daily costs'],['job','Help to find or keep a job']]}
+  ]}
+];
+var QTEXT = {}; GROUPS.forEach(function(g){ g.qs.forEach(function(q){ QTEXT[q.id] = q; }); });
+QTEXT.resources_over.text = META.resource_question || 'Does the person have more savings or property than the MO HealthNet limit allows?';
+QTEXT.resources_over.hint = META.resource_hint || '';
+
+var EXAMPLE = META.example || {county:'christian', age:19, dis:['idd'], onset22:'yes', dd_elig:'no', waiver:'no', mhn:'no', ssa:['none'], resources_over:'no', school:'iep', work:'wants', daily:'yes', nursing:'no', guardian:'considering', caregiver55:'no', caregiver_risk:'no', needs:['transport','job']};
+
+function buildForm(){
+  var f = document.getElementById('screener-form');
+  var html = '';
+  GROUPS.forEach(function(g, gi){
+    html += '<div class="qgroup"><h3><span class="label">Part ' + (gi+1) + ' of ' + GROUPS.length + '</span>' + esc(g.title) + '</h3>';
+    g.qs.forEach(function(q){
+      var id = 'q-' + q.id;
+      if (q.type === 'select') {
+        html += '<div><label for="' + id + '"><strong>' + esc(q.text) + '</strong></label><br><select id="' + id + '" name="' + q.id + '"><option value="">Choose a county</option>';
+        (DATA.counties || []).forEach(function(c){ html += '<option value="' + esc(c.id) + '">' + esc(c.name) + '</option>'; });
+        html += '<option value="other">Other county</option><option value="unsure">Not sure</option></select></div>';
+      } else if (q.type === 'number') {
+        html += '<div><label for="' + id + '"><strong>' + esc(q.text) + '</strong></label>' + (q.hint ? '<p class="hint">' + esc(q.hint) + '</p>' : '') + '<input type="number" id="' + id + '" name="' + q.id + '" min="0" max="120" inputmode="numeric"></div>';
+      } else {
+        var t = q.type === 'multi' ? 'checkbox' : 'radio';
+        html += '<fieldset><legend>' + esc(q.text) + '</legend>' + (q.hint ? '<p class="hint">' + esc(q.hint) + '</p>' : '') + '<div class="opts">';
+        q.opts.forEach(function(o){ html += '<label class="opt"><input type="' + t + '" id="' + id + '-' + o[0] + '" name="' + q.id + '" value="' + o[0] + '"><span>' + esc(o[1]) + '</span></label>'; });
+        html += '</div></fieldset>';
+      }
+    });
+    html += '</div>';
+  });
+  html += '<div class="actions"><button class="btn" type="submit">Show the list</button><button class="btn ghost" type="button" id="btn-example">Try an example</button><button class="btn ghost" type="reset" id="btn-reset">Clear answers</button></div>';
+  html += '<p class="privacy">This page does not save or send your answers. They stay on this screen and go away when you close the page. You can skip any question.</p>';
+  f.innerHTML = html;
+  f.addEventListener('submit', function(e){ e.preventDefault(); state.example = false; readForm(); renderResults(true); });
+  f.addEventListener('reset', function(){ setTimeout(function(){ state.answers = {}; state.example = false; renderResults(false); }, 0); });
+  document.getElementById('btn-example').addEventListener('click', function(){ fillForm(EXAMPLE); state.example = true; readForm(); renderResults(true); });
+  f.addEventListener('change', function(e){
+    var t = e.target;
+    if (t.type === 'checkbox' && (t.value === 'none' || t.value === 'unsure') && t.checked) {
+      f.querySelectorAll('input[name="' + t.name + '"]').forEach(function(x){ if (x !== t) x.checked = false; });
+    } else if (t.type === 'checkbox' && t.checked) {
+      f.querySelectorAll('input[name="' + t.name + '"][value="none"], input[name="' + t.name + '"][value="unsure"]').forEach(function(x){ x.checked = false; });
+    }
+  });
+}
+function readForm(){
+  var f = document.getElementById('screener-form'), a = {};
+  GROUPS.forEach(function(g){ g.qs.forEach(function(q){
+    if (q.type === 'select') { var v = f.elements[q.id].value; if (v) a[q.id] = v; }
+    else if (q.type === 'number') { var n = parseInt(f.elements[q.id].value, 10); if (!isNaN(n)) a[q.id] = n; }
+    else if (q.type === 'multi') { var vals = []; f.querySelectorAll('input[name="' + q.id + '"]:checked').forEach(function(x){ vals.push(x.value); }); if (vals.length) a[q.id] = vals; }
+    else { var c = f.querySelector('input[name="' + q.id + '"]:checked'); if (c) a[q.id] = c.value; }
+  }); });
+  state.answers = a;
+}
+function fillForm(a){
+  var f = document.getElementById('screener-form');
+  /* Clear by hand: f.reset() fires the reset handler, which would wipe the new results. */
+  f.querySelectorAll('input[type="radio"], input[type="checkbox"]').forEach(function(x){ x.checked = false; });
+  f.querySelectorAll('select, input[type="number"]').forEach(function(x){ x.value = ''; });
+  Object.keys(a).forEach(function(k){
+    var v = a[k], q = QTEXT[k]; if (!q) return;
+    if (q.type === 'select' || q.type === 'number') f.elements[k].value = v;
+    else (Array.isArray(v) ? v : [v]).forEach(function(x){ var el = document.getElementById('q-' + k + '-' + x); if (el) el.checked = true; });
+  });
+}
+
+/* ---------- Rule engine: returns 'yes', 'maybe', or 'no' ---------- */
+function evalRule(r, a){
+  if (r === true) return 'yes';
+  if (r == null || r === false) return 'no';
+  var i, v, res;
+  if (r.all) { res = 'yes'; for (i = 0; i < r.all.length; i++) { v = evalRule(r.all[i], a); if (v === 'no') return 'no'; if (v === 'maybe') res = 'maybe'; } return res; }
+  if (r.any) { res = 'no'; for (i = 0; i < r.any.length; i++) { v = evalRule(r.any[i], a); if (v === 'yes') return 'yes'; if (v === 'maybe') res = 'maybe'; } return res; }
+  if (r.not) { v = evalRule(r.not, a); return v === 'yes' ? 'no' : (v === 'no' ? 'yes' : 'maybe'); }
+  var val = a[r.q];
+  var blank = val === undefined || val === '' || (Array.isArray(val) && !val.length);
+  if (blank) return 'maybe';
+  var list = Array.isArray(val) ? val : [val];
+  var unsure = list.indexOf('unsure') >= 0;
+  var want = Array.isArray(r.v) ? r.v : [r.v];
+  switch (r.op) {
+    case 'in': case '==':
+      if (want.indexOf(val) >= 0) return 'yes'; return unsure ? 'maybe' : 'no';
+    case '!=':
+      if (want.indexOf(val) >= 0) return 'no'; return unsure ? 'maybe' : 'yes';
+    case 'has':
+      if (list.some(function(x){ return want.indexOf(x) >= 0; })) return 'yes'; return unsure ? 'maybe' : 'no';
+    case 'lacks':
+      if (list.some(function(x){ return want.indexOf(x) >= 0; })) return 'no'; return unsure ? 'maybe' : 'yes';
+    case '>=': case '<=': case '>': case '<':
+      if (typeof val !== 'number') return 'maybe';
+      var n = Number(r.v);
+      var ok = r.op === '>=' ? val >= n : r.op === '<=' ? val <= n : r.op === '>' ? val > n : val < n;
+      return ok ? 'yes' : 'no';
+  }
+  return 'maybe';
+}
+function inCounty(p, county){
+  if (!county || county === 'other' || county === 'unsure' || !p.counties || p.counties === 'all') return true;
+  return p.counties.indexOf(county) >= 0;
+}
+
+/* ---------- Cards ---------- */
+function confChip(p){
+  if (p.confidence === 'Low') return '<span class="chip low" title="Not fully checked">Call to confirm</span>';
+  return '';
+}
+function contactFits(c, county){
+  if (!county || county === 'other' || county === 'unsure' || !c.counties || c.counties === 'all') return true;
+  return c.counties.indexOf(county) >= 0;
+}
+function contactHtml(c){
+  var parts = ['<strong>' + esc(c.label) + '</strong>'];
+  if (c.phone) parts.push('<span class="phone">' + esc(c.phone) + '</span>');
+  if (c.address) parts.push('<span>' + esc(c.address) + '</span>');
+  var u = safeUrl(c.url); if (u) parts.push('<a href="' + esc(u) + '" target="_blank" rel="noopener">Website</a>');
+  if (c.note) parts.push('<span class="muted">' + esc(c.note) + '</span>');
+  return '<li>' + parts.join('<br>') + '</li>';
+}
+function row(k, v){ return v ? '<dt>' + esc(k) + '</dt><dd>' + esc(v) + '</dd>' : ''; }
+function card(p, opt){
+  opt = opt || {};
+  var county = opt.county != null ? opt.county : state.county;
+  var steps = arr(p.steps), wo = arr(p.watch_out), bring = p.bring || [];
+  var contacts = (p.contacts || []).filter(function(c){ return contactFits(c, county); });
+  var chips = (opt.status ? '<span class="chip ' + opt.status + '">' + ({yes:'May fit', maybe:'Check this', have:'Has this'}[opt.status]) + '</span>' : '') + '<span class="chip">' + esc(CATS[p.category] || '') + '</span>' + confChip(p);
+  var next = opt.next && steps.length ? '<p class="next"><strong>First step:</strong> ' + esc(steps[0]) + '</p>' : '';
+  var req = (p.requires || []).filter(function(id){ return byId[id]; });
+  var srcs = (p.sources || []).map(function(s){ var u = safeUrl(s.url); return u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>' : esc(s.title); });
+  return '<details class="card" id="' + (opt.idPrefix || 'p-') + esc(p.id) + '"' + (opt.open ? ' open' : '') + '>' +
+    '<summary><span class="card-title">' + esc(p.name) + '</span><span class="chips">' + chips + '</span><span>' + esc(L(p.summary)) + '</span>' + next + '</summary>' +
+    '<div class="card-body">' +
+      (p.alert ? '<p class="alert-inline"><strong>Changed:</strong> ' + esc(p.alert) + '</p>' : '') +
+      '<dl class="facts">' + row('Who can get it', L(p.who)) + row('How long', L(p.wait)) + row('Cost', L(p.cost)) + '</dl>' +
+      (req.length ? '<p><strong>Do this first:</strong> ' + req.map(function(id){ return '<a href="#p-' + esc(id) + '">' + esc(byId[id].name) + '</a>'; }).join(', ') + '</p>' : '') +
+      (steps.length ? '<div><h4>Steps</h4><ol>' + steps.map(function(s){ return '<li>' + esc(s) + '</li>'; }).join('') + '</ol></div>' : '') +
+      (bring.length ? '<div><h4>What to have ready</h4><ul>' + bring.map(function(s){ return '<li>' + esc(s) + '</li>'; }).join('') + '</ul></div>' : '') +
+      (wo.length ? '<div><h4>Watch out for</h4><ul>' + wo.map(function(s){ return '<li>' + esc(s) + '</li>'; }).join('') + '</ul></div>' : '') +
+      (L(p.appeal) ? '<div><h4>If the answer is no</h4><p>' + esc(L(p.appeal)) + '</p></div>' : '') +
+      (contacts.length ? '<div><h4>Who to call' + (county && county !== 'other' && county !== 'unsure' ? ' in ' + esc(countyName(county)) + ' County' : '') + '</h4><ul class="contacts">' + contacts.map(contactHtml).join('') + '</ul></div>' : '') +
+      '<p class="src">Checked ' + fmtDate(p.checked) + '.' + (srcs.length ? ' Sources: ' + srcs.join('; ') + '.' : '') + '</p>' +
+    '</div></details>';
+}
+
+/* ---------- Results ---------- */
+function renderResults(scroll){
+  var box = document.getElementById('results');
+  var a = state.answers;
+  if (!Object.keys(a).length) {
+    box.innerHTML = '<div class="empty"><p><strong>Your list will show here.</strong> It has four parts:</p><ol><li>Things to do first.</li><li>Programs that may fit.</li><li>Programs to check with a professional.</li><li>Plans for this age, and who to call.</li></ol><p>Answer the questions above, or choose "Try an example" to see how the list looks.</p></div>';
+    return;
+  }
+  var county = a.county || '';
+  var have = [], matched = [], other = [];
+  P.forEach(function(p){
+    if (p.rule === null || p.rule === undefined) return;
+    if (!inCounty(p, county)) { other.push(p); return; }
+    if (p.have && evalRule(p.have, a) === 'yes') { have.push(p); return; }
+    var r = evalRule(p.rule, a);
+    if (r === 'no') other.push(p); else matched.push({p:p, r:r});
+  });
+  var haveIds = {}; have.forEach(function(p){ haveIds[p.id] = 1; });
+  var needed = {};
+  matched.forEach(function(m){ (m.p.requires || []).forEach(function(id){ if (!haveIds[id]) needed[id] = 1; }); });
+  var first = [], likely = [], check = [];
+  matched.forEach(function(m){
+    if (needed[m.p.id] || m.p.category === 'start') first.push(m);
+    else if (m.r === 'yes') likely.push(m); else check.push(m);
+  });
+  /* A required program that did not match on its own still goes in "first". */
+  Object.keys(needed).forEach(function(id){
+    if (byId[id] && !first.some(function(m){ return m.p.id === id; }) && !haveIds[id]) {
+      likely = likely.filter(function(m){ return m.p.id !== id; }); check = check.filter(function(m){ return m.p.id !== id; });
+      other = other.filter(function(p){ return p.id !== id; });
+      first.push({p:byId[id], r:'maybe'});
+    }
+  });
+  function byOrder(x, y){ return (x.p ? x.p.order : x.order) - (y.p ? y.p.order : y.order); }
+  first.sort(byOrder); likely.sort(byOrder); check.sort(byOrder); other.sort(byOrder); have.sort(byOrder);
+  var ids = {}; first.concat(likely, check).forEach(function(m){ ids[m.p.id] = 1; });
+  var alerts = (DATA.alerts || []).filter(function(al){ return !al.programs || !al.programs.length || al.programs.some(function(id){ return ids[id] || haveIds[id]; }); });
+  var paths = (DATA.pathways || []).filter(function(w){ return w.rule && evalRule(w.rule, a) === 'yes'; });
+
+  var who = [];
+  if (a.age != null) who.push('age ' + a.age);
+  if (county && county !== 'other' && county !== 'unsure') who.push(countyName(county) + ' County');
+  var html = '<div class="results-head"><h2 id="h-results" tabindex="-1">The list' + (who.length ? ' for: ' + esc(who.join(', ')) : '') + '</h2>' +
+    (state.example ? '<p class="example-note">These are example answers, not a real person. Change the answers above, then choose "Show the list".</p>' : '') +
+    '<p class="muted">This list is a guide, not a decision. Only the agency can say yes or no. Open a program to see the steps and who to call.</p>' +
+    '<div class="actions"><button class="btn ghost" type="button" id="btn-copy">Copy the list as text</button></div></div>';
+  if (alerts.length) html += '<div class="group"><h3>Recent changes that affect this person</h3>' + alerts.map(alertHtml).join('') + '</div>';
+  function group(title, items, status, note){
+    if (!items.length) return '';
+    return '<div class="group"><h3>' + esc(title) + ' <span class="count">' + items.length + '</span></h3>' + (note ? '<p class="muted">' + esc(note) + '</p>' : '') +
+      items.map(function(m){ var p = m.p || m; return card(p, {status: status || (m.r === 'yes' ? 'yes' : 'maybe'), next:true, county:county, idPrefix:'r-'}); }).join('') + '</div>';
+  }
+  html += group('1. Do these first', first, null, 'Other programs need these steps first. Start here.');
+  html += group('2. Programs that may fit', likely, 'yes');
+  html += group('3. Programs to check with a professional', check, 'maybe', 'Some answers were "Not sure" or blank, or the rules depend on facts the screener does not ask.');
+  if (paths.length) html += '<div class="group"><h3>4. Plans for this age and situation</h3><ul>' + paths.map(function(w){ return '<li><a href="#w-' + esc(w.id) + '">' + esc(w.title) + '</a></li>'; }).join('') + '</ul></div>';
+  html += group('Programs the person already has', have, 'have', 'Keep these active. Watch for renewal letters and report changes on time.');
+  if (other.length) html += '<details class="card"><summary><span class="card-title">Other programs (' + other.length + ')</span><span>Based on the answers, these do not seem to fit now. Rules change, and the screener is not perfect. Ask if you are not sure.</span></summary><div class="card-body"><ul>' + other.map(function(p){ return '<li><a href="#p-' + esc(p.id) + '">' + esc(p.name) + '</a></li>'; }).join('') + '</ul></div></details>';
+  box.innerHTML = html;
+  document.getElementById('btn-copy').addEventListener('click', function(){ copyText(listText(first, likely, check, paths, alerts, who), this); });
+  if (scroll) { var h = document.getElementById('h-results'); h.scrollIntoView({block:'start'}); h.focus({preventScroll:true}); }
+}
+function listText(first, likely, check, paths, alerts, who){
+  var out = ['Ozarks Care Navigator list' + (who.length ? ' for: ' + who.join(', ') : ''), 'Made ' + new Date().toLocaleDateString() + '. This is a guide, not a decision.', ''];
+  if (alerts.length) { out.push('RECENT CHANGES'); alerts.forEach(function(al){ out.push('- ' + al.title + ' (' + fmtDate(al.date) + ')'); }); out.push(''); }
+  function sec(t, items){ if (!items.length) return; out.push(t); items.forEach(function(m){ var p = m.p; var s = arr(p.steps); out.push('- ' + p.name + (s.length ? ': ' + s[0] : '')); var c = (p.contacts || []).filter(function(c){ return contactFits(c, state.answers.county); })[0]; if (c) out.push('  Call: ' + c.label + (c.phone ? ', ' + c.phone : '')); }); out.push(''); }
+  sec('DO THESE FIRST', first); sec('MAY FIT', likely); sec('CHECK WITH A PROFESSIONAL', check);
+  if (paths.length) { out.push('PLANS'); paths.forEach(function(w){ out.push('- ' + w.title); }); }
+  return out.join('\n');
+}
+function copyText(text, btn){
+  var done = function(){ var t = btn.textContent; btn.textContent = 'Copied'; setTimeout(function(){ btn.textContent = t; }, 1800); };
+  var fallback = function(){ var ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', ''); ta.style.width = '100%'; ta.rows = 10; btn.parentNode.after(ta); ta.focus(); ta.select(); btn.textContent = 'Select the text below and copy it'; };
+  try { navigator.clipboard.writeText(text).then(done, fallback); } catch(e) { fallback(); }
+}
+function alertHtml(al){
+  var u = al.source && safeUrl(al.source.url);
+  return '<div class="alert"><span class="date">Changed ' + fmtDate(al.date) + '</span><strong>' + esc(al.title) + '</strong><span>' + esc(L(al)) + '</span>' + (u ? '<span class="src"><a href="' + esc(u) + '" target="_blank" rel="noopener">Source: ' + esc(al.source.title) + '</a></span>' : '') + '</div>';
+}
+
+/* ---------- Guide views ---------- */
+function renderAlerts(){
+  var box = document.getElementById('alerts');
+  box.innerHTML = (DATA.alerts || []).filter(function(al){ return al.top; }).map(alertHtml).join('');
+}
+function renderPathways(){
+  document.getElementById('pathways-intro').textContent = META.pathways_intro ? L(META.pathways_intro) : '';
+  document.getElementById('pathways').innerHTML = (DATA.pathways || []).map(function(w){
+    var warns = arr(w.warnings);
+    return '<article class="path" id="w-' + esc(w.id) + '"><h3>' + esc(w.title) + '</h3>' + (L(w.when) ? '<p class="muted">' + esc(L(w.when)) + '</p>' : '') +
+      '<ol class="steps">' + (w.steps || []).map(function(s){
+        var links = (s.programs || []).filter(function(id){ return byId[id]; }).map(function(id){ return '<a href="#p-' + esc(id) + '">' + esc(byId[id].name) + '</a>'; });
+        return '<li><span class="age">' + esc(s.age || '') + '</span><div><p>' + esc(L(s)) + '</p>' + (s.deadline ? '<span class="deadline">' + esc(s.deadline) + '</span>' : '') + (links.length ? '<p class="links">See: ' + links.join(', ') + '</p>' : '') + '</div></li>';
+      }).join('') + '</ol>' +
+      (warns.length ? '<div class="warnbox"><strong>Watch out</strong><ul>' + warns.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></div>' : '') + '</article>';
+  }).join('');
+}
+function renderPrograms(){
+  var q = state.q.trim().toLowerCase();
+  var list = P.filter(function(p){
+    if (state.cat !== 'all' && p.category !== state.cat) return false;
+    if (!inCounty(p, state.county)) return false;
+    if (q) { var hay = (p.name + ' ' + L(p.summary) + ' ' + L(p.who) + ' ' + (CATS[p.category] || '')).toLowerCase(); if (hay.indexOf(q) < 0) return false; }
+    return true;
+  }).sort(function(x, y){ return x.order - y.order; });
+  document.getElementById('programs-count').textContent = list.length + (list.length === 1 ? ' program' : ' programs');
+  document.getElementById('programs').innerHTML = list.map(function(p){ return card(p, {}); }).join('') || '<p class="empty">No program matches. Clear the search or choose "All topics".</p>';
+}
+function buildFilters(){
+  var sel = document.getElementById('f-county');
+  sel.innerHTML = '<option value="">All counties</option>' + (DATA.counties || []).map(function(c){ return '<option value="' + esc(c.id) + '">' + esc(c.name) + '</option>'; }).join('');
+  sel.addEventListener('change', function(){ state.county = sel.value; renderPrograms(); });
+  var used = {}; P.forEach(function(p){ used[p.category] = 1; });
+  var bar = document.getElementById('f-cats');
+  bar.innerHTML = '<button type="button" data-cat="all" aria-pressed="true">All topics</button>' + Object.keys(CATS).filter(function(k){ return used[k]; }).map(function(k){ return '<button type="button" data-cat="' + k + '" aria-pressed="false">' + esc(CATS[k]) + '</button>'; }).join('');
+  bar.addEventListener('click', function(e){ var b = e.target.closest('button'); if (!b) return; state.cat = b.dataset.cat; bar.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }); renderPrograms(); });
+  document.getElementById('f-search').addEventListener('input', function(e){ state.q = e.target.value; renderPrograms(); });
+}
+function renderAppeals(){
+  document.getElementById('appeals-intro').innerHTML = esc(L(META.appeals_intro || {plain:'Most deadlines are short. Read every letter on the day it comes. Write down the date on the letter. Ask for the decision in writing.', pro:''}));
+  var rows = DATA.appeals || [];
+  document.getElementById('appeals').innerHTML = '<thead><tr><th scope="col">Agency</th><th scope="col">Decision</th><th scope="col">Deadline</th><th scope="col">Keep benefits during the appeal?</th><th scope="col">First step</th></tr></thead><tbody>' +
+    rows.map(function(r){ var u = r.source && safeUrl(r.source.url); return '<tr><td><strong>' + esc(r.agency) + '</strong></td><td>' + esc(L(r.decision)) + '</td><td class="deadline">' + esc(L(r.deadline)) + '</td><td>' + esc(L(r.keep_benefits)) + '</td><td>' + esc(L(r.first_step)) + (u ? '<br><a class="src" href="' + esc(u) + '" target="_blank" rel="noopener">Source</a>' : '') + (r.confidence === 'Low' ? '<br><span class="chip low">Call to confirm</span>' : '') + '</td></tr>'; }).join('') + '</tbody>';
+}
+function renderGlossary(){
+  var g = (DATA.glossary || []).slice().sort(function(x, y){ return x.term.localeCompare(y.term); });
+  document.getElementById('glossary').innerHTML = g.map(function(t){ return '<dt>' + esc(t.term) + '</dt><dd>' + esc(L(t)) + '</dd>'; }).join('');
+}
+function renderAbout(){
+  var paras = arr(META.about);
+  var counties = (DATA.counties || []).map(function(c){ return c.name; }).join(', ');
+  document.getElementById('about').innerHTML = paras.map(function(t){ return '<p>' + esc(t) + '</p>'; }).join('') + (counties ? '<p><strong>Counties covered:</strong> ' + esc(counties) + '.</p>' : '');
+  document.getElementById('footer').innerHTML = '<p>' + esc(META.footer || 'This guide gives information, not legal, medical, or financial advice. Rules change. Confirm with the agency before you act.') + '</p><p>Facts checked ' + fmtDate(META.checked) + '.</p>';
+  document.getElementById('checked-line').textContent = META.checked ? 'Facts checked ' + fmtDate(META.checked).replace(/<[^>]+>/g, '') : '';
+}
+function renderAll(){
+  renderAlerts(); renderPathways(); renderPrograms(); renderAppeals(); renderGlossary(); renderAbout(); renderResults(false);
+}
+
+/* ---------- Level switch and routing ---------- */
+function setLevel(l){
+  state.level = l;
+  try { localStorage.setItem('ocn-level', l); } catch(e){}
+  document.querySelectorAll('.seg button').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.level === l ? 'true' : 'false'); });
+  var open = Array.prototype.map.call(document.querySelectorAll('details[open]'), function(d){ return d.id; });
+  renderAll();
+  open.forEach(function(id){ var d = id && document.getElementById(id); if (d) d.open = true; });
+}
+document.querySelectorAll('.seg button').forEach(function(b){ b.addEventListener('click', function(){ setLevel(b.dataset.level); }); });
+
+var VIEWS = ['screener','pathways','programs','appeals','glossary','about'];
+function route(){
+  var h = (location.hash || '').slice(1), target = null;
+  if (/^p-/.test(h)) { target = h; h = 'programs'; if (state.cat !== 'all' || state.q || state.county) { state.cat = 'all'; state.q = ''; state.county = ''; document.getElementById('f-search').value = ''; document.getElementById('f-county').value = ''; document.querySelectorAll('#f-cats button').forEach(function(x){ x.setAttribute('aria-pressed', x.dataset.cat === 'all' ? 'true' : 'false'); }); renderPrograms(); } }
+  else if (/^w-/.test(h)) { target = h; h = 'pathways'; }
+  if (VIEWS.indexOf(h) < 0) h = 'screener';
+  document.querySelectorAll('section[data-view]').forEach(function(s){ s.hidden = s.dataset.view !== h; });
+  document.querySelectorAll('.tabs a').forEach(function(x){ if (x.dataset.tab === h) x.setAttribute('aria-current', 'page'); else x.removeAttribute('aria-current'); });
+  if (target) { var el = document.getElementById(target); if (el) { if (el.tagName === 'DETAILS') el.open = true; el.scrollIntoView({block:'start'}); } }
+  else if (location.hash) { window.scrollTo(0, 0); }
+}
+window.addEventListener('hashchange', route);
+
+buildForm(); buildFilters(); setLevel(state.level); route();
+})();
+</script>

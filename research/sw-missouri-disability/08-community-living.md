@@ -3,7 +3,7 @@ Checked: 2026-10-26. Area covered: the 23 counties of the DMH Division of Develo
 
 Note for the lead: other state systems use different maps for the same counties. DSDS (the DHSS in-home and waiver division) puts 19 of these counties in its HCBS "Region 1" and puts Henry, Hickory, St. Clair and Vernon in "Region 4" ([DSDS HCBS region map, 2026](https://health.mo.gov/sites/health/files/styles/extra_large/public/media/image/2026/06/hcbs-map.png), on [HCBS Connect With Us](https://health.mo.gov/senior-disability-services/home-community-based-services/hcbs-connect-us)). Area Agencies on Aging, transit providers, and housing authorities also split the region differently (see cards below).
 
-Status: draft in progress. Sections are written in parts.
+Status: complete (cards checked 2026-10-26; synthesis written 2026-10-27).
 
 ## 1. Program and resource cards
 
@@ -438,3 +438,129 @@ Overlaps: DD residential options (group home, shared living, Individualized Supp
 - Relevance to our screener: link to it; do not duplicate. It does **not** cover state plan personal care, CDS without a waiver, AAA respite, transport, housing, or AT.
 - Source: [DSS Missouri HCBS Waiver Finder](https://dss.mo.gov/mhd/waiver/mo-hcbs-waiver-finder), checked 2026-10-26. Confidence: High.
 
+
+## 1b. Daily life needs map
+(For each need: the programs that apply, the order to try them, and the first call. "Medicaid" means MO HealthNet. Income and Medicaid rules: agent 06. DD eligibility and DD waivers: agent 01.)
+
+### Need 1: Help at home (bathing, dressing, meals, supervision)
+- Order:
+  1. Get MO HealthNet active (DSDS refuses referrals without it).
+  2. DSDS HCBS assessment (18 points). State plan personal care: agency model or CDS. No wait list.
+  3. If physical disability and can self-direct: CDS (parent can be paid if NOT legal guardian). If more hours needed and age 18-64: Independent Living Waiver (slot limits).
+  4. If DMH DD eligible: DD waiver personal assistant on top of state plan (state plan must be used first). New DD waiver enrollment wait-listed since 15 Oct 2026.
+  5. Special cases: MCAW (aged out of MCCY private duty nursing at 21), BIW (TBI, 21-65), SFCW (dementia, lives with caregiver), ADW (63+), ADCW (18-62, licensed adult day center).
+- First call: **DSDS HCBS Call Center 866-835-3505** (or online referral). If no Medicaid yet: apply at mydss.mo.gov first (agent 06).
+
+### Need 2: A break for the caregiver (respite)
+- Order:
+  1. If parent or caregiver is 55+ and person is 18-59: **AAA Family Caregiver Support respite** (no Medicaid needed).
+  2. If DMH DD eligible: respite in a DD waiver plan (CSW or Comprehensive; not PfH per agent 01), or county SB40 board funds.
+  3. If person is 63+: ADW respite (up to 49 hours a week).
+  4. If dementia: Missouri Caregiver Program (Memory Care Home Solutions) and SFCW.
+  5. Paid caregiver hours (CDS) can free the parent even if not called "respite."
+- First call: **Missouri Senior Resource Line 1-800-235-5503** (routes to the AAA) for parents 55+; otherwise the DD support coordinator.
+
+### Need 3: A place to live
+- Order:
+  1. Apply early to every voucher list in reach (HACS in Springfield; OACAC for the 10 surrounding counties outside Springfield; Jasper County PHA). Ask for the disability preference and Mainstream vouchers. Keep the mailing address current.
+  2. If DMH DD eligible and needs 24-hour or residential support: Comprehensive Waiver request now (wait list; agent 01).
+  3. If homeless, institutionalized, or at risk, age 18-61, extremely low income: Missouri 811 referral via DMH or DSS partner; 2-1-1 press 6.
+  4. Adults with physical disabilities: own home or apartment with CDS hours; RCF or ALF with DSDS personal care as a group option.
+  5. Leaving a nursing facility after 60+ days: Show-Me Home.
+  6. Home modifications: waiver (DD or ILW $5,000 per 5 years), AAA supplemental, CIL ramps, Show Me Loans, USDA 504 (rural, verify).
+- First call: **the local PHA** (Springfield: HACS 417-866-4329, secondary source) and the DD support coordinator.
+
+### Need 4: Getting around
+- Order:
+  1. Medical trips with fee-for-service Medicaid: **MTM NEMT (866) 269-5927** (2 business days ahead in Greene; 3 in all other counties of our area). Managed care: number on plan card. Gas reimbursement if family drives.
+  2. Springfield, within 3/4 mile of a route: Reduced Fare Card ($0.50 rides) and Transit Ambassador training; if the person cannot use the bus: **Access Express** ($2.00, PCA free).
+  3. Rural counties: **OATS Transit** (ask about the AAA contract for disability 18-59 or age 60+).
+  4. Waiver day services: transport comes from the waiver or provider, not NEMT.
+  5. Work trips: Vocational Rehabilitation (agent 07).
+- First call: Springfield: **CU Transit (417) 831-8782**. Rural: **OATS 417-887-9272 / 800-770-6287** (Southwest Region).
+
+### Need 5: Equipment and technology
+- Order:
+  1. Medical equipment with Medicaid: doctor prescription to a MO HealthNet DME provider (pre-certification for some items; 186 incontinence items a month without pre-certification).
+  2. Items Medicaid does not cover: waiver (ILW SME $5,000 per 5 years; DD waiver AT, agent 01), AAA supplemental (parents 55+).
+  3. Try before buying: MoAT device loan (5 weeks, free).
+  4. Used equipment: MoAT reuse partners (empower: abilities, Springfield; On My Own, Nevada), Swap 'n Shop, CIL loan closets.
+  5. Phone or computer access: TAP-T or TAP-I (AGI under $60,000 for 1 or 2 people).
+  6. Buy with credit: Show Me Loans.
+- First call: **MoAT 1-816-655-6700** (non-medical AT); the prescribing doctor for DME.
+
+### Need 6: Emergency: the caregiver is sick, hospitalized, or dies
+- Order:
+  1. Immediate danger: 911.
+  2. Adult 18-59 with a disability (or 60+) who cannot meet essential needs: **APS hotline 1-800-392-0210** (7 a.m. to 8 p.m., 7 days).
+  3. If DMH DD eligible: call the support coordinator or DD Regional Office the same day; ask for an emergency Priority of Need (PON 5) and crisis access; ask about out-of-home respite (agent 01). Springfield Regional Office 417-895-7400; Joplin Satellite 417-629-3020.
+  4. If on DSDS services: call 866-835-3505 for a care plan change (more hours; new worker if the paid CDS attendant was the parent).
+  5. If a nursing facility stay happens: plan exit with Show-Me Home after 60 days.
+  6. Legal authority (who can sign): successor or emergency guardianship, powers of attorney: agent 04.
+- First call: **APS 1-800-392-0210** if no one else can step in; **DD support coordinator** if the person is DD eligible.
+- Best prevention: a written future plan made while the parent is well (Missouri Family to Family 1-800-444-0821; Charting the LifeCourse).
+
+## 2. Order and dependencies
+1. **MO HealthNet comes before any DSDS HCBS.** DSDS "will not accept" a referral if the person is not Medicaid eligible on the referral date (exception: HCB Medicaid routed through FSD). Spenddown must be met first.
+2. **DSDS assessment (18 points) comes before** state plan personal care, CDS, ILW, ADW, ADCW, SFCW, BIW.
+3. **State plan personal care comes before DD waiver personal assistant** (state plan must be used first for a comparable service).
+4. **One waiver at a time.** A person cannot be in a DSDS waiver and a DD waiver at once. Choosing a DD waiver ends the DSDS waiver.
+5. **Guardianship decision affects CDS pay.** A legal guardian cannot be the paid CDS attendant. Decide on guardianship versus supported decision-making (agents 04 and 07) knowing this.
+6. **DD eligibility before DD respite, DD residential, DD emergency PON.** Get it early; there is no DD crisis door without it (agent 01).
+7. **MCCY private duty nursing before MCAW.** Only people who had MCCY private duty nursing before 21 can enter MCAW.
+8. **Access Express needs a completed application with professional verification**, then up to 21 days.
+9. **NEMT needs a MO HealthNet-covered destination**, fee-for-service status, and 2 or 3 business days notice.
+10. **Missouri 811 needs a referral from a DMH or DSS partner**; a family cannot apply directly.
+11. **Show-Me Home needs 60 consecutive days in a skilled nursing facility** and Medicaid on the day of discharge.
+12. **AAA respite for parents needs the parent to be 55+** and the adult child 18-59.
+
+## 3. Gaps and failure points
+
+1. **The DD waiver wait list (15 Oct 2026) shifts load onto DSDS state plan services, which cannot replace waiver services.** State plan personal care is capped at 60% of the cost maximum ($3,355.99 a month in 2026; 412 agency units or 641 CDS units). It has no day services, no residential option, and no respite for people under 63. Evidence: cost maximum table and waiver cards above; agent 01 for the wait list memo.
+2. **No paid respite route for most adults with IDD under 63 who are not on a DD waiver.** DSDS respite is ADW only (63+). Missouri has no Lifespan Respite program and no State Respite Coalition (ARCH map, no Missouri marker). The only general route is AAA Family Caregiver Support, which needs the parent to be 55+ and has limited funds.
+3. **Workforce: authorized hours are not delivered hours.** Missouri DD agencies had 46.5% DSP turnover in 2024 (above the 37.1% NCI average), and 28.0% turned away or stopped taking new referrals because of staffing. Average DSP wage $18.07 against a $20.87 living wage (NCI 2024). Rural counties have fewer agencies, longer drives, and no data at county level.
+4. **Provider supply frozen at the margin.** New CDS vendor and DME provider enrollment is under a moratorium from 1 August 2026 (6 months, may extend to 1 year). In rural counties with few vendors, a vendor exit cannot be replaced by a new local vendor during the moratorium. (Effect on access is my inference; not yet measured.)
+5. **Guardianship and paid family care conflict.** A legal guardian cannot be the paid CDS attendant. Parents are often told to get guardianship at 18 (agents 04, 07) and lose their CDS pay as a result. Only SFCW (dementia) allows a guardian to be paid.
+6. **The DSDS level of care tool may under-count supervision needs of people with IDD** who can do physical tasks with prompts. Not proven with data (Open question); field concern. CDS also requires the person to "self-direct," and the legal basis (19 CSR 15-8) centers on physical disability, so many adults with IDD cannot use CDS or ILW (ILW counts cognitive impairment only with onset at or after 22).
+7. **Transport cliffs for rural families.** Access Express stops at 3/4 mile from a CU route. OATS rural routes run some towns only 1 to 4 days a month (Wright and Vernon County schedules). NEMT excludes trips to waiver services (day habilitation, adult day care) and covers attendants only for children under 21. Rural counties need 3 business days notice for NEMT.
+8. **Housing: tiny targeted supply.** Springfield Housing Authority holds 23 Mainstream vouchers; Jasper County PHA holds 100; OACAC none (HUD 2023). Missouri 811 is a few dozen units statewide and needs an agency referral. DMH RAP is closed through January 2027 and serves behavioral health clients only. DD residential is wait-listed.
+9. **Rural service deserts.** Laclede County has no Center for Independent Living on MoAT's map. Our 23 counties are split across 2 DSDS regions, 4 AAAs, 5 CILs, several OATS regions, and many PHAs, so families get passed between offices.
+10. **Information is fragmented and some official pages are stale.** DSS pages dated 2014 and 2015 still name "LogistiCare" as NEMT broker, while the 2026 NEMT Manual names MTM Health. The DHSS site moved in 2025-2026 and old URLs return 404. CU's fare notice has a confusing effective date. The state's own Waiver Finder covers waivers only.
+11. **Emergency placement has no clear front door for adults who are not DD eligible or not on a waiver.** APS can investigate and arrange services, but it is not a placement agency. The default fallback is often a nursing facility, then Show-Me Home after 60 days.
+12. **Age cliffs at 21.** MCCY private duty nursing ends (MCAW only if PDN was in place), DME coverage narrows (several items covered only to age 20), and NEMT attendants stop. Transition planning must start by 19 or 20 (agent 07).
+
+## 4. Recommendations from your field
+
+| # | Fix | Who can make it |
+|---|-----|-----------------|
+| 1 | Before any guardianship filing, tell families in writing that a legal guardian cannot be the paid CDS attendant; offer supported decision-making or limited guardianship first. Add this to the screener as a warning. | Family, provider (support coordinators, schools), state agency (DSDS, DMH notices) |
+| 2 | Allow a legal guardian (with safeguards) to be a paid CDS attendant, as SFCW already allows; or create a family caregiver option for adults with IDD. | Legislature (RSMo 208.900 to 208.927), state agency (DHSS rule) |
+| 3 | Apply for the federal Lifespan Respite grant in the next round and start a state respite coalition and registry; add an emergency respite fund for all ages. | State agency (DHSS or DMH), legislature (match), nonprofits |
+| 4 | County SB40 boards: fund respite and short-term in-home help for DD-eligible adults on the new wait list, and publish what each county funds. | County SB40 boards |
+| 5 | Make the DSDS state plan the "bridge" during the DD wait list: support coordinators should request an HCBS assessment for every waiting adult with Medicaid. | Provider (TCM), state agency (DMH and DSDS joint guidance) |
+| 6 | Test whether the interRAI level of care algorithm under-scores supervision and cueing needs for adults with IDD; publish denial rates by disability type. | State agency (DHSS), researchers (agent 02) |
+| 7 | Exempt rural counties with fewer than a set number of active CDS vendors from the enrollment moratorium, or allow vendor service-area expansion. Report vendor counts by county monthly. | State agency (DSS, MMAC, with CMS) |
+| 8 | Raise DSP and attendant rates toward the NCI living wage ($20.87 in 2024) and add a rural travel add-on. | Legislature, state agency |
+| 9 | Rural transport: fund OATS to add days on routes that serve day programs and jobs; let NEMT carry an adult escort when medically needed; publish a single "get a ride" sheet per county. | Legislature, MO HealthNet, OATS, county commissions |
+| 10 | CU Transit: offer one-to-one travel training for people with IDD (not only group orientation); accept the DMH DD eligibility letter or Medicaid disability status for the Reduced Fare Card. | Local government (City Utilities), VR (agent 07) |
+| 11 | PHAs: adopt or confirm a preference for people with disabilities, apply for more Mainstream vouchers, and set referral agreements with the DMH Springfield Regional Office and CILs. | Local government (PHAs), HUD |
+| 12 | Update stale DSS NEMT pages (broker name) and publish a public, county-level list of enrolled in-home and CDS providers. | State agency (DSS, DHSS) |
+| 13 | Fund a CIL presence (satellite or outreach) for Laclede County. | State agency (VR Independent Living), legislature |
+| 14 | Teach every parent 55+ of an adult with a disability about AAA Family Caregiver Support; AAAs should do outreach through SB40 boards and schools. | AAAs, county boards, providers |
+| 15 | Every family with an aging caregiver should have, on file: DD eligibility, active Medicaid, an HCBS assessment, voucher applications, a written care manual, and named backup caregivers. Build this checklist into the navigator guide. | Family, provider |
+
+## 5. Open questions
+1. DSDS: published time from referral to assessment, and current denial rates by disability type. Hours of the 866-835-3505 line.
+2. Whether DSDS allows a representative to "self-direct" CDS for a participant who cannot (RSMo 208.900 to 208.927 detail; agent 04 may know).
+3. Whether Missouri applied for the 2026 ACL Lifespan Respite grant.
+4. Current HACS waiting list status, disability preference, and Mainstream availability (primary source). Official HACS website not found. PHAs for Henry, St. Clair, Vernon, Cedar, Hickory, Laclede, Douglas, Ozark, Wright, Barton, McDonald, Newton not mapped.
+5. NEMT broker name: confirm MTM Health with MO HealthNet (2026 manual says MTM; older pages say LogistiCare). Whether adult escorts are allowed. Whether most adults on disability-based MO HealthNet are fee-for-service or managed care (agent 06).
+6. OATS schedules and phone numbers for Cedar, Henry, Hickory, and St. Clair counties; current Southwest Region fares (dated 2023).
+7. Joplin MAPS final fares and ADA paratransit rules (city page blocked my fetch; only a January 2025 proposal seen).
+8. USDA Section 504 current amounts (official page blocked; secondary only).
+9. County-level DSP and in-home aide vacancy data for SW Missouri; BLS wage data for Springfield MSA (BLS blocked my fetch).
+10. SB40 board respite funding by county in our 23 counties (agent 01 may have part).
+11. Number of licensed adult day care centers taking Medicaid (ADCW) in our counties.
+12. AAA grievance and appeal process for Family Caregiver Support decisions; whether AAA respite funds run out mid-year in SeniorAge, Region X, Care Connection, and Aging Best.
+13. Whether DSDS can expedite an assessment when a caregiver dies (no published priority rule found in Manual 4.05).
+14. Rules for DSDS "Essential Transportation" under CDS.

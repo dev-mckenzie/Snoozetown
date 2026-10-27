@@ -1,0 +1,1 @@
+[{"id":"turning-18","title":"TEST Turning 18","when":{"plain":"At 17."},"rule":{"all":[{"q":"age","op":">=","v":16},{"q":"age","op":"<=","v":19}]},"steps":[{"age":"17","plain":"Do a test step.","programs":["t-dd"],"deadline":"Before the 18th birthday"}],"warnings":{"plain":["Test warning."]}}]

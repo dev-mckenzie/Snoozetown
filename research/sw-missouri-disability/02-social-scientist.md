@@ -328,3 +328,167 @@ Confidence: High for the peer-reviewed and agency figures as quoted. Medium wher
 - **Aging caregivers (about 25,900 Missouri IDD caregivers are 60+; rough regional estimate 4,300).** Highest risk of crisis when the caregiver gets sick or dies, which is often the moment a family first contacts DD. Under the new wait list, crisis (PON 5) is the fastest route to a slot, which rewards late contact. Future planning research: Heller and Caldwell (2006) tested a peer-support future planning program for aging caregivers; a later quote from Heller says fewer than half of families make future plans (secondary, Medium). Source: [Heller and Caldwell 2006, Mental Retardation 44(3):189–202, summary via search](https://ahs.uic.edu/academics/disability-and-human-development/virtual-future-planning-v-fin) (Medium).
 - **The person with the disability.** Many adults with IDD, brain injury, or serious cognitive difficulty cannot complete a process alone. A system that assumes a capable, available family member fails adults whose family is gone or estranged.
 
+
+---
+
+## D. Evidence on solutions
+
+### D1. Navigation: what the research shows
+
+| Model | Best evidence | Effect | Cost or cost note | Confidence |
+|---|---|---|---|---|
+| Proactive outreach letter to likely eligible people (information only) | Finkelstein and Notowidigdo, RCT, about 30,000 older adults likely eligible for SNAP (QJE 2019) | Enrollment in 9 months: 6% control, 11% information only | Very low cost per contact | High |
+| Outreach plus hands-on application help | Same RCT | 18% enrolled with information plus assistance (12 points above control, 3 times the control rate) | Higher cost than letters; authors judged both arms cost-effective as redistribution | High |
+| Family navigation by bilingual community health workers (manualized, 11 core components, at least 3 visits) | Feinberg et al., RCT, 249 families of toddlers with positive autism screens, 11 urban primary care sites (JAMA Pediatrics 2021) | Diagnostic follow-through in 1 year: 85.7% navigation versus 76.4% usual care management; hazard ratio 1.39 (95% CI 1.05–1.84). Hispanic families: 90.9% versus 53.3% (HR 2.81) | Mean 19.6 contacts per family: 2.6 in person, 9.2 calls, 6.9 texts, 2.7 emails. Navigators had cell phones and a car service subscription | High (strong trial; child diagnosis, not adult services, so transfer is by analogy) |
+| Patient navigation (mostly cancer screening) | Meta-analysis of 13 RCTs (Ali-Faisal et al., J Oncol Navig Surviv 2017) | Odds of completing screening 2.47 times usual care (95% CI 1.91–3.20) | n/a | Medium (summary seen, not full text) |
+| Community health worker program for Medicaid or uninsured adults (IMPaCT) | RCT, 302 patients, with return on investment analysis (Kangovi et al., Health Affairs 2020;39(2):207–213) | Fewer hospital days and better outcomes (trial) | $2.47 returned to Medicaid for each $1 spent, within one fiscal year (sensitivity range $1.84 to $3.09) | Medium (abstract and press summaries) |
+| Parent advocacy training for transition (VAP-T, then ASSIST, 12 weeks) | Pilot RCT, 41 parents (Taylor et al., JADD 2017); larger RCT, 185 parents in IL, TN, WI | Pilot: more knowledge of adult services, more advocacy skill, more empowerment than controls. Baseline ASSIST data: parent advocacy was strongly associated with number of services (β = 0.33) | About 24 hours of group training per parent | High for knowledge and advocacy; service access outcome trial (Burke, DaWalt and Taylor 2025) seen only in a secondary summary, so Low for service outcomes |
+| Aging and Disability Resource Centers and "No Wrong Door" options counseling | State process evaluations (for example Iowa ADRC pilot 2009) | I found no rigorous outcome trial | n/a | Low (evidence gap) |
+| Peer-support future planning for aging caregivers | Heller and Caldwell 2006 (29 intervention and 19 control families) | Design confirmed; outcome detail not read | n/a | Medium-low |
+
+Sources (checked 2026-10-26): [Finkelstein and Notowidigdo (NBER w24652)](https://www.nber.org/system/files/working_papers/w24652/w24652.pdf); [Feinberg et al. 2021, JAMA Pediatr 175(3):243–250, PMC full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC7802008); [Ali-Faisal et al. 2017, JONS](https://www.jons-online.com/issues/2017/july-2017-vol-8-no-7/patient-navigation-effectiveness); [Penn Medicine news release on Kangovi et al. 2020](https://pennmedicine.org/news/news-releases/2020/february/penns-community-health-worker-program-yields-247-for-every-1-invested-annually-by-medicaid) (secondary to the Health Affairs paper); [Taylor et al. 2017 VAP-T pilot, PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6070423); [Lee et al. 2022 (ASSIST baseline), PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9010347); [Iowa ADRC pilot evaluation listing, ADvancing States](https://advancingstates.org/hcbs/article/iowa-aging-and-disability-resource-center-pilot-sites-evaluation-report); [UIC V-FIN future planning project](https://ahs.uic.edu/academics/disability-and-human-development/virtual-future-planning-v-fin).
+
+What the evidence says for a Southwest Missouri navigator service:
+1. **Help, not only information.** Information alone roughly doubles take-up from a low base; information plus hands-on help triples it (Finkelstein and Notowidigdo). The navigator should fill forms with the family, gather documents, and book the next appointment.
+2. **Go to the family.** Outreach to people who are likely eligible works better than waiting for them to call. Good outreach lists: students in their last 2 years of school who have an IEP (through schools, with consent), SSI child recipients near age 18 (redetermination; see 06), families on the DD "case management only" caseload, and caregivers age 60+.
+3. **Target the highest burden.** Outreach pulls in the least needy first unless it is aimed (Finkelstein and Notowidigdo found the marginal enrollees were less needy). Aim outreach at rural, poor, limited-English, Deaf, and aging-caregiver households. The effect of navigation was largest for the group with the most barriers (Hispanic families, HR 2.81, in Feinberg et al.).
+4. **Matched, local navigators.** The successful family navigation model used bilingual, bicultural community members, trained and supervised centrally.
+5. **Text first, with some in-person visits.** In the navigation trial, texts and calls were most of the contact; about 2 to 3 in-person visits per family. In rural counties, add transport help or video visits.
+6. **Train parents to advocate.** Parent advocacy is strongly tied to the number of adult services received (Lee et al. 2022). A group course (VAP-T or ASSIST style) multiplies one navigator's reach.
+7. **Pay for it with existing streams where possible.** DMH states that SB40 boards that provide DD support coordination can bill MO HealthNet through DD Targeted Case Management (FY27 DMH book, p. 104). That covers people already DD-eligible and on Medicaid. The navigator role before eligibility (screening, first application, school exit) has no Medicaid billing route that I found. County SB40 levies, United Way, or foundation funds are the likely payers (see 05).
+8. **Do not promise what supply cannot deliver.** Under the 15 Oct 2026 wait list and DSP shortage, a navigator's success measure must include "on the right list at the right priority, using state plan services while waiting" and not only "got a waiver."
+
+### D2. Designing the eligibility screener: evidence and rules
+
+**Reading level and wording**
+- Target grade 6 for all screener text; never above grade 8. Medicaid forms have tested at grade 11 to 18 (Wilson, Wallace and DeVoe 2009), and the CHCF Medi-Cal review cites a 6th to 8th grade ideal. 28% of U.S. adults are at Level 1 or below in literacy (PIAAC 2023).
+- For people with IDD, the 2026 systematic review of Easy Read found limited evidence that Easy Read alone improves understanding; many "Easy Read" materials were written at a reading age of 13 to 14, above the roughly 8-year level that recent research suggests. People valued a supporter who reads with them. Rules: check reading level with a formula AND test with real users; co-produce with self-advocates (for example People First Missouri, see 01); design for a helper to sit beside the person.
+- Sources: [Wilson, Irvine, Alexander and Mengoni 2026, J Appl Res Intellect Disabil 39(1):e70195](https://pmc.ncbi.nlm.nih.gov/articles/PMC12893875/); [Chinn and Homeyard 2017, Health Expectations 20(6):1189–1200](https://pmc.ncbi.nlm.nih.gov/articles/PMC5689240); [CHCF, Making Medi-Cal Communications Clear](https://www.chcf.org/wp-content/uploads/2024/04/MakingMedicaidCommsClear.pdf); checked 2026-10-26. Confidence: High for the reviews; Medium for the CHCF grade target (secondary summary).
+
+**Number of questions and flow**
+- Length lowers starts and completion. In a web survey experiment, 75% started when told it took 10 minutes, versus 65% for 20 minutes and 62% for 30 minutes (Galesic and Bosnjak 2009, Public Opinion Quarterly 73(2):349–360). Later questions got faster, lower-quality answers.
+- Rules: say "about 5 minutes" only if true; aim for 10 to 15 core questions, one per screen, with branching so most users see fewer. Ask gate questions first (age, county, disability type, has MO HealthNet or SSI, in school or not). Offer "I am not sure" on every question, and route "not sure" to "ask a navigator" rather than to "not eligible." Use income ranges tied to the program limit, not exact dollars, where the rule allows (benefit limits come from 06).
+- Error rule: a false "not eligible" is the most harmful error, because it stops a family from applying. When in doubt, show the program as "may qualify, check with..." Results must say "This is not a decision. Only the agency can decide."
+- Source: [Galesic and Bosnjak 2009, summary via Survey Research Methods](https://ojs.ub.uni-konstanz.de/srm/article/view/8348/7667), checked 2026-10-26. Confidence: Medium (findings seen through later citing article).
+
+**Trust and privacy**
+- Fear stops eligible people from seeking help: in 2018, 13.7% of adults in immigrant families (20.7% of low-income ones) said they or a family member avoided a noncash benefit because of green card fears (Urban Institute, via CHCF). Psychological cost is a burden in its own right.
+- Rules: state at the top, in plain words, "Nothing you type leaves this device. We do not save or send your answers." Make it true: no analytics scripts, no cookies, no third-party fonts or trackers, no form submission. Do not ask for name, birth date, Social Security number, address, or immigration status. Give a "clear my answers" button. Let users print or save results locally.
+
+**Mobile, slow connections, and no internet**
+- In the 23 counties, 14.0% of households have a smartphone as their only computing device (25.7% in McDonald), 18.7% rely on a cellular data plan as their only internet, and 13.8% have no internet subscription (28.0% in Hickory) (Table 3, ACS 2020–2024). Nationally, 16% of adults are "smartphone-only" internet users (Pew, 2025 survey).
+- Rules: one column; large tap targets; works on a small, old phone; total page weight small (no framework, no large images) so it loads on a weak signal; works offline once loaded. Make a printable paper version of the same questions and results, and a phone script for navigators, 211, libraries, schools, and SB40 boards to use with families who have no internet.
+- Source: [Pew Research Center, Mobile Fact Sheet](https://pewresearch.org/internet/fact-sheet/mobile/), checked 2026-10-26 (Medium: figure from search summary of the live page).
+
+**Blind and low-vision users**
+- 95.9% of the top 1 million home pages had detected WCAG 2 failures in 2026; the most common were low-contrast text (83.9%), missing image alternative text (53.1%), and missing form input labels (51%) (WebAIM Million 2026).
+- Rules: meet WCAG 2.2 AA; use native HTML form controls with visible labels; no CAPTCHA; no time limits; logical heading order; results as a text list, not an image or a PDF; support 200% zoom and high contrast. Test by hand with NVDA or JAWS on Windows, VoiceOver on iPhone, and TalkBack on Android, with blind testers. An automated checker alone is not enough.
+
+**Deaf and hard of hearing users**
+- 48% of Deaf ASL users in one study had inadequate health literacy in English-based testing; odds 6.9 times hearing adults (McKee et al. 2015).
+- Rules: no step should require a voice phone call. For every "next step," list text, email, video phone, or in-person options where they exist. Short ASL videos for the introduction and key terms help ASL users (optional, captioned). Keep English short and concrete.
+
+**Limited-English users**
+- Spanish first (about half of limited-English residents in the region). Use professional translation with community review. Before adding other languages, confirm which ones with local data (see Open questions).
+
+**People with IDD using it themselves**
+- Offer "I am answering for myself" and "I am answering for someone else" at the start, and change pronouns to match. Avoid deficit language. One idea per sentence. Allow the browser's read-aloud feature to work (real text, not images of text).
+
+---
+
+## E. How to measure success without collecting private data
+
+### E1. Rules for all measures
+1. Count events, not people. Never record name, birth date, address, SSN, Medicaid ID, diagnosis, or immigration status.
+2. Report only totals by month and by county or county group. Do not publish any count under 11; combine small counties (for example "Hickory, Dallas, Polk") if needed. (The threshold of 11 is my recommendation, not a cited standard.)
+3. If a navigator needs to follow a family over time, use a random case code that only the navigator holds, kept apart from the tally sheet, and delete the code key when the case closes.
+4. The screener sends nothing by default. Any count from it must be a single anonymous event with no answers attached.
+
+### E2. Screener measures
+
+| Measure | How to get it without private data | Target or use |
+|---|---|---|
+| Page loads and result views | Static host request counts (no IP storage), or no counting at all | Trend only |
+| Opt-in one-tap feedback at the end: "Do you know your next step?" yes/no | Sends one value; no answers attached | 80% or more "yes" (my proposed target) |
+| Accuracy audit | Each quarter, navigators enter 20 to 30 closed real cases (no identifiers, answers only) and compare screener output with the actual agency decision | Report false "not eligible" rate; aim for near zero |
+| Reading level | Run all screener text through a readability formula | Grade 6 target, never above 8 |
+| Accessibility | Automated checker plus manual tests with screen readers and blind testers | Zero WCAG 2.2 AA failures found |
+| Usability | Small moderated tests (5 to 8 people per group): rural older caregivers, Spanish speakers, Deaf ASL users, blind users, self-advocates with IDD | Task completion, minutes to finish, points of confusion |
+| Load on a weak connection | Test on an old phone with network throttling | Usable in under 10 seconds on a slow mobile connection (my proposed target) |
+
+### E3. Navigator service measures (aggregate tallies)
+
+| Measure | Why it matters | Data source |
+|---|---|---|
+| Contacts per month by county, channel (phone, text, in person, video, ASL), and language | Reach and access | Tally sheet |
+| Contacts per 1,000 people ages 16+ with a disability, by county | Shows rural reach gaps; denominator is Table 1 | Tally sheet plus ACS |
+| Share of contacts from rural counties, from limited-English, Deaf, and blind families, and from caregivers age 60+, compared with their share of the population | Equity check | Tally sheet plus ACS and B6 |
+| Milestones reached (count): DD intake requested; DD eligibility decided; PON and service plan submitted; placed on wait list; MO HealthNet application filed; SSI application filed; VR referral; transition plan includes adult services; future plan started | Shows movement through the system | Navigator closing checklist |
+| Median days from first contact to each milestone | Measures compliance burden and agency delay | Case code with dates only |
+| Denials by reason type: procedural (missing paper, missed deadline) versus substantive (not eligible) | Procedural denials are pure administrative burden and are fixable | Family report at follow-up |
+| Unmet need tally by reason: wait list, no provider staff, no transport, cost, language, other | Feeds the policy report; separates supply rationing from burden | Navigator closing checklist |
+| Family-reported burden, 3 items, 1 to 5 scale, anonymous, at first contact and at close: "I know my next step" (learning); "I have the papers I need" (compliance); "I feel less stressed about this" (psychological) | Direct measure of the three burden types | Anonymous card or one-tap form |
+| Next step completed at 90 days (yes or no) | Outcome that matters to families | Follow-up call tally |
+
+### E4. System indicators to track each year (public data only)
+- ACS: disabled adults below poverty, by county (Table 1), and households with no internet (Table 3).
+- DMH: total DD caseload; waiver counts; "case management only" count; wait list counts if DMH publishes them (FY27 DMH book and later editions).
+- KFF: Missouri total on HCBS waiting lists (B3).
+- NCI State of the Workforce: Missouri DSP turnover, vacancy, wage, and share of agencies turning away referrals (B5).
+- State of the States: Missouri share of IDD spending on family support (B4).
+
+---
+
+## 2. Order and dependencies (social science view; details belong to 01, 04, 06)
+
+1. DD eligibility through the Regional Office comes first. Then the MAAS and priority of need (PON). Since 15 Oct 2026, a person then goes on the wait list for Comp, CSW, or PfH (ordered by PON, then date added). Applying early matters because date added breaks ties within a PON level. (Source: DMH waiting list page and memo, B1.)
+2. A DD waiver also needs MO HealthNet eligibility and an ICF/IID level of care determination before waiver services start (FY27 DMH book, DD Support Coordination section).
+3. Partnership for Hope is possible only if the person's county SB40 board takes part (FY27 DMH book).
+4. Start adult-system steps before school exit. Service use drops after high school (Shattuck 2011; Roux 2015; Lee 2022).
+5. A waiver slot comes before a provider; a provider with staff comes before services. Staffing is a separate gate (NCI 2024).
+6. VR: other agents report that Missouri VR closed Priority Categories II and III on 9 Dec 2024. My searches did not confirm this from a primary source. I leave it to 07.
+
+## 3. Gaps and failure points (summary)
+
+1. **New wait list, no public count.** DD waiver enrollment for adults is wait-listed from 15 Oct 2026 with no end date. DMH publishes no wait list numbers yet. (B1)
+2. **Large "case management only" group.** In FY 2025, 17,912 people on the DD caseload had case management only (41% of the caseload). (B2)
+3. **Deep but narrow spending.** Missouri spends $107,500 per waiver participant (U.S. $70,500) but only 0.8% of IDD dollars on family support (U.S. 10.6%). Only about 6% of IDD caregiving families get state family support (U.S. 11%). 73% of Missourians with IDD live with family. (B4)
+4. **Workforce gate.** 28.0% of Missouri provider agencies turned away referrals in 2024 for lack of staff; DSP turnover 46.5%; average wage $18.07 against a $20.87 living wage benchmark. (B5)
+5. **Aging caregivers.** About 25,900 Missouri IDD caregivers are age 60+; crisis is the fastest path to a slot, so the system rewards late contact. (B6, C3)
+6. **Services cliff at school exit.** Strong national evidence; no Missouri or regional measure found. (C2)
+7. **Rural and digital gaps.** 47% of the region is rural; 13.8% of households have no internet (up to 28.0%); disabled-adult poverty above 30% in six counties. (A)
+8. **Burden falls on those least able to bear it.** Low literacy (28% of U.S. adults at Level 1 or below), complex forms (grade 11 to 18), phone-only systems that exclude Deaf users, and inaccessible web forms. (C2, C3)
+9. **PfH depends on county choice.** PfH enrollment fell by half from FY 2022 to FY 2025; access depends on whether the county SB40 board takes part. (B2)
+10. **Data gaps.** No public regional or county DD counts; no Missouri-specific procedural denial data found; NCI family survey results for Missouri not public in a form I could find. (B7, Open questions)
+
+## 4. Recommendations from my field
+
+| # | Recommendation | Evidence | Who can make the change |
+|---|---|---|---|
+| 1 | Publish monthly wait list counts by waiver, PON level, and Regional Office, plus median time on list. The page sections already exist. | B1; KFF notes lists are hard to compare without definitions | State agency (DMH DD) |
+| 2 | Publish annual DD counts by Regional Office and county: eligible, case management only, each waiver, wait list. | B7 | State agency (DMH DD) |
+| 3 | Fund a regional navigator service that does hands-on application help, uses bilingual and local staff, contacts families by text first, and reaches out to likely eligible families (school exit cohort, SSI youth near 18, case management only, caregivers 60+). | Finkelstein and Notowidigdo; Feinberg et al. | County SB40 boards, nonprofits, United Way; DMH for DD-eligible Medicaid members through Targeted Case Management |
+| 4 | Run a parent advocacy course for transition-age families each year in Springfield and Joplin, with a video option for rural counties. | Taylor et al. 2017; Lee et al. 2022 | Providers and nonprofits (for example Parent Training and Information Center, see 01); county boards to fund |
+| 5 | Add a future-planning program for caregivers age 60+ and ask DMH to treat caregiver age and health as a planned-transition factor, not only as a crisis. | B6; Heller and Caldwell 2006 | Providers (program); state agency and legislature (PON policy; see 04 and 05) |
+| 6 | Shift some IDD dollars toward family support (respite, flexible family funds). Missouri spends 0.8% versus 10.6% nationally. | B4 | Legislature; state agency |
+| 7 | Fund DSP wages toward the $20.87 living wage benchmark and track the share of agencies turning away referrals. | B5 | Legislature; state agency |
+| 8 | Adopt a plain language (grade 6 to 8) and accessibility (WCAG 2.2 AA, no voice-only steps) standard for every DD, FSD, and county board form and web page; test with users with IDD, Deaf, and blind users. | C2; D2 | State agencies (DMH, DSS/FSD); county boards; providers |
+| 9 | Build the screener to the D2 rules: short, branching, "not sure" option, no false "not eligible," no data saved, mobile-first, printable, Spanish first. | D2 | Product team (lead) |
+| 10 | Bring services to rural counties: scheduled outreach days at libraries and county offices, video intake and assessment where allowed, and transport help for required in-person steps. | Deshpande and Li 2019; Table 1 and 3 | State agency (DMH, FSD, SSA local offices); county boards |
+| 11 | Track the E2 and E3 measures from day one, and report unmet need by reason so supply rationing and burden are shown separately. | E | Navigator service; county boards |
+
+## 5. Open questions
+
+1. Regional DD numbers for the Springfield Regional Office and Joplin Satellite Office: number eligible, on each waiver, case management only, on the new wait list. Not public. (DMH data request would be needed; we are not to contact anyone.)
+2. Size of the new (15 Oct 2026) wait list: no published count yet.
+3. Which SW Missouri county SB40 boards take part in Partnership for Hope (01 or 08 may have this).
+4. KFF 2026 Missouri count (1,835): the extracted table did not show which population column it is in.
+5. DMH notice of the Jan 2025 waiver cap increases: the PDF URL returned 404; figures (10,095 Comp; 7,357 CSW; $42,000 cap) seen only in a search summary. The $42,000 CSW cap is confirmed in the FY27 DMH book.
+6. Missouri-specific share of Medicaid unwinding disenrollments that were procedural (national figure 69%).
+7. NCI Adult Family Survey results for Missouri (for example, "family has enough information"). DMH says 240 Missouri families responded in FY 2024; results not found.
+8. County-level adult literacy (PIAAC Skills Map) for the 23 counties.
+9. Which languages are behind "other Indo-European languages" in Webster County (1,458 limited-English speakers) and "Asian and Pacific Island languages" in Greene, Newton, McDonald, and Barry. ACS detailed table B16001 was not available at county level through the data.census.gov API.
+10. Missouri VR order of selection: other agents report Priority Categories II and III closed on 9 Dec 2024. I could not confirm this from a primary source.
+11. Cost of a navigator position in the region (salary and benefits) for a budget; not researched.
+12. Service-access results of the ASSIST trial (Burke, DaWalt and Taylor 2025) seen only in a secondary summary.
+13. ACS undercounts: people in group homes and ICF/IID facilities are excluded from Table 1. A regional count of people in DD residential settings would close this gap.

@@ -465,3 +465,130 @@ Key status facts found today:
 - Housing assistance: HUD programs count SSI, SSDI, and CDB as income; ABLE and SNT rules differ. Agent 08 owns housing.
 - Medicaid community engagement (work) rules for the Adult Expansion Group start 1 Jan 2027 in Missouri per secondary sources, with mandatory exemptions for medically frail people and caregivers of a person with a disability; renewals every 6 months. Agents 04 and 05 own detail. Sources (secondary): [Missouri Independent](https://missouriindependent.com/?p=33088), [Missouri Foundation for Health message guide (Aug 2026)](https://mffh.org/wp-content/uploads/2026/08/Missouri-Medicaid-Changes-Message-Guide.pdf). Confidence Medium.
 
+
+## 2. Order and dependencies
+
+### 2A. Hard dependencies
+- An SSA disability decision (SSI or SSDI) or an FSD Medical Review Team decision comes before MHABD or TWHA on the basis of disability.
+- SSI award does NOT give MO HealthNet in Missouri (209(b) state). A separate FSD application with the Supplemental Form must follow.
+- A parent must be entitled to Social Security retirement or disability, or must have died insured, before an adult child can get CDB.
+- 24 months of SSDI or CDB entitlement come before Medicare. Medicare Part A comes before MSP (QMB, SLMB, QI-1).
+- MO HealthNet in the month before 1619 status is needed for 1619(b) Medicaid in a 209(b) state.
+- A disability with onset before age 46 is needed before an ABLE account (2026 rule).
+- A first-party SNT must be set up before age 65.
+- Taxed wages (FICA withheld) are needed before TWHA.
+- DMH DD eligibility comes before a DD waiver; waiver eligibility can remove a spend down (agent 01 owns).
+
+### 2B. Order of steps: family of a 17 year old turning 18
+1. Age 16 to 17: Get the SSN card, state ID, birth certificate. Collect medical and school records (IEP, evaluations). These prove onset before 22 (CDB) and before 46 (ABLE).
+2. Age 16 to 17: Check money in the child's name (savings, UTMA, gifts). Plan to keep countable resources at or under $2,000 from the month after the 18th birthday. Open an ABLE account (MO ABLE or other) if there is or will be savings. 2026 limit $20,000 from all sources.
+3. Age 17: Start the decision-making plan (guardianship, supported decision-making, power of attorney, representative payee). Agent 04 owns the legal part.
+4. Age 17: Set the living arrangement. If the young adult will live with parents, write a rent agreement at or above the PMV ($363.00 per month in 2027) to avoid an ISM cut, or note that a household member on SNAP makes it a public assistance household.
+5. Birthday month: Call SSA to set a protective filing date for adult SSI if the child was not on SSI because of parent income (parent deeming stops after the birthday month). If the child already gets SSI, prepare for the age 18 redetermination under adult rules within one year.
+6. After the SSI decision: Apply to FSD for MO HealthNet (MHABD) with the Supplemental Form. A child on MHDC moves to adult MHABD. A child on MO HealthNet for Kids has coverage through age 18; plan the switch before the 19th birthday.
+7. Check CDB: is any parent getting Social Security retirement or disability, or deceased? If yes, file for CDB. If CDB later ends SSI, tell FSD to apply the DAC (1634(c)) protection.
+8. Check SNAP: a young adult under 22 living with a parent stays in the parent's SNAP household. Report medical costs over $35.
+9. Before the first job or VR plan: refer to WIPA through the Ticket to Work Help Line (1-866-968-7842). Use the student earned income exclusion while in school and under 22 (2026: $2,410 per month, $9,730 per year).
+10. Parents: name a third-party SNT or ABLE (not the young adult) in wills, life insurance, and retirement account beneficiary forms.
+
+### 2C. Order of steps: adult who starts to work
+1. Before the job offer is accepted: get a Benefits Planning Query (BPQY) from SSA and a WIPA benefits analysis. Know which benefit is SSI, SSDI, or CDB; each has different work rules.
+2. SSI: report gross wages to SSA every month. Earnings reduce SSI by about $1 for each $2 after the first $85 of combined exclusions. 1619(a) keeps cash; 1619(b) keeps Medicaid up to $55,181 per year (Missouri, 2026). Deduct IRWE or BWE. Consider a PASS.
+3. SSDI or CDB: count trial work months (over $1,210 in 2026, $1,270 in 2027). After 9 months, earnings over SGA ($1,690 in 2026, $1,770 in 2027) can stop cash. Ask about EPE and expedited reinstatement. CDB ends with SGA work, but re-entitlement is possible at any time if it ended for SGA.
+4. MO HealthNet: when earnings raise countable income above $1,131 (2026), compare spend down with TWHA. TWHA needs FICA-taxed wages; premium is $0 under 100% FPL and $53 to $200 (single) above it. Report changes within 10 days for TWHA.
+5. Savings from wages: keep SSI resources at or under $2,000. Move savings into ABLE. Use ABLE to Work (extra up to $15,650 in 2026 if no employer retirement plan contributions).
+6. SNAP: report earnings changes at mid-certification or as required.
+7. Medicare: when Medicare starts, apply for MSP; check whether Adult Expansion coverage ends.
+8. Keep pay stubs, IRWE receipts, and copies of every report.
+
+### Benefit interactions and cliffs (part of section 2)
+
+### 2D. How the programs fit together
+- SSI and SSDI or CDB: Title II benefits are unearned income for SSI. After the $20 exclusion, SSI falls $1 for each $1. SSI ends when Title II income reaches FBR + $20: 2026 $1,014; 2027 $1,049 (computed).
+- SSI and MO HealthNet: Missouri does not give automatic Medicaid with SSI. MHABD excludes all SSI payments from income, so an SSI recipient with no other income is under the $1,131 limit and gets non-spend-down coverage after applying to FSD.
+- SSDI or CDB and MO HealthNet: the full Title II amount (less $20) counts. Above $1,131 (2026), the person has a spend down.
+- Medicare and MO HealthNet: Medicare starts after 24 months of SSDI or CDB. MO HealthNet pays as secondary. MSP can pay Part B ($202.90 per month in 2026). Adult Expansion coverage ends when Medicare starts.
+- SNAP and SSI: SSI is income for SNAP. A SNAP-receiving household member makes the home a "public assistance household" so SSA counts no ISM from household members.
+- ABLE: excluded for SSI up to $100,000; excluded for Medicaid; contributions by others are not the owner's income. ABLE can absorb saved SSI, wages, back pay, and gifts.
+- SNTs: first-party and pooled trust funds are not resources if rules are met; cash paid to the person is income; shelter paid by a trust is ISM.
+
+### 2E. Named cliffs and the rule that softens each
+| Cliff | What happens | Rule that prevents or softens loss |
+|---|---|---|
+| SSI resource cliff | $2,001 at the first moment of a month ends SSI for that month | ABLE (excluded to $100,000); first-party or pooled SNT; spend excess on excluded items |
+| Age 18 redetermination | Child SSI re-tested under adult rules | Benefit continuation if appeal filed within 10 days (Medium); good medical evidence |
+| Age 18 shelter (ISM) | Free shelter from parents cuts SSI by up to $351.33 (2026), $363.00 (2027) | Pay rent at or above PMV (business arrangement); public assistance household rule if a member gets SNAP |
+| Age 19 | MO HealthNet for Kids ends | MHABD (disability) or Adult Expansion (19 to 64, no Medicare, no SSI) |
+| Age 22 | Student earned income exclusion ends; SSI "child" student status ends; SNAP under-22 rule ends; CDB onset deadline | Plan work with WIPA before 22; 1619 and PASS continue |
+| CDB starts (parent retires, becomes disabled, or dies) | SSI may end; CDB above $1,131 makes a spend down | Section 1634(c) DAC protection: treated as SSI recipient for Medicaid; Medicare after 24 months; MSP |
+| Title II COLA | Small COLA ends SSI or raises spend down | Pickle protection (Medicaid as if COLAs after SSI loss did not occur) |
+| SSDI or CDB just over $1,131 | Spend down each month | Adult Expansion if no Medicare and MAGI income within the limit; TWHA if working; HCB or DD waiver; pay-in or incurred bills |
+| Medicare starts (month 25) | Adult Expansion ends; spend down may start | MSP; DAC or Pickle protection; TWHA if working |
+| Work: SSI | Check falls; Medicaid at risk | 1619(a) cash; 1619(b) Medicaid up to $55,181 (2026); PASS; IRWE; BWE; SEIE under 22 |
+| Work: SSDI or CDB | Cash stops after TWP when earnings exceed SGA | TWP, EPE, expedited reinstatement, extended Medicare; CDB re-entitlement any time if ended for SGA; TWHA for Medicaid |
+| Marriage, SSI | Couple FBR $1,491 (2026) vs $1,988 for two singles ($497 less per month); couple resource limit $3,000 vs $4,000 | No rule prevents it; plan before marriage |
+| Marriage, CDB | CDB ends unless spouse is a Title II beneficiary (not a child under 18 or a student child) | Marry a Title II beneficiary keeps CDB; marriage to an SSI-only spouse does not |
+| Marriage, MO HealthNet | Couple limits $1,533 income and $12,441 resources (2026) | TWHA disregards the first $50,000 of a spouse's earnings |
+| Parent dies | Housing and ISM change; inheritance in the person's name ends SSI and MO HealthNet | Third-party SNT; ABLE; CDB survivor benefit |
+| Blind person with SSDI too high for SSI | No SSI; spend down | Blind Pension ($949 per month grant, resources to $29,999) and MO HealthNet |
+| Move to RCF or ALF | Income below facility rate | Supplemental Nursing Care grant ($156, $292, or $390) plus $50 personal needs |
+
+### 2F. Resource limits side by side (2026)
+- SSI: $2,000 single, $3,000 couple.
+- SNAP (household with a disabled member): $4,750.
+- MHABD, TWHA, SAB, SNC: $6,220.50 single, $12,441 couple (from 1 Jul 2026).
+- QDWI: $4,000 single, $6,000 couple.
+- MSP (QMB, SLMB, QI-1): $9,950 single, $14,910 couple.
+- Blind Pension: $29,999.
+- ABLE: excluded to $100,000 (SSI); fully excluded (Medicaid).
+The same family savings can pass one test and fail another. The screener must test each program separately.
+
+
+## 3. Gaps and failure points
+
+1. The Missouri eligibility manual is not public. The MHABD manual chapters on dssmanuals.mo.gov ask for a password, and the FSD policy manual moved to a JavaScript portal (my.mo.gov/cms_fsd). Case managers cannot check rules such as the DAC disregard, spend down details, or hearing deadlines. Evidence: [MHABD 0805.000.00 Eligibility, "This content is password-protected"](https://dssmanuals.mo.gov/mo-healthnet-for-the-aged-blind-and-disabled/0805-000-00/), checked 2026-10-26.
+2. Public numbers are scattered and sometimes stale or wrong. The current 2026 chart lives at a 2022 file path (Appendix J); the DMH ME codes page still shows 2025 figures ($1,109 limit, $6,068.80 resources, $917 Blind Pension); the DSS income chart has typing errors. Secondary websites disagree. Screeners built on these will give wrong answers.
+3. SSI does not bring Medicaid in Missouri (209(b)). Families who get an SSI award think health coverage follows and do not apply to FSD. Evidence: [POMS SI 01715.010](https://secure.ssa.gov/poms.nsf/lnx/0501715010).
+4. The spend down cliff at 85% FPL. A person with SSDI or CDB of a few hundred dollars over $1,131 per month must meet a monthly spend down. Many do not know it can be met with bills, that a case can stay open with no coverage, or that Adult Expansion or TWHA may cost less. Evidence: [DSS Appendix K](https://dssmanuals.mo.gov/wp-content/uploads/2018/10/appendix_k.pdf); [DMH spend down page](https://dmh.mo.gov/medicaid-eligibility/spend-down).
+5. DAC and Pickle protection is federal law, but how FSD applies it in a 209(b) state is not public. A young adult whose SSI ends when a parent retires is at risk of losing non-spend-down coverage. Evidence: [POMS SI 01715.015](https://secure.ssa.gov/poms.nsf/lnx/0501715015).
+6. No WIPA project was found for Greene County or Southwest Missouri. Paraquad's listed area covers St. Louis and 47 eastern, central, and southern counties, not Greene, Christian, Jasper, Newton, or nearby counties. Workers and families get no expert benefits analysis before work. Evidence: [Paraquad WIPA](https://paraquad.org/employment-services/wipa).
+7. TWHA had an expiration clause dated 28 Aug 2025 in the 2023 statute. HB 2372 (2026) removed it effective 28 Aug 2026. The program's legal basis was uncertain for a year, and low awareness continues. Evidence: [RSMo 208.146 versions](https://revisor.mo.gov/main/OneSection.aspx?section=208.146).
+8. Supplemental Nursing Care grants ($156, $292, $390) have not changed since 1 Jul 2000, and the personal needs allowance is $50. This limits residential care options for people on SSI. Evidence: [DSS Appendix J](https://dssmanuals.mo.gov/wp-content/uploads/2022/07/mhabd-appendix-j.pdf).
+9. Resource limits do not match across programs ($2,000 SSI; $4,750 SNAP; $6,220.50 MHABD; $9,950 MSP; $29,999 Blind Pension). The SSI limit has not changed since 1989. Families save the "wrong" amount for one program while safe for another.
+10. SSA's own manual is out of date on ISM. POMS SI 00835.020 still lists food as ISM though the regulation removed food on 30 Sep 2024. Field staff and families may apply the old rule. Evidence: [POMS SI 00835.020](https://secure.ssa.gov/poms.nsf/lnx/0500835020) vs [20 CFR 416.1130](https://www.ecfr.gov/current/title-20/chapter-III/part-416/subpart-K/section-416.1130).
+11. Marriage penalties: SSI couple rate is $497 per month less than two single rates (2026), and CDB ends on marriage to a person who is not a Title II beneficiary. People with disabilities avoid marriage or lose income.
+12. Missouri's blindness standard for Blind Pension and SAB (5/200) is stricter than SSA's. A person who is legally blind for SSA may not qualify for the state blind programs.
+13. Medicaid work rules for the Adult Expansion Group start 1 Jan 2027 with 6-month renewals (secondary sources). Disabled adults who use AEG while waiting for Medicare, and parent caregivers on AEG, must prove an exemption or lose coverage.
+
+## 4. Recommendations from your field
+
+| # | Fix | Who can make the change |
+|---|---|---|
+| 1 | Make the MHABD manual and FSD policy manual public again, in plain HTML. Publish one dated chart of every limit with effective dates, and correct the chart errors. | State agency (DSS FSD) |
+| 2 | Publish the FSD procedure for DAC (1634(c)), Pickle, and early widow(er) cases. Use SSA data to flag every MO HealthNet participant who lost SSI because of CDB or a COLA, and review them before any reduction. | State agency (DSS FSD, MHD) |
+| 3 | When FSD finds a spend down, screen the same case automatically for Adult Expansion (no Medicare), TWHA (taxed wages), HCB or DD waiver, and MSP, and tell the person in the notice. | State agency |
+| 4 | Study raising the MHABD non-spend-down limit for aged and disabled from 85% to 100% FPL (the blind limit is already 100%). Use a fiscal note to show cost. Do not convert to 1634 without study: a 2014 fiscal note said conversion would end spend down and lower the income standard to the SSI level. | Legislature |
+| 5 | Raise the Supplemental Nursing Care maximum grants and the $50 personal needs allowance, unchanged since 2000 and 2015. | Legislature |
+| 6 | Keep TWHA permanent (done in 2026) and fund outreach; add TWHA to the DSS screener. | Legislature; state agency |
+| 7 | Fund certified benefits planners (CWIC-trained) for Southwest Missouri, at the county board or provider level, and press SSA for a WIPA project that covers Greene and nearby counties. | County SB40 boards (Greene County DDRB and others); providers; federal delegation (agent 05) |
+| 8 | Train case managers on the 2024 ISM rules (food not counted; rent at PMV; SNAP household rule), ABLE age 46, and the age 18 checklist. Give families a template rent agreement. | Providers and nonprofits; county boards |
+| 9 | Seed or match ABLE accounts for transition-age youth, and help families pay pooled trust enrollment fees. | County SB40 boards; nonprofits |
+| 10 | The screener should test each program's resource limit separately and show which benefit is lost first. It should show 2026 and 2027 numbers with dates. | Project team (lead) |
+| 11 | At every SSI award, SSA and FSD materials should say "Missouri SSI does not include MO HealthNet; apply to FSD." | State agency; providers |
+| 12 | Families: set a protective filing date with SSA in the 18th birthday month; open ABLE before savings reach $2,000; name an SNT, not the person, in wills and beneficiary forms; check CDB when a parent claims Social Security. | Family (with case manager) |
+
+## 5. Open questions
+
+1. 2027 figures not yet published or not found: ABLE annual contribution limit (IRS 2027 revenue procedure not out as of 26 Oct 2026); Missouri 1619(b) threshold for 2027; Medicare Part B premium for 2027; official USDA FY2027 SNAP allotment table (USDA site blocked; one-person $306 is from secondary sources).
+2. How FSD applies Section 1634(c) DAC protection and Pickle in Missouri (for example, whether CDB is disregarded in the MHABD income test), and whether FSD reviews these cases automatically.
+3. Deadline (in days) to request an FSD fair hearing for MO HealthNet and for SNAP, and whether coverage continues during the hearing.
+4. Which WIPA project (if any) serves Greene, Christian, and other Southwest Missouri counties. Whether Missouri VR or DMH DD contracts for benefits planning in the region.
+5. MO ABLE fees, minimums, and whether MO HealthNet files ABLE Medicaid payback claims at death; whether RSMo chapter 166 limits payback. (moable.com blocked automated reading; the revisor site rate-limited my queries.)
+6. Effective date of the $949 Blind Pension grant (Appendix K, 07/2026; the 2025 grant was $917).
+7. Spend down pay-in refund timing: DMH says after 12 months; older DSS manual says 13 months.
+8. Midwest Special Needs Trust current fees and contact details (from secondary source only).
+9. SSA processing times for initial claims and age 18 redeterminations; Springfield SSA field office address (agent 01 or 08).
+10. What else HB 2372 (2026) changed besides re-enacting RSMo 208.146 without an expiration clause.
+11. Effective date of the Missouri SNAP $4,750 resource limit for households with an elderly or disabled member.
+12. Final Missouri rules and CMS approval for Adult Expansion work requirements starting 1 Jan 2027 (agents 04 and 05).
+13. SSDI details not re-checked today: extended period of eligibility length, expedited reinstatement window, five-month waiting period, and 10-day benefit continuation rule (standard SSA rules; ssa.gov blocked automated reading).

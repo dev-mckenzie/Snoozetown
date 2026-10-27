@@ -4,11 +4,9 @@ This folder is not part of the Snoozetown site. It is a safe copy of research no
 separate project: a navigator guide, an eligibility screener, and a gap and policy report for
 caregivers of disabled people in Springfield and Southwest Missouri.
 
-Status on 26 Oct 2026:
+Status on 27 Oct 2026:
 
-- Complete: 01 advocate, 03 physician, 04 legal.
-- Partly done: 02 social scientist, 05 political action, 06 benefits planner,
-  07 transition, 08 community living.
-- The facts are not checked yet. Do not give them to families before the fact check.
+- Complete: all eight research files (01 to 08).
+- Fact checks 09, 09b, and 09c are partly done. Do not give the facts to families yet.
 
 `00-team-brief.md` holds the scope, the rules, and the file format for each agent.
