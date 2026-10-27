@@ -1,0 +1,51 @@
+{
+  "checked": "2026-10-27",
+  "resource_question": "Does the person have more than $6,220.50 in their own name, in cash, bank accounts, or other savings? This is the MO HealthNet limit for one person from 1 July 2026. Money in an ABLE account does not count. Money in a special needs trust that meets the rules does not count.",
+  "resource_hint": "The SSI limit is lower: $2,000 for one person.",
+  "example": {
+    "county": "christian",
+    "age": 19,
+    "dis": ["idd"],
+    "onset22": "yes",
+    "dd_elig": "no",
+    "waiver": "no",
+    "mhn": "no",
+    "ssa": ["none"],
+    "resources_over": "no",
+    "school": "iep",
+    "work": "wants",
+    "daily": "yes",
+    "nursing": "no",
+    "guardian": "considering",
+    "caregiver55": "no",
+    "caregiver_risk": "no",
+    "needs": ["transport", "job"]
+  },
+  "pathways_intro": {
+    "plain": "Each plan lists steps in order, with ages and deadlines. Start with the plan for the person's age. Then read the plans for what is happening now. Choose a program name to see who to call.",
+    "pro": "Plans follow the order of steps found in the research, with citations. Age labels are guides; legal deadlines are marked. The dates on a person's own notices control. Each step links to the program cards."
+  },
+  "appeals_intro": {
+    "plain": "The day a denial letter comes, write down the date on it. To keep benefits during an appeal, you often must ask within 10 days. Ask in writing and keep a copy. For free help, call Missouri Protection and Advocacy at 1-800-392-8667.",
+    "pro": "Most notices start two clocks: a short one (usually 10 days) to keep benefits during the appeal, and a longer one (30, 60, or 90 days) to appeal at all. MO HealthNet counts from the mailing date (RSMo 208.080.3); SSA counts from receipt, presumed 5 days after the notice date (20 CFR 416.1401). A lost appeal can create liability for services given during it. Where sources conflict, use the shorter period."
+  },
+  "about": {
+    "plain": [
+      "The Ozarks Care Navigator helps families find programs for a disabled young adult or adult in Southwest Missouri. It shows programs the person may qualify for, the next steps, and who to call.",
+      "It is for people age 16 and older. It covers intellectual and developmental disabilities, physical and complex medical disabilities, and sensory disabilities. Sensory means Deaf, hard of hearing, blind, or low vision. It covers 23 counties. These are the counties served by the state DD offices in Springfield and Joplin.",
+      "How the facts were collected: a team of AI research agents read public sources on 26 and 27 October 2026. Each agent worked in one of eight expert roles, for example benefits, health, law, or work. The agents are AI, not licensed professionals. Three fact checks then reviewed the high-risk facts, such as deadlines, dollar amounts, and phone numbers.",
+      "Some facts could not be fully checked. They show the label \"Call to confirm\". Call the agency before you act on them.",
+      "This page does not save or send your answers. They stay on your screen and go away when you close the page. The page only remembers if you chose the plain or the professional view.",
+      "Rules, phone numbers, and dollar amounts change. Confirm with the agency before you act. This page gives information. It is not legal, medical, or financial advice."
+    ],
+    "pro": [
+      "Purpose: a screener and guide for caregivers and the professionals who support them. It lists likely programs and next steps for disabled transition-age youth and adults in Southwest Missouri. Results are a guide; only the agency decides eligibility.",
+      "Scope: ages 16 and older; intellectual and developmental disabilities, physical and medically complex disabilities, and sensory disabilities (Deaf, hard of hearing, blind, low vision). Mental health and brain injury appear where they co-occur or act as a gate to a service. Area: the 23 counties of the DMH Division of DD Springfield Regional Office (12 counties) and Joplin Satellite Office (11 counties).",
+      "Method: AI research agents in eight expert roles (advocate, social scientist, physician, legal, political action, benefits planner, transition and employment, community living and home care) used public sources on 26 and 27 Oct 2026. They preferred primary sources: statutes, regulations, agency manuals, and official program pages. Three fact checks then re-verified the high-risk facts (deadlines, dollar amounts, age limits, phone numbers, addresses) and corrected errors before the data was written. The agents are AI, not licensed professionals.",
+      "Confidence: each program card shows its sources and the date checked. Records that could not be fully verified show \"Call to confirm\". Where official sources conflict, the data uses the shorter deadline or the more cautious reading and says so.",
+      "Privacy: the screener runs in the browser. It does not save or send answers. Only the choice of plain or professional view is stored in the browser.",
+      "Limits: rules change, so confirm with the agency before acting. This is information, not legal, medical, or financial advice."
+    ]
+  },
+  "footer": "This guide gives information, not legal, medical, or financial advice. Rules change, so confirm with the agency before you act."
+}

@@ -1,0 +1,64 @@
+[
+ {
+  "id": "centers-independent-living",
+  "name": "Centers for Independent Living",
+  "category": "start",
+  "order": 6,
+  "summary": {
+   "plain": "A local center that helps people with any disability live on their own terms. It is a good first call when the DD system does not fit.",
+   "pro": "Federally funded CILs give the five core services (information and referral, independent living skills, peer support, individual and systems advocacy, and transition) to all ages and disability types. In this region, five CILs cover 22 of the 23 counties."
+  },
+  "who": {
+   "plain": "People of any age with any kind of disability, and their families. You do not need Medicaid or DD eligibility.",
+   "pro": "No DD eligibility or MO HealthNet is needed for core services. Some services, such as home modification, have income guidelines. CIL service areas follow the MoAT CIL directory (checked 26 Oct 2026)."
+  },
+  "steps": {
+   "plain": [
+    "Find your county in the contact list below.",
+    "Call the center and say what the person needs help with.",
+    "Ask about peer support, skills training, equipment loans, and home changes such as ramps."
+   ],
+   "pro": [
+    "Match the county to its CIL with the contact list (MoAT CIL directory).",
+    "Ask about the five core services and any local programs: home accessibility evaluation, AT demonstration and loan, reuse of equipment, benefits planning, and CDS.",
+    "For a person with a disability that began after age 22, or a brain injury, use the CIL as the front door, because the person is not DMH DD eligible."
+   ]
+  },
+  "wait": {"plain": "It depends on the center and the service. Ask when you call.", "pro": "No published wait times."},
+  "cost": "Core services are free. Some services have income guidelines.",
+  "watch_out": {
+   "plain": [
+    "Laclede County has no center on the state list. Call Missouri Assistive Technology for help.",
+    "Each center covers set counties. Call the center for your county."
+   ],
+   "pro": [
+    "Laclede County is not shown with a CIL on the MoAT map; MoAT lists itself as the contact for Laclede.",
+    "Some SPS materials list an old address for empower: abilities. The current address is 3345 S. Campbell Ave."
+   ]
+  },
+  "appeal": {"plain": "", "pro": ""},
+  "alert": "",
+  "requires": [],
+  "rule": {"any": [
+   {"q": "dis", "op": "has", "v": ["physical", "tbi", "deaf", "blind"]},
+   {"q": "onset22", "op": "in", "v": ["no"]},
+   {"q": "needs", "op": "has", "v": ["equipment", "housing"]}
+  ]},
+  "counties": "all",
+  "contacts": [
+   {"label": "empower: abilities (Springfield)", "phone": "417-886-1188 or 800-676-7245", "address": "3345 S. Campbell Ave., Springfield, MO 65807", "counties": ["christian", "dallas", "greene", "lawrence", "polk", "stone", "taney", "webster"]},
+   {"label": "The Independent Living Center (Joplin)", "phone": "417-659-8086 or 800-346-8951", "address": "2639 E. 34th Street, Joplin, MO 64804", "url": "https://www.ilcenter.org/contact", "counties": ["barry", "barton", "dade", "jasper", "mcdonald", "newton"]},
+   {"label": "On My Own (Nevada)", "phone": "417-667-7007 or 800-362-8852", "counties": ["cedar", "hickory", "st-clair", "vernon"]},
+   {"label": "Ozark Independent Living (West Plains)", "phone": "417-257-0038", "counties": ["douglas", "ozark", "wright"]},
+   {"label": "West-Central Independent Living Solutions (Sedalia)", "phone": "660-829-1980 or 866-558-5588", "counties": ["henry"]},
+   {"label": "Missouri Assistive Technology (no CIL listed for Laclede County)", "phone": "816-655-6700", "counties": ["laclede"]}
+  ],
+  "sources": [
+   {"title": "MoAT CIL directory", "url": "https://at.mo.gov/?p=8116"},
+   {"title": "Missouri Assistive Technology regional map", "url": "https://at.mo.gov/taptmap"},
+   {"title": "The Independent Living Center, contact", "url": "https://www.ilcenter.org/contact"}
+  ],
+  "confidence": "Medium",
+  "checked": "2026-10-27"
+ }
+]

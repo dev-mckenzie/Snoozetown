@@ -1,0 +1,789 @@
+[
+  {
+    "id": "start-here",
+    "title": "Start here: the first calls",
+    "when": {
+      "plain": "Use this plan at any age. Start these steps now, even if you are not sure the person will qualify.",
+      "pro": "Front doors for the 23 counties of the DMH Division of DD Springfield Regional Office (12 counties) and Joplin Satellite Office (11 counties). DD eligibility, MO HealthNet, and an SSA decision gate most other programs, so start all three at the same time."
+    },
+    "rule": true,
+    "steps": [
+      {
+        "age": "Day 1",
+        "plain": "Start a folder for letters and notes. Ask for every decision in writing. Write down the date each letter comes.",
+        "pro": "Get every decision, denial, or 'no slot' answer as a written notice with the reason and the appeal rights. Deadlines run from the date on the notice. Keep a call log: date, person, and what was said.",
+        "programs": []
+      },
+      {
+        "age": "Day 1",
+        "plain": "If the disability started before age 22, call the DD Regional Office and ask for DD eligibility. Springfield: 417-895-7400. Joplin: 417-629-3020. You do not need Medicaid to apply.",
+        "pro": "DMH DD eligibility (RSMo 630.005; 9 CSR 45-2.010): onset before 22, likely to continue indefinitely, substantial limits in 2 or more of 6 areas. Adults 18 and older need deficits in 2 or more major life areas on the MAAS; there is no one-area route for adults (9 CSR 45-2.010(3)(C)). The office must give forms by the end of the next business day (4)(B). The evaluation is due within 30 business days of a valid application and sufficient records (4)(A). DDD accepts a valid adaptive test from the last 3 years in place of the MAAS. Medicaid is not required. The Joplin Satellite Office serves Barry, Barton, Cedar, Dade, Henry, Jasper, Lawrence, McDonald, Newton, St. Clair, and Vernon; the Springfield Regional Office serves the other 12 counties.",
+        "programs": ["first-call-dmh-intake", "dmh-dd-eligibility"]
+      },
+      {
+        "age": "Day 1",
+        "plain": "Apply for MO HealthNet (Missouri Medicaid) with the Family Support Division: 855-373-9994. In Missouri, SSI does not give Medicaid by itself.",
+        "pro": "Missouri is a 209(b) state (POMS SI 01715.010), so an SSI award does not confer MO HealthNet. Apply to FSD for MO HealthNet for the Aged, Blind, and Disabled with the Supplemental Form: 855-373-9994, online, by upload at mydssupload.mo.gov, or by mail to FSD, P.O. Box 2700, Jefferson City, MO 65102. Contact FSD if there is no word after 45 days. Active MO HealthNet is needed for any new DDD funding request, for DD support coordination in Greene, Henry, Laclede, Ozark, Stone, and Taney counties, and for every DSDS home care referral.",
+        "programs": ["mo-healthnet"]
+      },
+      {
+        "age": "Week 1",
+        "plain": "Check Social Security benefits. An adult with a disability and little money may get SSI. If a parent gets retirement or disability benefits, or has died, ask about Childhood Disability Benefits.",
+        "pro": "SSI federal benefit rate: $994 a month in 2026, $1,029 in 2027; resource limit $2,000 for one person. Parent deeming stops after the month of the 18th birthday (20 CFR 416.1165). CDB needs disability before 22 and a parent who is entitled to retirement or disability benefits, or who died insured. SSDI needs the person's own work record.",
+        "programs": ["ssi", "cdb", "ssdi"]
+      },
+      {
+        "age": "Week 1",
+        "plain": "Collect records that show when the disability started: school evaluations, IEPs, medical records, and test results. Most programs ask for them.",
+        "pro": "DMH DD and SSA Listing 12.05 both look for onset before 22. DMH accepts, and does not repeat, reliable assessments from schools and other agencies (9 CSR 45-2.010). Gather IEPs, evaluation reports, and IQ and adaptive test results before or at referral.",
+        "programs": ["disability-evidence"]
+      },
+      {
+        "age": "Week 1",
+        "plain": "For free help with these steps, call Missouri Family to Family: 1-800-444-0821. For local help with food, housing, or bills, dial 211.",
+        "pro": "Missouri Family to Family (UMKC Institute for Human Development): 1-800-444-0821, free peer navigation and Charting the LifeCourse planning tools. United Way 211: dial 211 or 1-800-427-4626; TTY 866-385-6525.",
+        "programs": ["family-to-family", "united-way-211"]
+      },
+      {
+        "age": "When needed",
+        "plain": "If the adult needs hands-on help with daily care, ask DHSS for a home care assessment. MO HealthNet must be active first.",
+        "pro": "DSDS does not accept an HCBS referral if the person is not Medicaid eligible on the date of the request, and a spend down must be met first (HCBS Manual 4.05). Level of care: 18 points or more. New referrals: the DSDS online referral, or form HCBS-1 by email to HCBSCallCenterReferrals@health.mo.gov. The HCBS Call Center (866-835-3505) is reserved for participants and their supports.",
+        "programs": ["dhss-home-care"]
+      },
+      {
+        "age": "Any time",
+        "plain": "If a program says no, or nothing moves, call Missouri Protection and Advocacy for free help: 1-800-392-8667.",
+        "pro": "Mo P&A Application Unit 1-800-392-8667, TDD 1-800-735-2966. Mo P&A also runs the Client Assistance Program for VR and RSB. See the plan 'When the answer is no' for deadlines.",
+        "programs": ["protection-advocacy"]
+      }
+    ],
+    "warnings": {
+      "plain": [
+        "Do not wait for a crisis. People with the same DD priority score are served in the order they asked.",
+        "An SSI award does not bring MO HealthNet in Missouri. Apply to the Family Support Division too.",
+        "Some official web pages have wrong phone numbers or addresses. Call to confirm before you mail anything."
+      ],
+      "pro": [
+        "DD waiver access is by Priority of Need (PON 1 to 5), then by time on the list (9 CSR 45-2.015, 2.017). New enrollment in the Comprehensive, Community Support, and Partnership for Hope waivers has been on a wait list since 15 Oct 2026.",
+        "Missouri 209(b): SSI does not confer MO HealthNet. A separate FSD application with the Supplemental Form is needed.",
+        "Known errors in official listings: the DDD directory ZIP 65810 for the Springfield Regional Office is wrong. Street address: 1515 E. Pythian St., Springfield, MO 65802. Mail: PO Box 5030, Springfield, MO 65801-5030."
+      ]
+    }
+  },
+  {
+    "id": "turning-14-16",
+    "title": "Ages 14 to 16: transition planning starts",
+    "when": {
+      "plain": "Start at 14. Do not wait for the last year of school.",
+      "pro": "Pre-ETS from 14. IEP transition services by the first IEP in effect at 16 (34 CFR 300.320(b); DESE State Plan Regulation IV, effective 30 Jul 2026), and from the 2027-28 school year before the student exits 8th grade."
+    },
+    "rule": {"all": [{"q": "age", "op": ">=", "v": 14}, {"q": "age", "op": "<=", "v": 16}]},
+    "steps": [
+      {
+        "age": "14",
+        "plain": "Ask the school for Pre-Employment Transition Services (Pre-ETS). Students 14 to 21 with an IEP or 504 plan can get them now. There is no wait list. A parent signs the consent form for a student under 18.",
+        "pro": "Pre-ETS (VR-SEA Transition Agreement FY26): students 14-21 with an IEP, a 504 plan, or other disability documentation are 'potentially eligible' and need no VR application. Five required activities: job exploration counseling, work-based learning, counseling on postsecondary programs, workplace readiness training, and self-advocacy instruction. Parent or guardian consent under 18. MU Pre-ETS 844-901-7387. Pre-ETS is not subject to the VR order of selection; a student who got Pre-ETS before a VR eligibility decision keeps it even if placed in a closed category (5 CSR 20-500.160).",
+        "programs": ["pre-ets"]
+      },
+      {
+        "age": "14",
+        "plain": "Is the student blind or low vision? Ask the school to refer the student to Rehabilitation Services for the Blind (RSB).",
+        "pro": "RSB transition services start at 14 (Children's Services before 14); the school must refer with consent (RSMo 162.1139). RSB 1-800-592-6004; Southwest RSB Office, 149 Park Central Sq., Room 640, Springfield, MO 65806, 417-895-6386. RSB also delivers Pre-ETS for blind and low vision students.",
+        "programs": ["rsb", "school-sensory-outreach"]
+      },
+      {
+        "age": "14 to 15",
+        "plain": "If the disability started in childhood, apply for DD eligibility now. Also get a state ID, a birth certificate, and a Social Security card.",
+        "pro": "MVR School to Work checklist: 'If applicable, apply for Department of Mental Health (DMH) services', and get a state ID, birth certificate, and Social Security card. Since the 15 Oct 2026 waiver wait list, early entry to the DD system matters more.",
+        "programs": ["first-call-dmh-intake", "dmh-dd-eligibility"]
+      },
+      {
+        "age": "14 to 17",
+        "plain": "Each year, ask the state agencies that serve the youth for a talk. They must cover work, benefits, ABLE accounts, and assistive technology.",
+        "pro": "Missouri Employment First Act (RSMo 209.700): state agencies must discuss competitive work, benefits, ABLE, and assistive technology with parents of a youth 14-17 'at least once each year'. The Act names no lead agency, form, or complaint route.",
+        "programs": ["employment-first-act"]
+      },
+      {
+        "age": "15",
+        "plain": "Ask the school for transition assessments. The IEP that will be in effect at age 16 must have a transition plan.",
+        "pro": "Transition services 'beginning not later than the first IEP to be in effect when the student turns 16' (Regulation IV; 34 CFR 300.320(b)): measurable postsecondary goals based on age-appropriate transition assessments in training, education, employment, and where appropriate independent living, plus the transition services and courses of study. From 2027-28: 'before the student exits eighth grade'.",
+        "programs": ["iep-transition"],
+        "deadline": "Transition plan in the IEP in effect at age 16"
+      },
+      {
+        "age": "16",
+        "plain": "Before the IEP meeting, give written consent for the school to invite Vocational Rehabilitation (VR). Also invite RSB or the DD office if they fit.",
+        "pro": "With consent of the parent, or of a student who has reached the age of majority, the school must invite any agency likely to provide or pay for transition services (Regulation IV). If an agency does not deliver a planned service, the school must reconvene the IEP team to find other strategies.",
+        "programs": ["iep-transition", "vocational-rehab"]
+      },
+      {
+        "age": "16",
+        "plain": "Ask about school work programs. In Springfield, the B.A.S.E. Project starts at 16 with an IEP. COOP starts at 16 for students who are VR eligible.",
+        "pro": "COOP: age 16 and older, IEP, VR eligible; needs a certified Work Experience Coordinator and student-provided transportation. SPS B.A.S.E. Project: 16 and older with an IEP (class time and job shadowing). No Project SEARCH or EBTT site was found in SW Missouri.",
+        "programs": ["sps-base-project", "coop-work-experience"]
+      },
+      {
+        "age": "14 to 16",
+        "plain": "Ask the doctor about the move to adult health care. Make a medical summary and an emergency care plan.",
+        "pro": "Got Transition Six Core Elements: ages 14-18 tracking, readiness assessment, and planning, including a medical summary and emergency care plan; transfer at 18-21. AAP 2018: start planning for decision-making support 'at least by age 17'.",
+        "programs": ["health-care-transition"]
+      }
+    ],
+    "warnings": {
+      "plain": [
+        "Pre-ETS is for ages 14 to 21. One state web page says 16 to 21. Ask at 14.",
+        "Start Pre-ETS before you apply to VR. Then Pre-ETS continues even if VR puts the student on a wait list.",
+        "A 504 plan is enough for Pre-ETS. The student does not need an IEP."
+      ],
+      "pro": [
+        "The DESE Postsecondary Transition page labels Pre-ETS 'ages 16-21'. The signed FY26 VR-SEA agreement, the MVR overview sheet, and MU say 14-21.",
+        "MVR Categories II and III closed on 9 Dec 2024. The Pre-ETS carryover protects only students who received Pre-ETS before being placed in a closed category.",
+        "From the 2027-28 school year, every IEP student in grade 8 or above needs a transition plan."
+      ]
+    }
+  },
+  {
+    "id": "turning-18",
+    "title": "Turning 17 and 18",
+    "when": {
+      "plain": "Start at 16. Many steps must be done before the 18th birthday.",
+      "pro": "IDEA rights transfer at 18 (DESE Regulation V, section L; 34 CFR 300.520), with notice in the IEP one year before (34 CFR 300.320(c)). SSA applies adult rules at 18. The MOCDD waiver ends at 18. Plan decision-making supports by 17."
+    },
+    "rule": {"all": [{"q": "age", "op": ">=", "v": 16}, {"q": "age", "op": "<=", "v": 19}]},
+    "steps": [
+      {
+        "age": "16 to 17",
+        "plain": "Check money in the person's name, such as savings or gift accounts. SSI allows only $2,000 in savings. Open an ABLE account for extra savings.",
+        "pro": "SSI resource limit: $2,000 for one person. Parent deeming stops after the month of the 18th birthday, so plan the young adult's own resources from then. ABLE: disability onset before 46 (from 1 Jan 2026); 2026 contribution limit $20,000 from all sources; SSI excludes the first $100,000; excluded for MO HealthNet. Check UTMA and gift accounts.",
+        "programs": ["able-account", "ssi"]
+      },
+      {
+        "age": "17",
+        "plain": "The IEP must say that school rights move to the student at 18. Plan now how the student will get help with decisions.",
+        "pro": "'Beginning not later than one year before the student reaches age 18', the IEP must state that the student was told which rights transfer (34 CFR 300.320(c); Regulation IV). At 18, all other IDEA Part B parent rights transfer to the student unless a court has declared the student incompetent (Regulation V, section L). The school sends notices to both the student and the parents. An adult student can sign releases or invite a parent to IEP meetings.",
+        "programs": ["iep-transition", "supported-decision-making"],
+        "deadline": "In the IEP at least 1 year before age 18"
+      },
+      {
+        "age": "17",
+        "plain": "Look at less restrictive choices before guardianship: supported decision-making, releases, a power of attorney, and a representative payee. Missouri law says the court must consider them first.",
+        "pro": "RSMo 475.075.13: before appointing a guardian or conservator, the court 'shall consider' whether needs can be met by a less restrictive alternative, including a durable power of attorney signed before the petition, a trust, a representative payee, 'Supported decision-making agreements', services or assistive technology, an emergency guardian ad litem, or a limited guardian. A limited guardianship must be considered before a full one (475.080). Burden: clear and convincing evidence (475.075.9). No Missouri statute defines supported decision-making or requires third parties to honor an agreement.",
+        "programs": ["supported-decision-making", "power-of-attorney", "representative-payee", "guardianship"]
+      },
+      {
+        "age": "17",
+        "plain": "A power of attorney must be signed while the person can understand it. One signed before a guardianship case is a choice the court must weigh.",
+        "pro": "A financial power of attorney is durable only if it is titled 'Durable Power of Attorney', contains the durability sentence, and is notarized (RSMo 404.705). Health care agent powers start when two physicians certify incapacity, unless the document says otherwise (404.825). A durable power of attorney signed before the petition gets weight as an alternative (475.075.13(1)). Appointing a guardian revokes an earlier health care power of attorney unless the court orders otherwise (475.361.3).",
+        "programs": ["power-of-attorney"]
+      },
+      {
+        "age": "17",
+        "plain": "Know this before choosing guardianship: a legal guardian cannot be the paid attendant in Consumer Directed Services (CDS). A parent who is not the guardian can be paid.",
+        "pro": "HCBS Manual 3.25 (rev. January 2026): 'The attendant may be a family member. However, the attendant cannot be the participant's spouse or legal guardian.' A person with a guardian or conservator cannot be rejected for CDS solely for that reason. A person who can direct care but needs a designated person to help run the program can only be authorized through the Independent Living Waiver.",
+        "programs": ["consumer-directed-services", "guardianship"]
+      },
+      {
+        "age": "17",
+        "plain": "If the person has the MOCDD (Lopez) waiver, it ends at 18. Ask the support coordinator in writing how the move to an adult waiver will work.",
+        "pro": "MOCDD serves children under 18 and gives Medicaid through the waiver, so plan adult MO HealthNet before 18. Losing significant waiver services due to age is an emergency criterion (9 CSR 45-2.017(1)(E)); it gives the highest place on the adult wait list, not a slot. The 15 Oct 2026 memo names no crisis or emergency exception, and does not say whether an age-out move counts as 'mandated by federal rule'.",
+        "programs": ["dd-waiver-mocdd", "dd-support-coordination", "dd-waiver-wait-list"]
+      },
+      {
+        "age": "17",
+        "plain": "Plan where the person will live after 18. If the person lives with you, ask about a rent agreement. Free housing can lower SSI. Food no longer counts.",
+        "pro": "In-kind support and maintenance: food was removed effective 30 Sep 2024 (20 CFR 416.1130). Rent at or above the presumed maximum value is a business arrangement: PMV $351.33 a month in 2026, $363.00 in 2027. If a household member gets SNAP, ask SSA about the public assistance household rule (20 CFR 416.1142(a)(8)).",
+        "programs": ["ssi"]
+      },
+      {
+        "age": "17 to 18",
+        "plain": "Apply to VR by the end of junior year or the start of senior year. Start Pre-ETS before that.",
+        "pro": "MVR checklist: meet the MVR counselor and apply at the end of junior year or the start of senior year. Within a VR category, order is by application date. Eligibility decision within 60 days (34 CFR 361.41(b)(1)); IPE within 90 days of eligibility and before the student exits. SSI or SSDI recipients are presumed eligible (34 CFR 361.42(a)(3)).",
+        "programs": ["vocational-rehab", "pre-ets"]
+      },
+      {
+        "age": "Birthday month",
+        "plain": "In the month of the 18th birthday, call Social Security. If parent income kept the child off SSI, apply for adult SSI now.",
+        "pro": "Parent deeming stops after the month of the 18th birthday (20 CFR 416.1165); the young adult can apply for adult SSI the month after. Call SSA in the birthday month to set a protective filing date. Federal benefit rate: $994 in 2026, $1,029 in 2027.",
+        "programs": ["ssi", "ssi-age-18"],
+        "deadline": "Call Social Security in the month of the 18th birthday"
+      },
+      {
+        "age": "18",
+        "plain": "After the SSI decision, apply for adult MO HealthNet. MO HealthNet for Kids ends at 19, so switch before the 19th birthday.",
+        "pro": "Apply to FSD for MO HealthNet for the Aged, Blind, and Disabled with the Supplemental Form (SSI does not confer MO HealthNet in a 209(b) state). A child on MO HealthNet for Disabled Children moves to the adult category; MO HealthNet for Kids covers through age 18. An adult 19-64 with no Medicare and no SSI, with income at or under 138% FPL, may use Adult Expansion. Any Medicaid enrollee under 21 keeps HCY (EPSDT).",
+        "programs": ["mo-healthnet", "adult-expansion"],
+        "deadline": "Before the 19th birthday"
+      },
+      {
+        "age": "18",
+        "plain": "Check Childhood Disability Benefits. If a parent gets Social Security retirement or disability, or has died, the adult child may qualify.",
+        "pro": "CDB: disability before 22; a parent entitled to retirement or disability benefits, or who died insured. If CDB ends SSI, tell FSD to apply the DAC protection (Social Security Act section 1634(c)). CDB usually ends on marriage; marriage to certain Title II beneficiaries keeps it.",
+        "programs": ["cdb"]
+      },
+      {
+        "age": "18 to 19",
+        "plain": "If the person already gets SSI, Social Security will review the case under adult rules. Send current medical and school records. Tell SSA about the IEP or VR plan.",
+        "pro": "Age-18 redetermination under the adult initial disability standard, usually in the year after the 18th birthday (20 CFR 416.987; POMS DI 23570.020); medical improvement rules do not apply. Section 301 (20 CFR 416.1338): if found not disabled, payments can continue if the person started an appropriate program first: an IEP (age 18-21), a VR IPE, or a Ticket to Work plan. To keep payments during an appeal, appeal within 10 days after receipt (416.1336(b)); 60 days to appeal at all (416.1409).",
+        "programs": ["ssi-age-18", "disability-evidence"],
+        "deadline": "Appeal within 10 days of getting the letter to keep SSI during the appeal"
+      }
+    ],
+    "warnings": {
+      "plain": [
+        "A school, hospital, or bank may say you need guardianship at 18. The court must look at less restrictive choices first.",
+        "If a parent becomes the legal guardian, that parent can no longer be paid as the CDS attendant.",
+        "More than $2,000 in the person's name can stop SSI."
+      ],
+      "pro": [
+        "RSMo 475.075.13 and 475.080 require the court to consider less restrictive alternatives and limited guardianship.",
+        "HCBS Manual 3.25: the CDS attendant cannot be the participant's spouse or legal guardian.",
+        "SSI resource limit $2,000; resources over the limit at the first moment of a month end SSI for that month."
+      ]
+    }
+  },
+  {
+    "id": "leaving-school",
+    "title": "Leaving school",
+    "when": {
+      "plain": "Start before the last school year. A student without a regular diploma can stay in school until age 21.",
+      "pro": "FAPE ends at a regular diploma or at 21 (DESE Regulation IV; RSMo 162.675). A certificate of attendance, a High School Equivalency, or a ceremony without a regular diploma does not end FAPE for a student under 21."
+    },
+    "rule": {"all": [{"q": "age", "op": ">=", "v": 16}, {"q": "age", "op": "<=", "v": 22}, {"q": "school", "op": "in", "v": ["iep", "504", "none_in_school", "left"]}]},
+    "steps": [
+      {
+        "age": "Before exit",
+        "plain": "Do not accept a regular diploma until adult services are ready. A regular diploma ends school services that day.",
+        "pro": "A regular diploma ends FAPE and is a change in placement that needs prior written notice (Regulation IV), so the family can dispute it before it is issued. Before exit, check: VR IPE signed, DD eligibility decided, SSI applied for, decision-making supports in place, Summary of Performance received, and adult health providers named.",
+        "programs": ["school-exit"],
+        "deadline": "Before the diploma is issued"
+      },
+      {
+        "age": "Before exit",
+        "plain": "Ask for a full school reevaluation before the student leaves. Adult programs use these results.",
+        "pro": "No evaluation is required at exit; the school owes only a Summary of Performance (Regulation III). While the student is still eligible, a parent can request a reevaluation. Current cognitive and adaptive testing supports DMH DD, SSA, VR, and college accommodation decisions.",
+        "programs": ["disability-evidence", "school-exit"]
+      },
+      {
+        "age": "Last school year",
+        "plain": "Get the VR plan (IPE) signed before the student leaves school. Meet the VR counselor each month in the last year.",
+        "pro": "The IPE must be developed within 90 days of eligibility and before the student exits (VR-SEA agreement FY26). MVR checklist: meet monthly in the last year. MVR Categories II and III have been closed since 9 Dec 2024; services already authorized are not disrupted by the order of selection (5 CSR 20-500.160).",
+        "programs": ["vocational-rehab"],
+        "deadline": "VR plan signed before the student exits school"
+      },
+      {
+        "age": "Before exit",
+        "plain": "If the person is DD eligible, ask the support coordinator to send the waiver request now. Report the school exit date in writing.",
+        "pro": "Only the support coordinator submits the plan, budget, and PON to Utilization Review, and submission starts the place on the list. Report school exit as a change and ask for a new PON (9 CSR 45-2.017(2)(B)). Partnership for Hope priority includes a person who has used up both education and VR benefits, or is not VR eligible (9 CSR 45-2.015(3)(A)).",
+        "programs": ["dd-support-coordination", "dd-waiver-wait-list"]
+      },
+      {
+        "age": "At exit",
+        "plain": "Get the Summary of Performance in writing. Ask for clear advice about work, college, and daily living.",
+        "pro": "Required when eligibility ends by a regular diploma or at 21: a summary of academic achievement and functional performance with recommendations on postsecondary goals (Regulation III). VR, college disability offices, and SSA use it as evidence.",
+        "programs": ["school-exit"],
+        "deadline": "When school ends (diploma or age 21)"
+      },
+      {
+        "age": "At exit",
+        "plain": "School-owned devices stay with the school. Plan how to replace them before the last day.",
+        "pro": "School assistive technology belongs to the district. Replacement routes: MVR rehabilitation technology under an IPE; MoAT free device loan (5 weeks) and reuse programs; MO HealthNet DME for medical items; college accommodations.",
+        "programs": ["missouri-assistive-technology", "mo-healthnet-dme"]
+      },
+      {
+        "age": "After exit",
+        "plain": "Plan to replace what school gave: daily structure, rides, and therapies. Look at college programs, VR, rides, and DD services.",
+        "pro": "Exit ends special education, related services, school transportation, the school's duty to coordinate agencies, IDEA procedural rights, Pre-ETS (unless enrolled in postsecondary education and 21 or younger), and school work-based learning. Options: OTC Access and Accommodation Resources; Bear POWER (IDD, 17 and older); MVR supported employment; DD waiver day and job services (on a wait list); OATS and Access Express; respite.",
+        "programs": ["otc-access-resources", "bear-power", "oats-transit", "paratransit-springfield"]
+      },
+      {
+        "age": "After exit",
+        "plain": "If the person is 24 or younger, VR must take required steps before any job that pays below minimum wage.",
+        "pro": "Section 511 (WIOA): no subminimum wage work while a student. A person 24 or younger needs documented Pre-ETS or transition services, MVR career counseling and information and referral, and MVR documentation before a sheltered workshop job.",
+        "programs": ["sheltered-workshops", "vocational-rehab"]
+      },
+      {
+        "age": "21",
+        "plain": "School eligibility ends at 21. The state plan does not say if the student can finish the school year. Ask the district in writing.",
+        "pro": "FAPE is not required for 'youth with disabilities who reach the age of 21' (Regulation IV); RSMo 162.675 says 'under the age of twenty-one years'. Regulation IV does not say whether a student who turns 21 may finish the term.",
+        "programs": ["school-exit"]
+      }
+    ],
+    "warnings": {
+      "plain": [
+        "A regular diploma at 18 can end up to 3 more years of free school services.",
+        "Two wait lists can meet at school exit: VR and DD waivers. Start both early."
+      ],
+      "pro": [
+        "A regular diploma is a change in placement with prior written notice. Families may object before it is issued.",
+        "MVR order of selection since 9 Dec 2024; DD waiver new enrollment on a wait list since 15 Oct 2026. MVR pays for supported employment only until case closure; the provider must then find long-term funding, usually a DD waiver."
+      ]
+    }
+  },
+  {
+    "id": "turning-21",
+    "title": "Turning 21: health care changes",
+    "when": {
+      "plain": "Start at 19. Some MO HealthNet services for children stop at 21. School services also end.",
+      "pro": "HCY (Missouri EPSDT) covers participants under 21. Adult limits apply after that (current fee-for-service MO HealthNet provider manuals). FAPE ends at 21."
+    },
+    "rule": {"all": [{"q": "age", "op": ">=", "v": 19}, {"q": "age", "op": "<=", "v": 21}]},
+    "steps": [
+      {
+        "age": "19",
+        "plain": "List every therapy, nurse, device, and supply the person uses. Ask the doctor which ones stop at 21.",
+        "pro": "At 21 (current manuals): outpatient PT, OT, and speech therapy are 'not covered for MO HealthNet participants ages 21 and over' except PT in a hospital or physician office and adaptive training (Therapy Manual); private duty nursing only through the Medically Complex Adult Waiver; chest wall oscillation vest and cough stimulating device for ages 20 and under; enteral formula under 21, then the Exceptions process; binaural hearing aids for 21 and over only in cases of blindness; eye exams every 24 months instead of 12; ABA not listed for adults; home health skilled nurse plus aide visits capped at 100 per calendar year (13 CSR 70-90.010).",
+        "programs": ["age-21-health-changes", "health-care-transition"]
+      },
+      {
+        "age": "Before 21",
+        "plain": "Replace hearing aids, glasses, and mobility devices that are due while child rules still apply.",
+        "pro": "Complete clinically needed replacements while HCY rules apply. Adult limits: one hearing aid every 4 years; one pair of glasses every 2 years; frames for 21 and over not replaced within 24 months.",
+        "programs": ["mhn-hearing-aids", "mhn-eye-care", "mo-healthnet-dme"],
+        "deadline": "Before the 21st birthday"
+      },
+      {
+        "age": "Before 21",
+        "plain": "If the person gets private duty nursing, apply for the Medically Complex Adult Waiver before 21. Only people who had or needed this nursing before 21 can get it.",
+        "pro": "Medically Complex Adult Waiver (provider manual name: Medically Fragile Adult Waiver): age 21 and older; ICF-IID level of care, which the manual ties to 42 CFR 435.1010; cannot receive services through another waiver; prior HCY private duty nursing or a documented need before 21. Private duty nursing up to 448 units (112 hours) a week, with exceptions. BSHCN (800) 451-0669.",
+        "programs": ["medically-complex-adult-waiver"],
+        "deadline": "Nursing need documented before age 21"
+      },
+      {
+        "age": "Before 21",
+        "plain": "For a device or formula that stops at 21, ask the doctor to send an exception request early. Only the prescriber can send it.",
+        "pro": "Exceptions (13 CSR 70-2.100; Exceptions Manual): only a physician, PA, or APRN may submit, initiated by the treating prescriber. Covered alternatives must be tried and found inappropriate or ineffective. Approval comes before the item is provided (emergency request within 1 state working day). The item must sustain life, improve quality of life for a terminally ill patient, replace an item lost in a disaster, or prevent a higher level of care, and be cost effective.",
+        "programs": ["age-21-health-changes"]
+      },
+      {
+        "age": "Before 21",
+        "plain": "If the person is DD eligible, ask if a DD waiver can pay for therapy after 21. New waiver enrollment has a wait list.",
+        "pro": "The DD Waiver Manual lists OT, PT, and speech therapy as waiver services (OT needs a physician prescription). New enrollment in the Comprehensive, Community Support, and Partnership for Hope waivers has been on a wait list since 15 Oct 2026.",
+        "programs": ["dd-support-coordination", "dd-waiver-wait-list"]
+      },
+      {
+        "age": "19 to 21",
+        "plain": "Find an adult primary care doctor and adult specialists who take MO HealthNet.",
+        "pro": "Got Transition: transfer of care at 18-21, completion at 18-23. AAP 2018: youth with medical complexity or IDD may need 'flexibility in the age of transfer to adult care' and 'strong linkages to nonhealth support systems'.",
+        "programs": ["health-care-transition"]
+      },
+      {
+        "age": "21",
+        "plain": "School services end at 21. See the plan for leaving school.",
+        "pro": "FAPE ends at 21 (Regulation IV). The State Plan does not say whether a student who turns 21 may finish the term. Ask the district in writing.",
+        "programs": ["school-exit"]
+      }
+    ],
+    "warnings": {
+      "plain": [
+        "No one may warn you before the birthday. Start planning at 19.",
+        "Managed care health plans may have different rules. Call the plan to check."
+      ],
+      "pro": [
+        "These rules come from fee-for-service MO HealthNet manuals. Managed care plan rules were not checked.",
+        "Entry to the Medically Complex Adult Waiver needs prior HCY private duty nursing or a documented need before 21. Adults whose nursing need starts after 21 have no clear adult route."
+      ]
+    }
+  },
+  {
+    "id": "turning-22-26",
+    "title": "Ages 22 to 26",
+    "when": {
+      "plain": "Some rules end at 22, 24, and 25. Plan before each birthday.",
+      "pro": "Age limits: Pre-ETS through 21; SSI student earned income exclusion under 22; onset before 22 for DMH DD and CDB; Section 511 youth steps through 24; MVR extended services to 25."
+    },
+    "rule": {"all": [{"q": "age", "op": ">=", "v": 21}, {"q": "age", "op": "<=", "v": 26}]},
+    "steps": [
+      {
+        "age": "Before 22",
+        "plain": "Pre-ETS ends after age 21. An SSI rule that lets students keep more pay ends at 22. Plan work with a benefits counselor before then.",
+        "pro": "Pre-ETS: student 'not older than twenty-one' (VR-SEA agreement). SSI student earned income exclusion while regularly attending school and under 22: $2,410 a month and $9,730 a year in 2026; $2,500 and $10,080 in 2027 (POMS SI 00820.510). A young adult under 22 who lives with a parent stays in the parent's SNAP household. Ticket to Work Help Line 1-866-968-7842.",
+        "programs": ["pre-ets", "ssa-work-incentives", "snap"],
+        "deadline": "Before the 22nd birthday"
+      },
+      {
+        "age": "22",
+        "plain": "DD services and Childhood Disability Benefits need proof the disability started before 22. Keep school records and evaluations.",
+        "pro": "RSMo 630.005: disability 'manifested before the person attains age twenty-two'. This is not an application deadline. CDB requires disability before 22. SSA Listing 12.05 looks for onset before 22. Records are harder to find after school ends.",
+        "programs": ["dmh-dd-eligibility", "cdb", "disability-evidence"]
+      },
+      {
+        "age": "By 23",
+        "plain": "Finish the move to adult doctors. Share the medical summary with each new doctor.",
+        "pro": "Got Transition Core Element 6: transfer completion and integration into adult care at ages 18-23.",
+        "programs": ["health-care-transition"]
+      },
+      {
+        "age": "Through 24",
+        "plain": "Through age 24, VR must take required steps before the person takes a job that pays below minimum wage.",
+        "pro": "Section 511 steps apply to a person 24 or younger: documented Pre-ETS or transition services, MVR career counseling and information and referral, and MVR documentation. MVR describes youth services for ages 14 to 24.",
+        "programs": ["sheltered-workshops", "vocational-rehab"]
+      },
+      {
+        "age": "By 25",
+        "plain": "VR long-term job support for young people ends at 25, or after 4 years if that comes first. Find the next payer early.",
+        "pro": "MVR-funded extended services for youth with the most significant disabilities end at 25 or after four years, 'whichever comes first'. After VR case closure, 'the CRP or other identified provider is responsible for securing long-term funding', usually a DD waiver. New DD waiver enrollment has been on a wait list since 15 Oct 2026.",
+        "programs": ["vocational-rehab", "dd-waiver-employment"],
+        "deadline": "Age 25, or after 4 years of extended services, whichever comes first"
+      }
+    ],
+    "warnings": {
+      "plain": [
+        "A disability that started after age 22 does not qualify for DD services. Other programs may still help."
+      ],
+      "pro": [
+        "Brain injury or another disability with onset after 22 is not DMH DD eligible. Use DHSS programs (the Brain Injury Waiver serves TBI at ages 21-65) and Centers for Independent Living."
+      ]
+    }
+  },
+  {
+    "id": "starting-work",
+    "title": "Starting a job",
+    "when": {
+      "plain": "Use this before the person takes a job. Pay can change SSI, SSDI, and MO HealthNet. Plan first.",
+      "pro": "Order for a person who starts to work: benefits analysis, VR, SSA reporting, MO HealthNet comparison (spend down versus Ticket to Work Health Assurance), and ABLE for savings."
+    },
+    "rule": {"any": [{"q": "work", "op": "in", "v": ["working", "wants"]}, {"q": "needs", "op": "has", "v": ["job"]}]},
+    "steps": [
+      {
+        "age": "Before the job",
+        "plain": "Ask Social Security for a Benefits Planning Query (BPQY). It lists the person's benefits.",
+        "pro": "Get a BPQY from SSA and a WIPA benefits analysis before the person accepts an offer. Know whether the benefit is SSI, SSDI, or CDB; each has different work rules.",
+        "programs": ["ssa-work-incentives"]
+      },
+      {
+        "age": "Before the job",
+        "plain": "Call the Ticket to Work Help Line for free benefits counseling: 1-866-968-7842.",
+        "pro": "Ticket to Work Help Line 1-866-968-7842, TTY 1-866-833-2967, Monday to Friday 8 a.m. to 8 p.m. ET. WIPA serves Social Security disability beneficiaries from age 14 to full retirement age. No WIPA project serving SW Missouri was confirmed; the Help Line routes callers by ZIP code.",
+        "programs": ["ssa-work-incentives"]
+      },
+      {
+        "age": "Before the job",
+        "plain": "Apply to Vocational Rehabilitation (VR). Right now VR serves only people with the most significant disabilities. Others go on a wait list.",
+        "pro": "MVR order of selection: Categories II and III closed on 9 Dec 2024. Category I means serious limits in 3 or more of 7 areas: self-care, communication, mobility, self-direction, work tolerance, work skills, interpersonal skills. SSI or SSDI recipients are presumed eligible and have a significant disability (34 CFR 361.42(a)(3)). Eligibility within 60 days. A person at immediate risk of losing a job can get the services needed to keep it outside the order (5 CSR 20-500.160(8)). Blind or low vision: apply to RSB (1-800-592-6004), which is not on RSA's list of VR agencies with closed categories.",
+        "programs": ["vocational-rehab", "rsb"]
+      },
+      {
+        "age": "Students",
+        "plain": "Students 14 to 21 with an IEP or 504 plan can get Pre-ETS work experience now, with no wait list.",
+        "pro": "Pre-ETS for 'potentially eligible' students 14-21 is not subject to the order of selection. Work-based learning is one of the five required activities.",
+        "programs": ["pre-ets"]
+      },
+      {
+        "age": "If VR says wait",
+        "plain": "You can ask VR to review the category at any time. The Client Assistance Program helps for free: 1-800-392-8667.",
+        "pro": "Category assignment can be appealed (5 CSR 20-500.160(4)). State rules set no deadline to ask. Informal review within 20 days of the request; hearing within 60 days; decision within 30 days; 20 days to ask the Commissioner of Education to review. CAP is run by Mo P&A.",
+        "programs": ["vocational-rehab", "protection-advocacy"]
+      },
+      {
+        "age": "On SSI",
+        "plain": "Report pay to Social Security every month. After the first $85, SSI drops about $1 for every $2 earned. Medicaid can continue at higher pay.",
+        "pro": "After the $20 general and $65 earned income exclusions, SSI falls $1 for each $2 of earnings. 1619(a) keeps cash while earnings exceed SGA. 1619(b) keeps Medicaid while gross earnings are under the Missouri threshold, $55,181 a year in 2026, with resources at or under $2,000. In a 209(b) state, the person must have Medicaid in the month before 1619 status (POMS SI 01715.015). Tell FSD about 1619(b) status. Also ask about IRWE, BWE, and PASS.",
+        "programs": ["ssi", "ssa-work-incentives"],
+        "deadline": "Report wages to Social Security every month"
+      },
+      {
+        "age": "On SSDI or CDB",
+        "plain": "Count trial work months. In 2026, a month with pay over $1,210 counts. After 9 such months, pay over $1,690 a month can stop the check.",
+        "pro": "Trial work month: $1,210 in 2026, $1,270 in 2027 (POMS DI 13010.060). SGA, non-blind: $1,690 in 2026, $1,770 in 2027; blind: $2,830 in 2026, $2,950 in 2027 (POMS DI 10501.015). Ask about the extended period of eligibility and expedited reinstatement. CDB that ended because of SGA work can be re-entitled at any time.",
+        "programs": ["ssdi", "cdb", "ssa-work-incentives"]
+      },
+      {
+        "age": "Income over $1,131",
+        "plain": "If income goes over $1,131 a month, MO HealthNet may need a spend down. Ask about Ticket to Work Health Assurance. It often costs workers less.",
+        "pro": "Non-spend-down limit for aged or disabled: $1,131 a month for one person (from 1 Apr 2026). Ticket to Work Health Assurance (RSMo 208.146, restored by HB 2372 effective 28 Aug 2026): age 16-64; earnings with FICA withheld; gross limit $3,990 for one person; resources $6,220.50 for one person; monthly premium $0 under 100% FPL, then $53, $80, $133, or $200 for one person; report income changes within 10 days. FSD 855-373-9994.",
+        "programs": ["twha", "mhn-spend-down"],
+        "deadline": "Report income changes to FSD within 10 days (Ticket to Work Health Assurance)"
+      },
+      {
+        "age": "Savings from pay",
+        "plain": "Keep SSI savings at or under $2,000. Put extra savings in an ABLE account.",
+        "pro": "ABLE: SSI excludes the first $100,000; excluded for MO HealthNet; 2026 contribution limit $20,000. ABLE to Work: a worker with no employer retirement plan contributions can add earnings up to the lesser of earnings or $15,650 (2026).",
+        "programs": ["able-account"]
+      },
+      {
+        "age": "Getting to work",
+        "plain": "Plan rides to work. In Springfield, use the city bus or Access Express. In rural counties, try OATS Transit.",
+        "pro": "CU Reduced Fare Card and Transit Ambassador training; Access Express $2.00 a ride, eligibility decision within 21 days; OATS Southwest Region 417-887-9272 or 800-770-6287. MVR can pay for transportation under an IPE.",
+        "programs": ["cu-transit-reduced-fare", "paratransit-springfield", "oats-transit"]
+      },
+      {
+        "age": "DD eligible",
+        "plain": "DD waiver job services need VR first. New waiver enrollment has been on a wait list since 15 Oct 2026.",
+        "pro": "DD waiver Career Planning, Job Development, Prevocational, and Supported Employment need documentation that VR is not available, not applicable, or used up (DD Waiver Manual). No written guidance says whether a closed MVR category counts as 'not available'.",
+        "programs": ["dd-waiver-employment"]
+      }
+    ],
+    "warnings": {
+      "plain": [
+        "Cash pay with no taxes taken out does not count for Ticket to Work Health Assurance.",
+        "When pay ends the SSI check, tell the Family Support Division. Ask it to keep MO HealthNet under the 1619(b) rule."
+      ],
+      "pro": [
+        "Ticket to Work Health Assurance needs earnings with FICA withheld; self-employed workers must prove payment of these taxes.",
+        "If FSD is not told about 1619(b) status, it may close the MO HealthNet case."
+      ]
+    }
+  },
+  {
+    "id": "waiting-for-waiver",
+    "title": "While you wait for a DD waiver",
+    "when": {
+      "plain": "Use this if the person is DD eligible, or has applied, but has no DD waiver yet.",
+      "pro": "DDD memo, 15 Oct 2026: new enrollment into the Comprehensive, Community Support, and Partnership for Hope waivers is on a wait list 'due to current budget limitations', with 'no estimated end date'. MOCDD 'will continue to be managed as usual'."
+    },
+    "rule": {"all": [{"q": "waiver", "op": "in", "v": ["waiting", "no"]}, {"q": "dd_elig", "op": "in", "v": ["yes", "applied"]}]},
+    "steps": [
+      {
+        "age": "Now",
+        "plain": "Ask the support coordinator to send the waiver request and priority score now. This gives the person a place on the list.",
+        "pro": "Only the support coordinator submits the plan, budget, and PON to Utilization Review. PON 1 to 4 comes from the MAAS; PON 5 means verified emergency criteria. Higher PON goes first; ties go to the person who has waited longest (9 CSR 45-2.015, 2.017).",
+        "programs": ["dd-support-coordination", "dd-waiver-wait-list"]
+      },
+      {
+        "age": "Now",
+        "plain": "Ask for the decision, the priority score, and the wait list date in writing.",
+        "pro": "Utilization Review within 6 business days; decision within 5 business days (or 5 business days after a 10-business-day request for more information); decision letter within 10 business days. Only the regional director or assistant regional director can deny or modify (9 CSR 45-2.017(1)(M), (7), (8)).",
+        "programs": ["dd-waiver-wait-list"]
+      },
+      {
+        "age": "No MO HealthNet",
+        "plain": "Get MO HealthNet active. New DD funding requests need it. In some counties, it is also needed to get a support coordinator.",
+        "pro": "DDD: 'New requests for funding require that the individual in need has active Medicaid' (exception: Autism Project funds). Without Medicaid, people in Greene, Henry, Laclede, Ozark, Stone, and Taney get the Division Information Specialist line (1-800-241-2741); other SW counties get a contracted County Support Specialist.",
+        "programs": ["mo-healthnet"]
+      },
+      {
+        "age": "After any change",
+        "plain": "Report changes in writing: caregiver illness, a hospital stay, leaving school, or a behavior crisis. Ask for a new priority score.",
+        "pro": "A new PON must be done when circumstances change (9 CSR 45-2.017(2)(B)).",
+        "programs": ["dd-waiver-wait-list"]
+      },
+      {
+        "age": "In a crisis",
+        "plain": "Ask in writing if the person meets an emergency rule. An emergency moves the person to the top of the list. The memo does not say it gives a waiver now.",
+        "pro": "Emergency criteria (9 CSR 45-2.017(1)(E)) give PON 5, the highest priority on the list, not a slot. The 15 Oct 2026 memo names only Inter-Divisional Agreement cases and cases 'mandated by federal rule' as exceptions. It names no crisis, PON 5, or emergency exception. Ask the Regional Office Director in writing how the case will be handled.",
+        "programs": ["dd-waiver-wait-list"]
+      },
+      {
+        "age": "While waiting",
+        "plain": "Use MO HealthNet services that do not need a waiver: DHSS home care, CDS, home health, and medical equipment.",
+        "pro": "State Plan services must be used first when they meet the need (9 CSR 45-2.017(14)(B)). DSDS state plan personal care has no wait list. One HCBS waiver at a time: a DHSS waiver blocks a DD waiver at the same time (9 CSR 45-2.015(5)).",
+        "programs": ["dhss-home-care", "consumer-directed-services", "home-health", "mo-healthnet-dme"]
+      },
+      {
+        "age": "While waiting",
+        "plain": "Ask about help that is not a waiver. Examples are the Autism Project (SWMAP), the county DD board, and a DD Health Home.",
+        "pro": "SWMAP (FY2026 allocation $1,845,138 for the region) does not need Medicaid and is last resort. County SB40 boards fund at their discretion; local funding for 3 months or more can create Partnership for Hope priority (9 CSR 45-2.015(3)(A)). The DD Health Home is a MO HealthNet benefit.",
+        "programs": ["swmap", "county-dd-boards", "dd-health-home"]
+      },
+      {
+        "age": "Caregiver 55+",
+        "plain": "If the main caregiver is 55 or older, ask the Area Agency on Aging for respite: 1-800-235-5503.",
+        "pro": "National Family Caregiver Support Program: 'Older relatives, including parents, aged 55 or older providing care to adults with disabilities aged 18-59.' No Medicaid needed. The Missouri Senior Resource Line, 1-800-235-5503, routes callers by ZIP code.",
+        "programs": ["aaa-caregiver-respite"]
+      },
+      {
+        "age": "If stuck",
+        "plain": "If the request stalls, go up the chain: the coordinator's supervisor, the Regional Office, then DMH Constituent Services at 1-800-364-9687.",
+        "pro": "Escalation: worker; supervisor or agency director; Regional Office (Springfield 417-895-7400, Joplin 417-629-3020); DDD central office 573-751-4054; DMH Constituent Services 1-800-364-9687, constituentsvcs@dmh.mo.gov; Mo P&A 1-800-392-8667.",
+        "programs": ["dmh-constituent-services", "protection-advocacy"]
+      }
+    ],
+    "warnings": {
+      "plain": [
+        "The wait list has no end date and no public count.",
+        "Get advice before you turn down an offered waiver. Saying no can change the person's place.",
+        "A person can be DD eligible and still not meet waiver rules. Waivers need limits in 3 life areas, not 2."
+      ],
+      "pro": [
+        "The DDD waiver enrollment page shows no wait list numbers (checked 27 Oct 2026).",
+        "Refusing an offered slot needs a new PON (Comprehensive) or removes the person from the list (MOCDD) (9 CSR 45-2.015(3)(B)3 and (3)(D)).",
+        "DD waivers need a MAAS score at least 95% below average in at least three major life areas and ICF/IID level of care. DD eligibility for adults needs two areas."
+      ]
+    }
+  },
+  {
+    "id": "caregiver-cannot-continue",
+    "title": "When the caregiver cannot continue",
+    "when": {
+      "plain": "Use this if the caregiver is sick, getting older, or has died. Plan while the caregiver is well.",
+      "pro": "Emergency steps first, then future planning. People who are not DD eligible have no DD emergency door."
+    },
+    "rule": {"any": [{"q": "caregiver_risk", "op": "in", "v": ["yes"]}, {"q": "caregiver55", "op": "in", "v": ["yes"]}]},
+    "steps": [
+      {
+        "age": "Day 1",
+        "plain": "If anyone is in danger, call 911.",
+        "pro": "Immediate danger: 911.",
+        "programs": []
+      },
+      {
+        "age": "Day 1",
+        "plain": "If the adult is not safe alone and no one can help, call the Adult Abuse and Neglect Hotline: 1-800-392-0210. It is open 7 days a week, 7 a.m. to 8 p.m.",
+        "pro": "APS eligible adult: 18-59 with a disability, or 60 and over, who cannot protect their own interests or meet essential needs. Hotline 1-800-392-0210, 7 days a week, 7 a.m. to 8 p.m.; Relay Missouri 1-800-735-2966. APS investigates and helps arrange personal care, respite, chore help, home-delivered meals, and protection. It is not a placement agency.",
+        "programs": ["adult-protective-services"]
+      },
+      {
+        "age": "Day 1",
+        "plain": "If the person is DD eligible, call the support coordinator or Regional Office the same day. Ask in writing if the person meets an emergency rule.",
+        "pro": "Springfield Regional Office 417-895-7400; Joplin Satellite Office 417-629-3020. Loss of the primary caregiver is a Partnership for Hope crisis criterion (9 CSR 45-2.015(3)(A)); an immediate need for life-sustaining services with no alternative is an emergency criterion (9 CSR 45-2.017(1)(E)). These give top priority on the wait list. The 15 Oct 2026 memo names no crisis or emergency exception to the wait list. Ask about out-of-home respite.",
+        "programs": ["dd-support-coordination", "dd-waiver-wait-list"],
+        "deadline": "Call the same day"
+      },
+      {
+        "age": "Day 1 to 3",
+        "plain": "If the person gets DHSS home care, call 866-835-3505. Ask for more hours, or a new worker if the caregiver was the paid attendant.",
+        "pro": "DSDS care plan change through the HCBS Call Center (866-835-3505). A new CDS attendant is hired through the participant's enrolled CDS vendor. New CDS vendor enrollment has been paused since 1 Aug 2026; enrolled vendors keep serving.",
+        "programs": ["dhss-home-care", "consumer-directed-services"]
+      },
+      {
+        "age": "Week 1",
+        "plain": "Check who can legally sign for the person. Get legal advice before you file for guardianship.",
+        "pro": "Emergency guardian ad litem: hearing within 5 business days, appointment up to 90 days (RSMo 475.075.15). The court must consider less restrictive alternatives first (475.075.13). Mo P&A 1-800-392-8667.",
+        "programs": ["power-of-attorney", "guardianship", "protection-advocacy"]
+      },
+      {
+        "age": "Nursing home stay",
+        "plain": "If the person goes to a nursing facility, ask about Show-Me Home after 60 days. It helps people move back to the community.",
+        "pro": "Show-Me Home (Money Follows the Person, DSDS): 60 or more days in a row in a skilled nursing facility, on MO HealthNet; RCF and ALF stays do not count (HCBS Manual 7.00). For a DD-eligible person, living in a nursing facility and wanting to move out is also an emergency criterion (9 CSR 45-2.017(1)(E)).",
+        "programs": ["dhss-home-care"]
+      },
+      {
+        "age": "Housing",
+        "plain": "If the person needs a new place to live, apply to every housing voucher list now. Ask about disability preferences.",
+        "pro": "Apply early to every public housing agency list in reach (Housing Authority of the City of Springfield; OACAC; Jasper County PHA); ask about disability preferences and Mainstream vouchers. Missouri 811 (ages 18-61, extremely low income) needs a referral from a DMH or DSS partner.",
+        "programs": ["housing-vouchers", "missouri-811"]
+      },
+      {
+        "age": "Plan ahead",
+        "plain": "Get DD eligibility and MO HealthNet now, while the caregiver is well. Without DD eligibility, there is no DD emergency help.",
+        "pro": "No DD emergency door without DDD eligibility. The rule counts loss of a primary caregiver when it happens, not when it can be predicted, so an aging parent alone does not raise priority.",
+        "programs": ["dmh-dd-eligibility", "mo-healthnet"]
+      },
+      {
+        "age": "Plan ahead",
+        "plain": "If the caregiver is 55 or older, ask the Area Agency on Aging for support and respite: 1-800-235-5503.",
+        "pro": "National Family Caregiver Support Program: parents and other relatives 55 or older caring for an adult 18-59 with a disability. No Medicaid needed. SeniorAge (Springfield, 417-862-0762) serves Barry, Christian, Dade, Dallas, Douglas, Greene, Lawrence, Ozark, Polk, Stone, Taney, Webster, and Wright counties.",
+        "programs": ["aaa-caregiver-respite"]
+      },
+      {
+        "age": "Plan ahead",
+        "plain": "Write a care guide: routines, medicines, doctors, behavior supports, and backup caregivers. Missouri Family to Family can help: 1-800-444-0821.",
+        "pro": "Future plan content: a care manual (routines, medications, behavior supports), backup caregivers, DD eligibility and a waiver request on file, MO HealthNet active, HCBS assessment done, housing applications filed early. Charting the LifeCourse tools.",
+        "programs": ["family-to-family"]
+      },
+      {
+        "age": "Plan ahead",
+        "plain": "Do not leave money to the person directly. Use a special needs trust or an ABLE account. Check wills, life insurance, and retirement forms.",
+        "pro": "An inheritance in the person's name can end SSI and MO HealthNet. A third-party special needs trust needs no Medicaid payback; name the trust, not the person, in beneficiary forms. A parent's retirement, disability, or death can start CDB.",
+        "programs": ["special-needs-trusts", "able-account", "cdb"]
+      }
+    ],
+    "warnings": {
+      "plain": [
+        "APS can help arrange services. It does not find a new home for the person.",
+        "An emergency can move a DD-eligible person to the top of the wait list. The 15 Oct 2026 memo does not say it gives a waiver now.",
+        "If a parent who is the paid CDS attendant becomes the legal guardian, that parent can no longer be paid."
+      ],
+      "pro": [
+        "APS is not a placement agency. Adults who are not DD eligible or not on a waiver have no clear emergency placement door.",
+        "Under the 15 Oct 2026 memo, emergency status under 9 CSR 45-2.017(1)(E) is priority on the list, not a funded slot.",
+        "HCBS Manual 3.25: the CDS attendant cannot be the participant's legal guardian."
+      ]
+    }
+  },
+  {
+    "id": "when-denied",
+    "title": "When the answer is no: appeal steps",
+    "when": {
+      "plain": "Use this the day a letter denies, cuts, or stops a service. Some deadlines are only 10 days.",
+      "pro": "On every adverse notice, the short clock to keep benefits (usually 10 days) runs out before the longer clock to appeal at all (30, 60, or 90 days)."
+    },
+    "rule": true,
+    "steps": [
+      {
+        "age": "Day 1",
+        "plain": "Read the letter the day it comes. Write down the date on the letter and the date it came.",
+        "pro": "MO HealthNet counts 10 days from the mailing date (RSMo 208.080.3). SSA counts from receipt, presumed 5 days after the notice date (20 CFR 416.1401). DHSS counts 10 calendar days from the mail date of the Adverse Action Notice. Mail time uses up part of the window.",
+        "programs": []
+      },
+      {
+        "age": "Within 10 days",
+        "plain": "If a benefit will be cut or stopped, appeal within 10 days. Ask to keep the benefit during the appeal. Do it in writing and keep a copy.",
+        "pro": "FSD (MO HealthNet, SNAP): ask within 10 days from the date on the Action Notice to keep benefits; otherwise 90 days. SSI: within 10 days after receipt (20 CFR 416.1336(b)). SSDI or CDB medical cessation: elect continuation within 10 days after receipt (404.1597a). DHSS home care: 10 calendar days from mailing (a state form says business days; use calendar days). DD waiver services under an existing ISP continue on a timely appeal (9 CSR 45-2.017(11)). VR services under an existing IPE continue.",
+        "programs": ["mo-healthnet", "ssi", "dhss-home-care"],
+        "deadline": "10 days from the date on the letter"
+      },
+      {
+        "age": "Within 10 days",
+        "plain": "Know the risk. If you lose, the agency may ask you to repay services given during the appeal. Ask for advice.",
+        "pro": "Recovery after a losing appeal: 42 CFR 431.230(b) (MO HealthNet); 9 CSR 45-2.017(11)(A) (DD waiver); DHSS HCBS Manual 6.00. SSA: continued payments may become an overpayment; the person may waive continuation in writing (20 CFR 416.1336(c)).",
+        "programs": []
+      },
+      {
+        "age": "Within 10 days",
+        "plain": "Call Missouri Protection and Advocacy for free help: 1-800-392-8667. For VR or RSB problems, ask for the Client Assistance Program.",
+        "pro": "Mo P&A Application Unit 1-800-392-8667; TDD 1-800-735-2966; app.unit@mo-pa.org.",
+        "programs": ["protection-advocacy"]
+      },
+      {
+        "age": "Within 30 days",
+        "plain": "DD eligibility denied: tell the Regional Office within 30 days, by phone or in writing. Current DD services continue until the appeal ends.",
+        "pro": "9 CSR 45-2.020: appeal to regional office staff within 30 calendar days of receiving the notice; decision in 10 business days; 30 calendar days to ask for an appeals referee; hearing within 60 calendar days; referee decision within 30 calendar days; then circuit court (RSMo Chapter 536). No reduction or termination until appeals are exhausted (3)(E). If a lawyer is retained, notify the head of the regional office within 10 calendar days of retaining counsel (the DDD sheet says 10 business days; use the shorter).",
+        "programs": ["dmh-dd-eligibility"],
+        "deadline": "30 calendar days from the notice"
+      },
+      {
+        "age": "Within 30 or 90 days",
+        "plain": "DD waiver service denied or cut? Appeal to the Regional Director within 30 days. Or ask for a MO HealthNet hearing within 90 days. Starting that hearing ends the DMH appeal.",
+        "pro": "DMH track: regional director within 30 calendar days of the decision letter; decision in 10 business days (9 CSR 45-2.017(9)). DSS track: in writing within 90 calendar days of written notice, to MO HealthNet Division, Constituent Services Unit, PO Box 6500, Jefferson City, MO 65102-6500, 1-800-392-2161 (9 CSR 45-2.017(10)(A)). Once the DSS appeal starts, DMH appeal rights end.",
+        "programs": ["dd-support-coordination", "dmh-constituent-services"],
+        "deadline": "30 days (DMH) or 90 days (MO HealthNet hearing)"
+      },
+      {
+        "age": "Within 60 days",
+        "plain": "Social Security said no: ask for reconsideration within 60 days. Count from the date on the letter to be safe.",
+        "pro": "60 days after receipt at each level: reconsideration (20 CFR 416.1409), ALJ hearing (416.1433), Appeals Council (416.1468), federal court (422.210(c)); receipt is presumed 5 days after the notice date. A late appeal needs good cause in writing (416.1411). In an age-18 cessation, give SSA the IEP, VR plan, or Ticket to Work plan (Section 301, 416.1338).",
+        "programs": ["ssi", "ssdi", "cdb"],
+        "deadline": "60 days"
+      },
+      {
+        "age": "Within 90 days",
+        "plain": "MO HealthNet or SNAP denied: ask for a hearing within 90 days of the date on the Action Notice. You can ask by phone or in writing.",
+        "pro": "DSS: 90 days from the Action Notice date; RSMo 208.080.5 for a denied application; the request may be oral or written (208.080.8). Applicants get no benefits while the hearing is pending. Final action ordinarily within 90 days of the request (42 CFR 431.244(f)). Circuit court within 90 days of the decision, with no bond or docket fee (RSMo 208.100).",
+        "programs": ["mo-healthnet", "snap"],
+        "deadline": "90 days from the date on the Action Notice"
+      },
+      {
+        "age": "VR or RSB",
+        "plain": "VR said no or put the person on a wait list: you can ask for a review at any time. For RSB, ask within 90 days.",
+        "pro": "MVR: no request deadline; informal review within 20 days; hearing within 60 days; decision within 30 days; 20 days to ask the Commissioner of Education to review; services under an existing IPE continue. RSB: written request within 90 days of the determination date; services are not reduced while mediation or a hearing is pending.",
+        "programs": ["vocational-rehab", "rsb"],
+        "deadline": "RSB: 90 days from the decision date"
+      },
+      {
+        "age": "School",
+        "plain": "School problem: file a state complaint within 1 year, or ask for due process within 2 years. During due process, the student stays in the current placement.",
+        "pro": "State complaint: violation not more than 1 year before receipt; DESE investigates within 60 calendar days. Due process: within 2 years of when the parent knew or should have known (34 CFR 300.511(e)); stay put (300.518). After 18, these rights belong to the student unless a court has declared the student incompetent.",
+        "programs": ["iep-transition"],
+        "deadline": "State complaint: 1 year. Due process: 2 years."
+      },
+      {
+        "age": "No answer",
+        "plain": "An agency may take too long to decide an application. You can ask for a hearing about that too.",
+        "pro": "Fair hearing for a claim 'not acted upon with reasonable promptness' (42 CFR 431.220(a)(1); RSMo 208.080.1(2)). The DD eligibility evaluation is due within 30 business days of a valid application and sufficient records (9 CSR 45-2.010(4)(A)).",
+        "programs": ["mo-healthnet", "dmh-dd-eligibility"]
+      }
+    ],
+    "warnings": {
+      "plain": [
+        "Mail takes time. The 10 days can start before the letter reaches you.",
+        "Each agency has different deadlines. Check the appeals table.",
+        "For a DD waiver service, starting a MO HealthNet hearing ends the DMH appeal route."
+      ],
+      "pro": [
+        "Where sources conflict (calendar or business days; mailing date or receipt), this page uses the shorter period.",
+        "9 CSR 45-2.017(10)(A): a DSS fair hearing request ends DMH appeal rights."
+      ]
+    }
+  }
+]

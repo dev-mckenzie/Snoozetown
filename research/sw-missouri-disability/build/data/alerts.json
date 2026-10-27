@@ -1,0 +1,68 @@
+[
+  {
+    "id": "dd-waiver-wait-list-2026",
+    "date": "2026-10-15",
+    "top": true,
+    "title": "DD waivers: new enrollment is on a wait list",
+    "plain": "Since 15 Oct 2026, new people cannot start the Comprehensive, Community Support, or Partnership for Hope waivers. They go on a wait list. There is no end date. People who have a waiver now keep it. The MOCDD waiver for children is not changed. Still ask the support coordinator to send the waiver request now, so the person gets a place on the list. The memo names no exception for a crisis or an emergency. An emergency can move a person up the list. It does not promise a waiver now.",
+    "pro": "DDD memo, 15 Oct 2026 (Division Director Sheila Wunning): wait lists 'for new enrollments into PfH, CSW, and Comp' 'due to current budget limitations', with 'no estimated end date'. Current participants continue. Only new people paid through Inter-Divisional Agreements, or whose participation is 'mandated by federal rule', keep access. MOCDD 'will continue to be managed as usual'. The memo names no crisis, PON 5, or emergency exception; emergency criteria in 9 CSR 45-2.017(1)(E) give the highest place on the list, not a slot. Access is by PON (1 to 5), then by time on the list. No public wait list count (DDD waiver enrollment page, checked 27 Oct 2026). Ask the Regional Office Director in writing how a specific emergency case will be handled.",
+    "programs": ["dd-waiver-wait-list", "dd-waiver-comprehensive", "dd-waiver-community-support", "dd-waiver-pfh", "dd-support-coordination", "dd-waiver-employment"],
+    "source": {"title": "DDD Wait List Memo, 15 Oct 2026", "url": "https://dmh.mo.gov/sites/g/files/zuston541/files/media/pdf/2026/10/wait%20list%20memo%202026.pdf"}
+  },
+  {
+    "id": "vr-order-of-selection",
+    "date": "2024-12-09",
+    "top": true,
+    "title": "Missouri VR: wait list for Categories II and III",
+    "plain": "Since 9 Dec 2024, Missouri Vocational Rehabilitation (VR) serves only Category I, people with the most significant disabilities. People in Categories II and III wait. No reopening was found as of 27 Oct 2026. Students 14 to 21 with an IEP or 504 plan can still get Pre-ETS now, with no wait. Start Pre-ETS before you apply to VR. Then Pre-ETS continues if the student is put in a closed category. You can ask VR to review the category at any time.",
+    "pro": "MVR order of selection (5 CSR 20-500.160): Categories II and III closed on 9 Dec 2024. Category I means serious limits in 3 or more of 7 functional areas. FFY 2027 estimate: 5,204 eligible people not served (Category II: 4,998; Category III: 205). Exceptions: diagnostic and eligibility services; Pre-ETS continues for students who got it before being placed in a closed category; job-retention services for a person at immediate risk of losing a job. The plan modification (PDF dated Feb 2026) is labeled draft; RSA still lists MO-G as '1 of 3 priority categories open'. No reopening notice found as of 27 Oct 2026. RSB (blind and low vision) is not on RSA's list of VR agencies with closed categories. Category assignment can be appealed with no request deadline; CAP 800-392-8667.",
+    "programs": ["vocational-rehab", "pre-ets"],
+    "source": {"title": "MVR section, Missouri Combined State Plan modifications PY 2026-2027 (Feb 2026)", "url": "https://dese.mo.gov/sites/g/files/zuston521/files/media/pdf/2026/02/VR-State_Plan_26-27_Mods_NG_Access_2.pdf"}
+  },
+  {
+    "id": "cds-dme-provider-moratorium",
+    "date": "2026-08-01",
+    "top": true,
+    "title": "Pause on new home care and equipment providers",
+    "plain": "Since 1 Aug 2026, Missouri does not enroll new providers of home care or medical equipment. This covers consumer directed services (CDS) and personal care. The pause is for 6 months. It can be extended up to 1 year. Providers already enrolled keep serving. People can still apply for these services. Choose a CDS vendor or equipment supplier that is already enrolled.",
+    "pro": "MMAC notice posted 24 Jul 2026: six-month temporary moratorium on new DME and CDS/Personal Care provider enrollments from 1 Aug 2026, which may be extended in 6-month steps up to 1 year. Enrolled providers, applications received before 1 Aug 2026, and revalidations are not affected. No later MMAC notice lifting or extending it was found (posts checked to October 2026). The first term ends about 1 Feb 2027 unless extended.",
+    "programs": ["consumer-directed-services", "dhss-home-care", "mo-healthnet-dme"],
+    "source": {"title": "MMAC notice: DME and CDS new enrollment moratoria (posted 24 Jul 2026)", "url": "https://mmac.mo.gov/?p=11413"}
+  },
+  {
+    "id": "twha-restored",
+    "date": "2026-08-28",
+    "title": "Ticket to Work Health Assurance is back",
+    "plain": "Ticket to Work Health Assurance is MO HealthNet for people with disabilities who work. Its law expired on 28 Aug 2025. A new law, HB 2372, brought it back from 28 Aug 2026, with no end date. If a worker has a spend down, ask the Family Support Division about this program.",
+    "pro": "HB 2372 (2026), signed 13 Jul 2026, effective 28 Aug 2026, re-enacted RSMo 208.146 with no expiration clause; the earlier text expired 28 Aug 2025. Program: age 16-64; earnings with FICA withheld; gross limit $3,990 for one person (from 1 Apr 2026); resources $6,220.50 for one person (from 1 Jul 2026); monthly premium $0 to $200 for one person; report changes within 10 days. FSD 855-373-9994.",
+    "programs": ["twha", "mhn-spend-down", "ssa-work-incentives"],
+    "source": {"title": "RSMo 208.146, effective 28 Aug 2026", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=208.146"}
+  },
+  {
+    "id": "iep-transition-8th-grade",
+    "date": "2026-07-30",
+    "title": "IEP transition planning will start earlier",
+    "plain": "A new Missouri special education plan took effect on 30 Jul 2026. From the 2027-28 school year, transition services must be in the IEP before the student leaves 8th grade. Until then, the rule is the IEP in effect at age 16.",
+    "pro": "DESE State Plan for Special Education, Part B, effective 30 Jul 2026. Regulation IV: transition services by the first IEP in effect at 16; 'Effective the 2027-28 school year, postsecondary transition services must be included in the IEP before the student exits eighth grade, or younger if determined appropriate by the IEP team.' From 2027-28, every IEP student in grade 8 or above needs a transition plan.",
+    "programs": ["iep-transition"],
+    "source": {"title": "DESE State Plan for Special Education", "url": "https://dese.mo.gov/state-plan-special-education"}
+  },
+  {
+    "id": "able-age-46",
+    "date": "2026-01-01",
+    "title": "ABLE accounts: age limit raised to 46",
+    "plain": "Since 1 Jan 2026, a person can open an ABLE account if the disability started before age 46. Before, the limit was 26. ABLE savings do not count for MO HealthNet. The first $100,000 does not count for SSI.",
+    "pro": "ABLE onset age before 46 from 2026; before 2026, age 26 (26 USC 529A(e); POMS SI 01130.740). 2026 annual contribution limit $20,000 from all sources (Rev. Proc. 2025-32, section 4.34). SSI excludes the first $100,000; excluded for Medicaid. The state may file a Medicaid payback claim at death, after qualified expenses.",
+    "programs": ["able-account"],
+    "source": {"title": "SSA POMS SI 01130.740, ABLE accounts", "url": "https://secure.ssa.gov/poms.nsf/lnx/0501130740"}
+  },
+  {
+    "id": "snap-fy2027-limits",
+    "date": "2026-10-01",
+    "title": "SNAP income limits went up",
+    "plain": "New SNAP limits started on 1 Oct 2026. For one person, the limits are now $1,729 a month gross and $1,330 net. The state chart still shows the old, lower limits. Apply even if the old chart says no.",
+    "pro": "USDA FNS FY2027 cost-of-living adjustments (48 states), 1 person: gross $1,729 a month, net $1,330; 2 people: gross $2,345, net $1,804. Maximum allotment for 1 person: $306. The DSS chart 'as of 10/01/2026' still shows the FY2026 limits ($1,696 gross, $1,305 net). Asset limit $4,750 for a household with a member 60 or older or disabled.",
+    "programs": ["snap"],
+    "source": {"title": "USDA FNS, SNAP FY 2027 Cost-of-Living Adjustments", "url": "https://www.fns.usda.gov/snap/allotment/cola"}
+  }
+]

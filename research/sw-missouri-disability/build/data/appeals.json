@@ -1,0 +1,119 @@
+[
+  {
+    "agency": "DMH Division of Developmental Disabilities: eligibility",
+    "decision": {"plain": "Found not eligible for DD services, or no longer eligible.", "pro": "Denial of eligibility, or discharge after reassessment (9 CSR 45-2.020)."},
+    "deadline": {"plain": "30 days from the date on the letter. Then 30 days to ask for a hearing with a referee. If you hire a lawyer, tell the Regional Office within 10 days.", "pro": "Step 1: 30 calendar days to appeal to regional office staff, verbally or in writing. The rule counts from receipt and the DDD sheet from the notice; count from the notice date (the shorter period). Regional director decides within 10 business days. Step 2: 30 calendar days from that decision to request an appeals referee; hearing within 60 calendar days; decision within 30 calendar days of the hearing. Step 3: circuit court under RSMo Chapter 536. Counsel must notify the head of the regional office within 10 calendar days of being retained (9 CSR 45-2.020(3)(C)6.A); the DDD sheet says 10 business days; use 10 calendar days, the shorter period."},
+    "keep_benefits": {"plain": "Yes. Current services do not stop until the appeals are over.", "pro": "No reduction or termination until appeal procedures are exhausted (9 CSR 45-2.020(3)(E)). Notice must come at least 30 calendar days before the action."},
+    "first_step": {"plain": "Call or write the Regional Office: Springfield 417-895-7400 or Joplin 417-629-3020. Mo P&A helps for free at 1-800-392-8667.", "pro": "Verbal or written appeal to regional office staff. DDD names Mo P&A (1-800-392-8667) as free help."},
+    "source": {"title": "9 CSR 45-2.020", "url": "https://www.sos.mo.gov/cmsimages/adrules/csr/current/9csr/9c45-2.pdf"},
+    "confidence": "High"
+  },
+  {
+    "agency": "DMH Division of Developmental Disabilities: services and waivers",
+    "decision": {"plain": "A plan request is denied, cut, or changed. A waiver service is denied.", "pro": "Utilization Review denial, reduction, or modification of an ISP service; denial of a waiver service (9 CSR 45-2.017)."},
+    "deadline": {"plain": "To the Regional Director: 30 days from the date on the letter. Or a MO HealthNet hearing: 90 days from the notice. Starting the MO HealthNet hearing ends the DMH appeal.", "pro": "DMH track: 30 calendar days from the decision letter; decision in 10 business days (9 CSR 45-2.017(9)); referee steps under 9 CSR 45-2.020(3)(C) when the decision rests on eligibility or adversely affects a waiver service. DSS track: written request within 90 calendar days of written notice (9 CSR 45-2.017(10)(A)), before, during, or after the DMH process; once started, DMH appeal rights end."},
+    "keep_benefits": {"plain": "Yes for current services, if you appeal on time. To be safe, appeal before the change starts and within 10 days. You may have to pay back if you lose.", "pro": "Services under an existing ISP continue pending a timely appeal; repayment possible if upheld (9 CSR 45-2.017(11)). Federal rules tie continuation to an appeal before the date of action (42 CFR 431.230, 431.231). The rule and federal law differ; use the shorter: appeal before the effective date and within 10 days of the notice."},
+    "first_step": {"plain": "Tell the Regional Director by phone or in writing. Or write to MO HealthNet, PO Box 6500, Jefferson City, MO 65102-6500. Phone 1-800-392-2161.", "pro": "Regional director (verbal or written); or MO HealthNet Division, Constituent Services Unit, PO Box 6500, Jefferson City, MO 65102-6500, 1-800-392-2161."},
+    "source": {"title": "9 CSR 45-2.017", "url": "https://www.sos.mo.gov/cmsimages/adrules/csr/current/9csr/9c45-2.pdf"},
+    "confidence": "High"
+  },
+  {
+    "agency": "MO HealthNet (Family Support Division and MO HealthNet Division)",
+    "decision": {"plain": "An application is denied. Coverage or a service is cut or stopped. The spend down amount is wrong. No answer on an application for a long time.", "pro": "Denied application; closure or reduction of coverage or services; spend down or cost-sharing amount; failure to act with reasonable promptness (42 CFR 431.220(a)(1); RSMo 208.080.1(2))."},
+    "deadline": {"plain": "Cut or stop: 10 days from the date on the notice to keep coverage, otherwise 90 days. Denied application: 90 days from the date on the notice.", "pro": "RSMo 208.080.3: 10 days from the mailing date to keep benefits; 208.080.4: 90 days after closing; 208.080.5: 90 days from notice for a denied application. The DSS hearings page counts 10 and 90 days from the date on the Action Notice. Use the date on the notice, the shorter period. Federal ceiling: 90 days from mailing (42 CFR 431.221(d)). Circuit court: 90 days from the director's decision (RSMo 208.100); no bond or docket fee."},
+    "keep_benefits": {"plain": "Yes, if the person has coverage now and you ask within 10 days. No for a new application. You may have to pay back if you lose.", "pro": "Continued benefits only on a timely request by a current recipient (RSMo 208.080.3); applicants get none pending the hearing; recovery possible after a lost appeal (42 CFR 431.230(b)). Without proper advance notice, reinstatement on request within 10 days of receipt, presumed 5 days after the notice date (42 CFR 431.231(c))."},
+    "first_step": {"plain": "Ask FSD or MO HealthNet for a hearing, by phone or in writing. Keep a copy and write down the date.", "pro": "Oral or written request to FSD or MHD (RSMo 208.080.8). DSS Benefit Hearings Unit: Central 573-751-0335, Western 816-325-5918 (the unit for SW Missouri is not stated)."},
+    "source": {"title": "RSMo 208.080", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=208.080"},
+    "confidence": "High"
+  },
+  {
+    "agency": "Family Support Division Action Notice (SNAP, MO HealthNet, Child Care, Temporary Assistance)",
+    "decision": {"plain": "Any FSD Action Notice that denies, cuts, or stops a benefit.", "pro": "Any FSD Action Notice for SNAP, MO HealthNet, Child Care, or Temporary Assistance."},
+    "deadline": {"plain": "90 days from the date on the Action Notice.", "pro": "DSS: 90 days from the date shown on the Action Notice to ask for a hearing. RSMo 208.080 counts some periods from the mailing date or closing; the notice date gives the same or a shorter period, so use it."},
+    "keep_benefits": {"plain": "Yes, if you ask within 10 days of the date on the Action Notice.", "pro": "DSS: ask within 10 days from the date shown on the Action Notice to keep benefits during the hearing. RSMo 208.080.3 counts from the mailing date; the notice date is the shorter, safer period."},
+    "first_step": {"plain": "Ask FSD for a hearing as the notice explains. The FSD Information Line is 855-373-4636.", "pro": "Request a hearing as stated on the Action Notice. FSD Information Line 855-373-4636."},
+    "source": {"title": "DSS Hearings Information", "url": "https://dss.mo.gov/hearings-information"},
+    "confidence": "High"
+  },
+  {
+    "agency": "DHSS Division of Senior and Disability Services (in-home care)",
+    "decision": {"plain": "In-home care, consumer-directed care, or a DHSS waiver is denied, cut, or stopped. A waiting list notice.", "pro": "Denial, reduction, or closure of HCBS, CDS, or a DHSS waiver; Independent Living Waiver waiting list number."},
+    "deadline": {"plain": "Cut or stop: 10 calendar days from the mailing date to keep services. New denial or waiting list: 90 calendar days.", "pro": "DHSS HCBS Manual 6.00: 10 calendar days from the mail date of the Adverse Action Notice to keep services; 90 calendar days for an initial denial or an ILW waiting list number. The DSS state hearing form says 10 business days; use 10 calendar days, the shorter period (conflict not resolved by the fact check)."},
+    "keep_benefits": {"plain": "Yes for current services, if you ask within 10 calendar days. No for a new denial. You may owe for services if you lose.", "pro": "Services continue at the current level on a timely request; none pending for initial denials; the participant or estate may be liable if DSDS wins (Manual 6.00)."},
+    "first_step": {"plain": "Tell DSDS staff by phone or in writing. DSDS must check the request with the person or guardian, so answer their calls.", "pro": "Verbal or written request to DSDS; anyone may ask, but DSDS confirms with the participant or guardian (3 contact attempts on 3 business days, else not processed); supervisor review within 3 business days; DSS Division of Legal Services holds the hearing. HCBS Call Center 866-835-3505."},
+    "source": {"title": "DHSS HCBS Manual 6.00, Appeal and Hearing Process", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/600-appeal-and-hearing-process"},
+    "confidence": "Medium"
+  },
+  {
+    "agency": "Social Security Administration (SSI, SSDI, CDB)",
+    "decision": {"plain": "SSI, SSDI, or CDB is denied, stopped, or cut. The age 18 review. An overpayment. The choice of a payee.", "pro": "Initial determinations including denial, cessation, age-18 redetermination, overpayment, and representative payee use or choice (20 CFR 416.1402)."},
+    "deadline": {"plain": "60 days to appeal. To keep payments, appeal within 10 days. Count from the date on the letter to be safe.", "pro": "60 days after receipt at each level: reconsideration (20 CFR 416.1409), ALJ hearing (416.1433), Appeals Council (416.1468), federal court (422.210(c)); receipt presumed 5 days after the notice date (416.1401). Counting from the notice date gives the shorter period. Late filing needs good cause (416.1411)."},
+    "keep_benefits": {"plain": "SSI: yes, if you appeal within 10 days. SSDI or CDB stopped for health reasons: yes, if you ask within 10 days. You may owe it back if you lose.", "pro": "SSI: continuation if the appeal is filed within 10 days after receipt (416.1336(b)); may become an overpayment; can be waived in writing (416.1336(c)). SSDI and CDB medical cessation: elect continuation within 10 days after receipt (404.1597a(f), (g)). Payee: appointment delayed if protested within 10 days after receipt (416.630(b)(2))."},
+    "first_step": {"plain": "Ask for reconsideration online at ssa.gov, by phone, or at a Social Security office.", "pro": "Request reconsideration online, by phone, or at a field office; ask for continued payments in the same request."},
+    "source": {"title": "20 CFR 416.1336", "url": "https://www.ecfr.gov/current/title-20/section-416.1336"},
+    "confidence": "High"
+  },
+  {
+    "agency": "School district (special education, IDEA)",
+    "decision": {"plain": "The IEP, transition plan, evaluation, placement, eligibility, or graduation.", "pro": "Any IDEA matter: identification, evaluation, placement, FAPE, transition services, graduation (a change in placement)."},
+    "deadline": {"plain": "State complaint: within 1 year of the problem. Due process: within 2 years. Call to confirm the deadline with DESE or Mo P&A.", "pro": "State complaint: violation not more than 1 year before receipt (34 CFR 300.153; DESE Regulation V); DESE investigates within 60 calendar days. Due process: within 2 years of when the parent or agency knew or should have known (34 CFR 300.511(e)); resolution meeting within 15 days; 30-day resolution period; decision within 45 days after it. Civil action within 45 days, state court (RSMo Chapter 536) or federal court (Regulation V). The fact check did not re-check the Regulation V deadlines."},
+    "keep_benefits": {"plain": "Yes for due process. The student stays in the current placement.", "pro": "Stay put (34 CFR 300.518). After 18, these rights belong to the student unless a court has declared the student incompetent."},
+    "first_step": {"plain": "Write to DESE with a state complaint, or ask for due process. Mediation is also possible.", "pro": "Written state complaint to DESE (copy to the district) or a due process complaint; mediation available."},
+    "source": {"title": "DESE Regulation V (2026)", "url": "https://dese.mo.gov/sites/g/files/zuston521/files/media/pdf/2026/07/Regulation%20V%20Procedural%20Safeguards%20Discipline.pdf"},
+    "confidence": "Low"
+  },
+  {
+    "agency": "Missouri Vocational Rehabilitation (MVR, DESE)",
+    "decision": {"plain": "Not eligible, the wait list category, the job plan, or a cut in services.", "pro": "Eligibility, order of selection category (5 CSR 20-500.160(4)), IPE content, reduction or end of services."},
+    "deadline": {"plain": "You can ask for a review or hearing at any time. After a hearing decision, you have 20 days to appeal.", "pro": "No request deadline (5 CSR 20-500; brochure: a hearing may be requested at any time). Informal review within 20 days of request; hearing within 60 days of request; decision within 30 days; 20 days from mailing of the decision to request Commissioner review (VR Due Process Brochure 2026/04; 34 CFR 361.57)."},
+    "keep_benefits": {"plain": "Yes for services in the current job plan, unless you ask to stop them.", "pro": "Services under an existing IPE continue (5 CSR 20-500.170(4); 34 CFR 361.57(b)(4))."},
+    "first_step": {"plain": "Tell the counselor, or email info@vr.dese.mo.gov. The Client Assistance Program helps for free at 1-800-392-8667.", "pro": "Counselor or district supervisor; info@vr.dese.mo.gov; VR Central Office 573-751-3251 or 1-877-222-8963; CAP at Mo P&A, 925 S. Country Club Drive, Jefferson City, MO 65109, 800-392-8667."},
+    "source": {"title": "MVR Due Process Brochure (2026/04)", "url": "https://dese.mo.gov/sites/g/files/zuston521/files/media/pdf/2026/04/VR-DueProcessBrochureACC.pdf"},
+    "confidence": "High"
+  },
+  {
+    "agency": "Rehabilitation Services for the Blind (RSB)",
+    "decision": {"plain": "Any RSB job services decision.", "pro": "Any VR determination by RSB."},
+    "deadline": {"plain": "Ask in writing within 90 days of the decision date.", "pro": "Review request in writing within 90 days of the determination date (RSB Client Handbook; RSB VR Policy Manual ch. 23, citing 13 CSR 40-91.020); mediation within 60 days; due process hearing within 60 calendar days of the request. RSB has a 90-day limit; MVR has none."},
+    "keep_benefits": {"plain": "Yes. Services continue during mediation or a hearing, unless you ask to stop them.", "pro": "Services not reduced, suspended, or ended pending mediation or hearing, unless the person asks or fraud is shown (34 CFR 361.57(b)(4))."},
+    "first_step": {"plain": "Write to RSB and ask for a review. Call 800-592-6004 for the address. The Client Assistance Program helps for free at 1-800-392-8667.", "pro": "Written request to RSB (the mailing address in file 04 came from an old memo and is omitted); CAP 1-800-392-8667."},
+    "source": {"title": "RSB Client Handbook", "url": "https://dss.mo.gov/fsd/rsb/rsb-client-handbook"},
+    "confidence": "High"
+  },
+  {
+    "agency": "City Utilities Access Express (paratransit, Springfield)",
+    "decision": {"plain": "Not eligible, or eligible for some trips only. A suspension for missed rides.", "pro": "ADA paratransit eligibility denial or conditional eligibility; no-show suspension."},
+    "deadline": {"plain": "Eligibility: 60 days from the letter. A suspension has a shorter deadline. Call Access Express to confirm it.", "pro": "Eligibility appeal within 60 days (Access Express Policies and Procedures, updated 7/1/2025; 49 CFR 37.125(g)). The second-level appeal to the Ozarks Transportation Organization and the suspension appeal period were not verified by the fact check and are omitted."},
+    "keep_benefits": {"plain": "No rides during an eligibility appeal. If no decision comes within 30 days after the appeal, you get rides until a decision.", "pro": "No service required during an eligibility appeal; service required if there is no decision within 30 days after the appeal process is complete (49 CFR 37.125(g); CU policy)."},
+    "first_step": {"plain": "Write to the Access Express Coordinator. Call Customer Service at 417-831-8782 for the address and help.", "pro": "Letter from the rider or a physician to the Access Express Coordinator, City Utilities Transit Services. Customer Service 417-831-8782."},
+    "source": {"title": "Access Express Policies and Procedures (7/1/2025)", "url": "https://mo-springfieldutilities.civicplus.com/DocumentCenter/View/343/Access-Express-Policies-and-Procedures-PDF?bidId="},
+    "confidence": "Medium"
+  },
+  {
+    "agency": "Probate court (guardianship and conservatorship)",
+    "decision": {"plain": "A guardian or conservator is appointed. The court refuses to give back rights.", "pro": "Order appointing a guardian or conservator; denial of restoration."},
+    "deadline": {"plain": "Very short. Talk to the person's court-appointed lawyer right away. Call to confirm the deadline. You can ask to restore rights at any time.", "pro": "Notice of appeal within 10 days after the judgment becomes final, usually 30 days after entry (Mo. Sup. Ct. Rules 81.04, 81.05; secondary summary, not verified). Restoration petition any time, even by informal letter (RSMo 475.083.4); a contested one not more than once every 180 days (475.083.6)."},
+    "keep_benefits": {"plain": "The guardianship stays in place during an appeal.", "pro": "The order remains in force pending appeal."},
+    "first_step": {"plain": "Ask the court-appointed lawyer to file an appeal. The person can also write to the court to ask for rights back.", "pro": "Respondent's counsel files the notice of appeal (475.075.10); the ward may send an informal letter seeking restoration (475.083.4)."},
+    "source": {"title": "RSMo 475.083", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=475.083"},
+    "confidence": "Low"
+  },
+  {
+    "agency": "County DD board (SB40 board)",
+    "decision": {"plain": "A county board says no, or limits a service.", "pro": "Denial or limit of a board-funded service."},
+    "deadline": {"plain": "State law sets no appeal right or deadline. Ask the board for its written policy.", "pro": "No statutory appeal right (RSMo 205.968.2; 205.970.5). Stone County has a written route: Executive Director, 417-449-5160."},
+    "keep_benefits": {"plain": "Not stated. Ask the board.", "pro": "Not addressed in statute."},
+    "first_step": {"plain": "Ask the board director for the appeal policy in writing.", "pro": "Request the board's written grievance or appeal policy."},
+    "source": {"title": "RSMo 205.968", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=205.968"},
+    "confidence": "High"
+  },
+  {
+    "agency": "Civil rights agencies (ADA, Section 504, fair housing)",
+    "decision": {"plain": "Unfair treatment because of disability by a public program, a funded program, or a landlord.", "pro": "Disability discrimination by a public entity (ADA Title II), a federally funded program (Section 504), or a housing provider (Fair Housing Act)."},
+    "deadline": {"plain": "Government programs: 180 days. Housing: 1 year with HUD, or 2 years in court. Missouri Commission on Human Rights: 180 days.", "pro": "ADA Title II complaint within 180 days unless extended for good cause (28 CFR 35.170(b)); HUD within 1 year (42 USC 3610(a)(1)(A)(i)); fair housing suit within 2 years (42 USC 3613(a)(1)(A)); MCHR verified complaint within 180 days (RSMo 213.075.1; housing filing rules not checked). A Title II or 504 lawsuit needs no administrative complaint first."},
+    "keep_benefits": {"plain": "Does not apply.", "pro": "Not applicable."},
+    "first_step": {"plain": "Call Mo P&A at 1-800-392-8667 for advice. Then file with the right agency.", "pro": "File with DOJ or a federal funding agency (Title II, 504), HUD or a certified agency (housing), or MCHR."},
+    "source": {"title": "28 CFR 35.170", "url": "https://www.ecfr.gov/current/title-28/section-35.170"},
+    "confidence": "High"
+  }
+]

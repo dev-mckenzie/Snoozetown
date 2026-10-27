@@ -104,6 +104,7 @@ input[type="number"]{width:7rem}
 .group{display:grid;gap:.6rem}
 .group>h3{display:flex;gap:.5rem;align-items:baseline;flex-wrap:wrap}
 .count{font-size:var(--s-1);font-weight:700;color:var(--muted)}
+.subcat{font-size:var(--s-1);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-top:.6rem;padding-bottom:.25rem;border-bottom:1px solid var(--line)}
 .example-note{background:var(--accent-soft);border-radius:var(--radius);padding:.6rem .85rem;font-weight:700}
 
 /* Cards */
@@ -486,8 +487,18 @@ function renderResults(scroll){
   if (alerts.length) html += '<div class="group"><h3>Recent changes that affect this person</h3>' + alerts.map(alertHtml).join('') + '</div>';
   function group(title, items, status, note){
     if (!items.length) return '';
-    return '<div class="group"><h3>' + esc(title) + ' <span class="count">' + items.length + '</span></h3>' + (note ? '<p class="muted">' + esc(note) + '</p>' : '') +
-      items.map(function(m){ var p = m.p || m; return card(p, {status: status || (m.r === 'yes' ? 'yes' : 'maybe'), next:true, county:county, idPrefix:'r-'}); }).join('') + '</div>';
+    var one = function(m){ var p = m.p || m; return card(p, {status: status || (m.r === 'yes' ? 'yes' : 'maybe'), next:true, county:county, idPrefix:'r-'}); };
+    var body;
+    if (items.length > 8) {
+      /* A long list is easier to scan by topic. */
+      body = Object.keys(CATS).map(function(k){
+        var sub = items.filter(function(m){ return (m.p || m).category === k; });
+        return sub.length ? '<h4 class="subcat">' + esc(CATS[k]) + ' <span class="count">' + sub.length + '</span></h4>' + sub.map(one).join('') : '';
+      }).join('');
+    } else {
+      body = items.map(one).join('');
+    }
+    return '<div class="group"><h3>' + esc(title) + ' <span class="count">' + items.length + '</span></h3>' + (note ? '<p class="muted">' + esc(note) + '</p>' : '') + body + '</div>';
   }
   html += group('1. Do these first', first, null, 'Other programs need these steps first. Start here.');
   html += group('2. Programs that may fit', likely, 'yes');
