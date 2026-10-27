@@ -1,0 +1,2181 @@
+[
+{
+  "id": "iep-transition",
+  "name": "IEP transition plan (school)",
+  "category": "school",
+  "order": 100,
+  "summary": {
+    "plain": "The school must help a student with an IEP plan for work, school, and daily life after high school.",
+    "pro": "IDEA Part B and the Missouri State Plan for Special Education (Regulation IV, revised July 2026, effective 30 Jul 2026) require measurable postsecondary goals and transition services in the IEP by the first IEP in effect at age 16, and before exit from grade 8 from the 2027-28 school year."
+  },
+  "who": {
+    "plain": "Students with an IEP. The IEP is the student's special education plan. The plan must have transition goals by age 16. From the 2027-28 school year, it must have them before the student leaves 8th grade.",
+    "pro": "Students with an IEP. Transition services are required 'beginning not later than the first IEP to be in effect when the student turns 16, or younger if determined appropriate by the IEP team, and updated annually thereafter.' 'Effective the 2027-28 school year, postsecondary transition services must be included in the IEP before the student exits eighth grade' (Regulation IV). The plan needs measurable postsecondary goals based on age-appropriate transition assessments (training, education, employment, and where appropriate independent living skills), plus the transition services and courses of study needed. Students with only a 504 plan do not get an IDEA transition plan but can get Pre-ETS."
+  },
+  "steps": {
+    "plain": [
+      "Ask the IEP case manager for an IEP meeting about transition.",
+      "Ask for the transition assessment results in writing.",
+      "Check that the plan has goals for work, school, and daily living.",
+      "Sign consent so the school can invite adult agencies, such as Vocational Rehabilitation (VR).",
+      "Ask the school to refer the student to Pre-ETS job training.",
+      "At age 17, check that the IEP says school rights move to the student at 18."
+    ],
+    "pro": [
+      "Request in writing an IEP meeting that addresses postsecondary transition. Ask for the age-appropriate transition assessment results and the transition page (Missouri IEP Form C).",
+      "With written consent of the parent (or the student at 18), the school must invite a representative of any agency 'likely to be responsible for providing or paying for transition services', for example MVR, RSB (blind or low vision), and DMH DD (if eligible).",
+      "If an outside agency fails to deliver a transition service in the IEP, the school must reconvene the IEP team 'to identify alternative strategies.'",
+      "Rights transfer notice: 'Beginning not later than one year before the student reaches age 18', the IEP must state that rights will transfer at the age of majority. Rights transfer at 18 unless a court has declared the student incompetent (Regulation V, section L).",
+      "Refer to Pre-ETS early (ages 14 to 21, IEP or 504). Pre-ETS started before a VR eligibility decision continues even if the student is later placed in a closed VR category."
+    ]
+  },
+  "bring": ["The current IEP", "Transition assessment results", "The latest school evaluation"],
+  "wait": {
+    "plain": "The plan must be in the IEP that is in effect when the student turns 16. The school updates it every year.",
+    "pro": "By the first IEP in effect at 16 (current rule); before exit from grade 8 from the 2027-28 school year; updated annually."
+  },
+  "cost": "Free",
+  "watch_out": {
+    "plain": [
+      "Goals copied from a template do not help. Ask for goals based on real assessments.",
+      "No agency gets invited unless someone signs consent. Ask about consent at each IEP meeting.",
+      "At 18, school rights move to the student unless a court has named a guardian. The student can invite a parent to meetings.",
+      "Students with only a 504 plan do not get a transition plan. They can still get Pre-ETS."
+    ],
+    "pro": [
+      "Common failures: goals not based on assessment; no agency invited because consent was never asked; Summary of Performance missing or too thin to use for VR or college disability services.",
+      "At 18 'All other rights accorded to parents under Part B of IDEA transfer to the student'; the school sends notices to both student and parents (Regulation V, section L). See the guardianship and supported decision-making cards before choosing a legal path."
+    ]
+  },
+  "appeal": {
+    "plain": "You can ask for mediation, file a state complaint, or ask for a hearing. Deadlines apply, so act soon. Ask the school for the procedural safeguards notice. Free help: Missouri Protection and Advocacy, 800-392-8667.",
+    "pro": "IDEA procedural safeguards under DESE State Plan Regulation V: state complaint, mediation, due process hearing. Check the Regulation V time limits before filing. Mo P&A 800-392-8667."
+  },
+  "alert": "New rule: from the 2027-28 school year, transition services must be in the IEP before the student leaves 8th grade (State Plan effective 30 Jul 2026).",
+  "requires": [],
+  "rule": {"all": [{"q": "school", "op": "in", "v": ["iep"]}, {"q": "age", "op": "<=", "v": 21}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "Springfield Public Schools Special Services", "phone": "417-523-7501", "address": "1610 E. Sunshine, Springfield", "url": "https://www.sps.org/academics-programs/special-education-services", "counties": ["greene"], "note": "For students in Springfield Public Schools. In other districts, call the district special education office."}
+  ],
+  "sources": [
+    {"title": "DESE State Plan for Special Education (Part B effective 30 Jul 2026)", "url": "https://dese.mo.gov/state-plan-special-education"},
+    {"title": "Regulation IV, FAPE, IEP, LRE (revised July 2026)", "url": "https://dese.mo.gov/sites/g/files/zuston521/files/media/pdf/2026/07/Regulation%20IV%20-%20FAPE%20IEP%20LRE%20-%20REVISED.pdf"},
+    {"title": "Regulation V, Procedural Safeguards", "url": "https://dese.mo.gov/media/pdf/regulation-v-procedural-safeguardsdiscipline-state-plan-special-education-part-b"},
+    {"title": "RSMo 162.675", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=162.675"},
+    {"title": "SPS Special Education Services", "url": "https://www.sps.org/academics-programs/special-education-services"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "school-exit",
+  "name": "Leaving school: the diploma and age 21",
+  "category": "school",
+  "order": 105,
+  "summary": {
+    "plain": "A regular diploma ends school services. Get adult services ready before the student takes the diploma.",
+    "pro": "FAPE ends at a regular high school diploma or at age 21 (State Plan Regulation IV; RSMo 162.675). A certificate of attendance, an HSE, or a ceremony without a regular diploma does not end FAPE before 21. Graduation with a regular diploma is a change in placement that requires prior written notice."
+  },
+  "who": {
+    "plain": "Students with an IEP, age 16 and older. Also young people under 21 who left school with a certificate, not a regular diploma.",
+    "pro": "FAPE is not required for 'Youth with disabilities who reach the age of 21' or for students who graduate 'with a regular high school diploma.' Students who 'participated in a graduation ceremony' or got an HSE 'but have not been awarded a regular high school diploma, continue to be eligible to receive FAPE if they are under twenty-one (21) years of age' (Regulation IV). The State Plan does not say whether a student who turns 21 may finish the term."
+  },
+  "steps": {
+    "plain": [
+      "Make a list of what must be ready before the student leaves school.",
+      "Apply to Vocational Rehabilitation (VR) by the end of junior year.",
+      "Ask VR to write the job plan (IPE) before the student leaves school.",
+      "Ask for a new school evaluation while the student is still eligible.",
+      "Ask for the Summary of Performance in writing.",
+      "If adult services are not ready, ask the IEP team to delay the diploma."
+    ],
+    "pro": [
+      "Exit checklist before a regular diploma: IPE signed, DMH DD eligibility decided, SSI application at 18 filed, decision-making supports in place, Summary of Performance received, adult health providers named.",
+      "The IPE must be developed within 90 days of VR eligibility and before the student exits school (VR-SEA Transition Agreement FY26).",
+      "No new evaluation is required at exit, but a parent can request one while the student is still eligible (Regulation III).",
+      "Summary of Performance: required when eligibility ends by regular diploma or age 21, with 'recommendations on how to assist the student in meeting the student's post secondary goals' (Regulation III). It is often the only current evidence for VR, college accommodations, DD eligibility, and SSA.",
+      "Graduation with a regular diploma 'constitutes a change in placement, requiring prior written notice' (Regulation IV), so the family can dispute it before it is issued."
+    ]
+  },
+  "bring": ["The current IEP", "The latest school evaluation", "The Summary of Performance (at exit)"],
+  "wait": {
+    "plain": "School services can last until age 21 if the student does not take a regular diploma.",
+    "pro": "FAPE to age 21 without a regular diploma. The exact last day at 21 (birthday or end of term) is not stated in the State Plan."
+  },
+  "cost": "Free",
+  "watch_out": {
+    "plain": [
+      "A regular diploma ends all school services that day. This includes transition help and school rides.",
+      "A certificate of attendance is not a regular diploma. The student can still get school services until 21.",
+      "The rules do not say if a student who turns 21 can finish the school year. Ask your district in writing.",
+      "Keep copies of all IEPs and evaluations. They help prove the disability later."
+    ],
+    "pro": [
+      "What stops at exit: special education and related services (speech, OT, PT, counseling, school nursing), school transportation, the school's duty to coordinate agencies and reconvene the IEP, IDEA procedural rights, school-owned AT, and Pre-ETS (unless the student is 21 or under and enrolled in postsecondary education).",
+      "DMH DD eligibility for a developmental disability requires onset before 22. School records are key evidence; keep them."
+    ]
+  },
+  "appeal": {
+    "plain": "If you disagree with a planned diploma, object in writing before it is issued. The school must give written notice first.",
+    "pro": "A regular diploma is a change of placement requiring prior written notice (Regulation IV). Dispute through IDEA procedural safeguards (Regulation V)."
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 16}, {"q": "age", "op": "<=", "v": 21}, {"q": "school", "op": "in", "v": ["iep", "left"]}]},
+  "counties": "all",
+  "contacts": [],
+  "sources": [
+    {"title": "Regulation IV, FAPE, IEP, LRE (revised July 2026)", "url": "https://dese.mo.gov/sites/g/files/zuston521/files/media/pdf/2026/07/Regulation%20IV%20-%20FAPE%20IEP%20LRE%20-%20REVISED.pdf"},
+    {"title": "Regulation III, Identification and Evaluation", "url": "https://dese.mo.gov/media/pdf/regulation-iii-identification-and-evaluation-state-plan-special-education-part-b"},
+    {"title": "RSMo 162.675", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=162.675"},
+    {"title": "VR-SEA Transition Agreement FY26", "url": "https://dese.mo.gov/adult-learning-rehabilitation-services/vocational-rehabilitation/media/pdf/state-educational-agency-transition-agreement"},
+    {"title": "MVR School to Work Transition Checklist (10/2025)", "url": "https://dese.mo.gov/media/pdf/vr-school-work-checklist"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "pre-ets",
+  "name": "Pre-Employment Transition Services (Pre-ETS)",
+  "category": "school",
+  "order": 110,
+  "summary": {
+    "plain": "Free job training for students with disabilities, ages 14 to 21. The VR wait list does not stop it.",
+    "pro": "Pre-ETS for students with disabilities ages 14 to 21 with an IEP, a 504 plan, or other disability documentation; available as 'potentially eligible' without a VR application and not subject to the MVR order of selection."
+  },
+  "who": {
+    "plain": "Students ages 14 to 21 with a disability. The student needs an IEP, a 504 plan, or other proof of disability. The student must be in high school, college, or another school program. A parent signs consent if the student is under 18.",
+    "pro": "A student with a disability 'not younger than age fourteen (14) and ... not older than twenty-one (21)' in a secondary, postsecondary, or other recognized education program, with an IEP, a 504 plan, or other documentation of disability (VR-SEA Transition Agreement FY26). 'Verification of potential eligibility must be provided (via presence of IEP, 504 plan, or documentation of another disability) prior to provision of services.' 'Parent/guardian must provide consent for Pre-ETS students under age 18.' The DESE Postsecondary Transition page labels Pre-ETS 'ages 16-21'; the signed agreement, the MVR overview sheet, and MU say 14 to 21. Blind or visually impaired students get Pre-ETS from RSB."
+  },
+  "steps": {
+    "plain": [
+      "Ask the school case manager to refer the student to Pre-ETS.",
+      "Sign and return the consent form if the student is under 18.",
+      "You can also call the VR office for your area to refer the student.",
+      "If the student is blind or has low vision, call RSB at 1-800-592-6004.",
+      "Apply to VR by the end of junior year."
+    ],
+    "pro": [
+      "The school case manager refers to the MU Pre-ETS specialist and the MVR counselor assigned to the district. Anyone may self-refer through MVR (toll-free 877-222-8963) or the local office.",
+      "MU Pre-ETS: 844-901-7387, pre-ets@umsystem.edu; regional contacts at pre-ets.missouri.edu/find-a-contact.",
+      "Five required activities: job exploration counseling; work-based learning experiences; counseling on comprehensive transition or postsecondary programs; workplace readiness training; instruction in self-advocacy (including peer mentoring).",
+      "Start Pre-ETS before the VR eligibility decision: Pre-ETS continues for students who got it before placement in a closed category (MVR State Plan modifications PY 2026-2027).",
+      "In junior year, ask the VR counselor about MVR Summer Work Experience: 'a paid, six-week, 20-hours-per-week work-based learning experience' for VR-eligible students."
+    ]
+  },
+  "bring": ["A copy of the IEP or 504 plan", "Signed consent and release forms (the school has them)"],
+  "wait": {
+    "plain": "There is no wait list. The VR wait list does not stop Pre-ETS.",
+    "pro": "Not subject to the order of selection for potentially eligible students. PY 2024: 'over 13,000 potentially eligible students received at least one pre-employment transition service.'"
+  },
+  "cost": "Free",
+  "watch_out": {
+    "plain": [
+      "Some schools never refer. Ask for Pre-ETS when the student turns 14.",
+      "Pre-ETS is for all students, not only students going to college.",
+      "Start Pre-ETS before you apply to VR. Then Pre-ETS can go on if VR puts the student on a wait list.",
+      "Pre-ETS stops after age 21."
+    ],
+    "pro": [
+      "Students headed for sheltered work should also be referred (VR-SEA agreement). Students in small rural districts may rarely see the MU specialist.",
+      "Pre-ETS does not replace an IPE. A student who waits until after graduation to apply to VR loses the Pre-ETS carryover protection."
+    ]
+  },
+  "appeal": {
+    "plain": "If VR says no, ask for a review. You can ask at any time. Free help: Client Assistance Program, 800-392-8667.",
+    "pro": "MVR due process applies (VR Due Process Brochure): informal review, mediation, hearing. CAP at Missouri Protection and Advocacy Services, 800-392-8667."
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 14}, {"q": "age", "op": "<=", "v": 21}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "MU Pre-ETS", "phone": "844-901-7387", "url": "https://pre-ets.missouri.edu/find-a-contact/", "note": "Email pre-ets@umsystem.edu. The web page lists regional contacts."},
+    {"label": "Missouri Vocational Rehabilitation (statewide)", "phone": "1-877-222-8963", "url": "https://dese.mo.gov/adult-learning-rehabilitation-services/vocational-rehabilitation/vr-offices", "note": "Ask for the counselor assigned to the student's school district."},
+    {"label": "Rehabilitation Services for the Blind (RSB)", "phone": "1-800-592-6004", "url": "https://dss.mo.gov/fsd/rsb/contact-us", "note": "For students who are blind or have low vision."}
+  ],
+  "sources": [
+    {"title": "VR-SEA Transition Agreement FY26 (signed 4 Nov 2025)", "url": "https://dese.mo.gov/adult-learning-rehabilitation-services/vocational-rehabilitation/media/pdf/state-educational-agency-transition-agreement"},
+    {"title": "VR Pre-ETS Overview Sheet", "url": "https://dese.mo.gov/media/pdf/vr-pre-ets-overview-sheet"},
+    {"title": "MVR Youth Services", "url": "https://dese.mo.gov/adult-learning-rehabilitation-services/vocational-rehabilitation/youth-services"},
+    {"title": "MU Pre-ETS, Find a Contact", "url": "https://pre-ets.missouri.edu/find-a-contact/"},
+    {"title": "MVR section, Combined State Plan modifications PY 2026-2027", "url": "https://dese.mo.gov/sites/g/files/zuston521/files/media/pdf/2026/02/VR-State_Plan_26-27_Mods_NG_Access_2.pdf"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "coop-work-experience",
+  "name": "Cooperative Work Experience Program (COOP)",
+  "category": "school",
+  "order": 120,
+  "summary": {
+    "plain": "A paid job during high school that earns school credit. The student must work with little support.",
+    "pro": "Local district program with MVR for students 16 and older with an IEP and an IPE; paid at least minimum wage in a competitive integrated job; supervised by a Work Experience Coordinator (WEC)."
+  },
+  "who": {
+    "plain": "High school students age 16 and older with an IEP. The student must be eligible for Vocational Rehabilitation (VR). The student must be able to work with little or no support.",
+    "pro": "Age 16 or older; IEP showing a need for competitive work experience; VR eligible with an IPE; able to work 'with limited to no support'; paid at least minimum wage in a competitive integrated job. Credit: 10 to 19 hours a week = 1.0 credit a semester; 20 or more hours = 2.0 credits; maximum 4.0 credits a school year; released from school at least one hour a day. The student provides own transportation (COOP At A Glance, DESE 2026)."
+  },
+  "steps": {
+    "plain": [
+      "Ask the high school if it has COOP and a work coordinator.",
+      "Ask the IEP team to add COOP to the IEP.",
+      "Let the coordinator set up the VR intake meeting.",
+      "Plan how the student will get to work.",
+      "Give pay stubs to the coordinator."
+    ],
+    "pro": [
+      "Confirm the building has a certified special education teacher approved as WEC.",
+      "Document COOP in the IEP. The WEC schedules the VR intake. A VR eligibility letter and an IPE are required.",
+      "Track hours for credit and give pay stubs to the WEC."
+    ]
+  },
+  "bring": ["VR eligibility letter", "Pay stubs (for the coordinator)"],
+  "wait": {
+    "plain": "VR must decide eligibility within 60 days. The VR wait list can add time.",
+    "pro": "Depends on VR eligibility (60 days, 34 CFR 361.41(b)(1)) and the order of selection."
+  },
+  "cost": "Free. The student earns wages.",
+  "watch_out": {
+    "plain": [
+      "Small or rural schools may have no coordinator.",
+      "The student must find a way to get to work.",
+      "Students who need a job coach may not fit COOP."
+    ],
+    "pro": [
+      "Requires VR eligibility. MVR Categories II and III have been closed since 9 Dec 2024, so a student outside Category I may not get an IPE in time."
+    ]
+  },
+  "appeal": {
+    "plain": "For IEP problems, use the school dispute options. For VR problems, ask VR for a review. Free help: 800-392-8667.",
+    "pro": "IEP disputes under IDEA (Regulation V); IPE disputes under MVR due process; CAP 800-392-8667."
+  },
+  "alert": "",
+  "requires": ["iep-transition", "vocational-rehab"],
+  "rule": {"all": [{"q": "school", "op": "in", "v": ["iep"]}, {"q": "age", "op": ">=", "v": 16}, {"q": "age", "op": "<=", "v": 21}]},
+  "counties": "all",
+  "contacts": [],
+  "sources": [
+    {"title": "COOP At A Glance (DESE, 2026)", "url": "https://dese.mo.gov/media/pdf/vr-coop-glance"},
+    {"title": "VR-SEA Transition Agreement FY26", "url": "https://dese.mo.gov/adult-learning-rehabilitation-services/vocational-rehabilitation/media/pdf/state-educational-agency-transition-agreement"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "sps-base-project",
+  "name": "B.A.S.E. Project (Springfield Public Schools)",
+  "category": "school",
+  "order": 130,
+  "summary": {
+    "plain": "A Springfield school program with class time and job shadowing for students age 16 and older with an IEP.",
+    "pro": "Springfield R-XII program for district students 16 and older with an IEP: about 3 hours of classroom work (practical academics, pre-employment training, daily living, self-advocacy, postsecondary options) and about 3 hours a day of job shadowing, rotating each quarter."
+  },
+  "who": {
+    "plain": "Students in Springfield Public Schools, age 16 and older, with an IEP.",
+    "pro": "District students '16-years of age or older' with an IEP (SPS B.A.S.E. page)."
+  },
+  "steps": {
+    "plain": [
+      "Ask the IEP case manager about B.A.S.E. at the IEP meeting near age 16.",
+      "Ask who the district's transition liaison is.",
+      "Call SPS Special Services at 417-523-7501 with questions."
+    ],
+    "pro": [
+      "Raise B.A.S.E. at the IEP in effect at 16.",
+      "Springfield R-XII has two Postsecondary Transition Liaisons on DESE's 2026-27 list. Other Region 7 districts with a liaison: Dallas County R-I, Aurora R-VIII, East Newton R-VI.",
+      "SPS Special Services, Roseann Bentley Administrative Center, 1610 E. Sunshine, Springfield; (417) 523-7501; district main line (417) 523-0000."
+    ]
+  },
+  "bring": ["The current IEP"],
+  "wait": {
+    "plain": "Not published. Ask the district.",
+    "pro": "Not published."
+  },
+  "cost": "Free",
+  "watch_out": {
+    "plain": [
+      "This is job shadowing, not a paid job.",
+      "Only Springfield Public Schools runs it. Other districts may have no program like it."
+    ],
+    "pro": [
+      "No Project SEARCH or Employer-Based Transition Training site was found in Southwest Missouri; MVR names EBTT partners only in North Kansas City, Park Hill, St. Joseph, and Hannibal. No public 18 to 21 program pages were found for Nixa, Ozark, Republic, or Willard.",
+      "The SPS Community Transition Guide (2018) has out-of-date agency addresses. Use it for concepts, not contacts."
+    ]
+  },
+  "appeal": {
+    "plain": "For IEP problems, use the school dispute options in the procedural safeguards notice.",
+    "pro": "IDEA procedural safeguards (Regulation V)."
+  },
+  "alert": "",
+  "requires": ["iep-transition"],
+  "rule": {"all": [{"q": "school", "op": "in", "v": ["iep"]}, {"q": "age", "op": ">=", "v": 16}, {"q": "age", "op": "<=", "v": 21}]},
+  "counties": ["greene"],
+  "contacts": [
+    {"label": "Springfield Public Schools Special Services", "phone": "417-523-7501", "address": "1610 E. Sunshine, Springfield", "url": "https://www.sps.org/academics-programs/special-education-services/base-project", "counties": ["greene"], "note": "District main line: 417-523-0000."}
+  ],
+  "sources": [
+    {"title": "SPS B.A.S.E. Project", "url": "https://www.sps.org/academics-programs/special-education-services/base-project"},
+    {"title": "SPS Special Education Services", "url": "https://www.sps.org/academics-programs/special-education-services"},
+    {"title": "DESE 2026-27 Postsecondary Transition Liaisons", "url": "https://dese.mo.gov/media/pdf/26-27-postsecondary-transition-liaisons"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "bear-power",
+  "name": "Bear POWER at Missouri State University",
+  "category": "school",
+  "order": 140,
+  "summary": {
+    "plain": "A college program in Springfield for students with intellectual and developmental disabilities. Students earn a certificate.",
+    "pro": "Missouri State University two-year, five-semester (excluding summer) nondegree certificate program for students with IDD after high school; students can live on campus."
+  },
+  "who": {
+    "plain": "Young adults with an intellectual or developmental disability who have finished high school. There are only a few seats each year.",
+    "pro": "Students with IDD after high school exit; admission process on the program site ('Take Your First Steps' checklist). Cohorts of about 8 to 11 (largest class, 11, reported in 2024). Current age range, cost, and federal Comprehensive Transition Program (Pell) status were not confirmed on official pages."
+  },
+  "steps": {
+    "plain": [
+      "Visit the Bear POWER web page.",
+      "Email BearPOWER@MissouriState.edu with your questions.",
+      "Ask about cost and money help before you apply.",
+      "Ask VR if it can help pay under a job plan."
+    ],
+    "pro": [
+      "Follow the 'Take Your First Steps' checklist at missouristate.edu/BearPOWER. Contact: BearPOWER@MissouriState.edu; university 417-836-5000; 901 S. National Ave., Springfield, MO 65897.",
+      "Confirm cost, housing, and Comprehensive Transition Program status (Pell eligibility) directly with the program.",
+      "MVR may fund some postsecondary costs under an IPE (comparable benefits first).",
+      "Other Missouri programs named in a 2024 governor's proclamation: UMSL Succeed, UCM THRIVE, MU PAWS. Think College has a national program search."
+    ]
+  },
+  "bring": [],
+  "wait": {
+    "plain": "Classes are small, about 8 to 11 students. Apply early.",
+    "pro": "Small cohorts (about 8 to 11)."
+  },
+  "cost": {
+    "plain": "Tuition and housing costs apply. Call to confirm the amount.",
+    "pro": "Tuition and housing apply; current cost not verified."
+  },
+  "watch_out": {
+    "plain": [
+      "Cost may be high. Ask early about money help.",
+      "It is a certificate program, not a college degree."
+    ],
+    "pro": [
+      "Federal aid status unclear. Bear POWER is the only inclusive college program found in Southwest Missouri."
+    ]
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"all": [{"q": "dis", "op": "has", "v": ["idd"]}, {"q": "age", "op": ">=", "v": 17}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "Bear POWER, Missouri State University", "phone": "417-836-5000", "url": "https://www.missouristate.edu/BearPower/", "note": "Main university line. Email BearPOWER@MissouriState.edu."}
+  ],
+  "sources": [
+    {"title": "Bear POWER home", "url": "https://www.missouristate.edu/BearPower/"},
+    {"title": "Bear POWER program details", "url": "https://www.missouristate.edu/BearPOWER/program-details.htm"},
+    {"title": "MSU blog, Oct 2024", "url": "https://blogs.missouristate.edu/education/2024/10/09/transforming-futures-bear-power-has-its-largest-class-in-history/"},
+    {"title": "Missouri governor's proclamation, 2024", "url": "https://governor.mo.gov/media/3691/download"}
+  ],
+  "confidence": "Medium",
+  "checked": "2026-10-27"
+},
+{
+  "id": "otc-access-resources",
+  "name": "OTC Access and Accommodation Resources",
+  "category": "school",
+  "order": 150,
+  "summary": {
+    "plain": "The office at Ozarks Technical Community College (OTC) that sets up accommodations for students with disabilities.",
+    "pro": "OTC Access & Accommodation Resources (AAR; older pages say Disability Support Services): accommodations under Section 504 and the ADA. College has no IEP and no modified curriculum."
+  },
+  "who": {
+    "plain": "OTC students with a disability. College does not use an IEP. The student must ask for help.",
+    "pro": "OTC students with disabilities at the Springfield, Richwood Valley, Table Rock, Lebanon, Republic, and Waynesville campuses and online. Documentation rules were not published on the pages checked."
+  },
+  "steps": {
+    "plain": [
+      "Contact the AAR office before the first term.",
+      "Bring the Summary of Performance from high school.",
+      "Bring the latest evaluation or diagnosis report.",
+      "Ask VR if it can help with tuition."
+    ],
+    "pro": [
+      "Springfield campus office: Information Commons East, Room ICE 110, 1001 East Chestnut Expressway, Springfield, MO 65802. College main line (417) 447-7500.",
+      "The Summary of Performance is often the only current documentation; a thin SOP causes delays.",
+      "MVR may help with tuition under an IPE."
+    ]
+  },
+  "bring": ["Summary of Performance", "Latest evaluation or diagnosis report"],
+  "wait": {
+    "plain": "Not published. Start before the first term.",
+    "pro": "Not published."
+  },
+  "cost": {
+    "plain": "Accommodations are free. Tuition applies.",
+    "pro": "Accommodations free; tuition applies."
+  },
+  "watch_out": {
+    "plain": [
+      "College does not change what a course teaches. It only gives accommodations.",
+      "The student must ask for help. The college will not start it."
+    ],
+    "pro": [
+      "Direct AAR phone, email, and documentation rules were not published on the pages read."
+    ]
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 16}, {"any": [{"q": "school", "op": "in", "v": ["iep", "504", "none_in_school"]}, {"q": "work", "op": "in", "v": ["wants"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "Ozarks Technical Community College", "phone": "417-447-7500", "address": "Information Commons East, Room ICE 110, 1001 East Chestnut Expressway, Springfield, MO 65802", "url": "https://ozarkstech.edu/student-services/access-accommodation-resources/", "note": "Main college line. Ask for Access and Accommodation Resources."}
+  ],
+  "sources": [
+    {"title": "OTC Access & Accommodation Resources", "url": "https://ozarkstech.edu/student-services/access-accommodation-resources/"}
+  ],
+  "confidence": "Medium",
+  "checked": "2026-10-27"
+},
+{
+  "id": "vocational-rehab",
+  "name": "Missouri Vocational Rehabilitation (VR)",
+  "category": "work",
+  "order": 200,
+  "summary": {
+    "plain": "VR helps people with disabilities get, keep, or move up in a job. Right now VR has a wait list for some people.",
+    "pro": "DESE Missouri Vocational Rehabilitation (MVR) under 5 CSR 20-500 and 34 CFR 361. An order of selection is in effect: Priority Categories II and III closed on 9 Dec 2024; only Category I is served."
+  },
+  "who": {
+    "plain": "People with a disability that makes it hard to work. The person must live in Missouri and be allowed to work in the U.S. VR assumes a person on SSI or SSDI is eligible. Youth services start at age 14. People who are blind or have low vision use RSB instead.",
+    "pro": "5 CSR 20-500.150: (A) a disability diagnosed by a qualified professional; (B) an impairment that is a substantial impediment to employment, with ability to benefit from an employment outcome; (C) requires VR services to prepare for, secure, retain, advance in, or regain employment; (D) Missouri resident (no length of residency); (E) authorized to work in the U.S. Deaf or hard of hearing applicants need an audiologist or ear physician evaluation (at least mild to moderate loss in both ears with functional limits). SSI or SSDI recipients are 'presumed eligible' and 'considered an individual with a significant disability' (34 CFR 361.42(a)(3)). Category I (most significant disability): seriously limited in three or more of self-care, communication, mobility, self-direction, work tolerance, work skills, interpersonal skills. Youth services ages 14 to 24. Blind or visually impaired people are served by RSB."
+  },
+  "steps": {
+    "plain": [
+      "Contact your area VR office. You can also use the online Getting Started form.",
+      "Get proof of disability ready, such as an IEP, a 504 plan, or a doctor's report.",
+      "Bring the SSI or SSDI award letter if the person gets either one.",
+      "Ask VR which priority category the person is in.",
+      "If the person may lose a job, tell VR right away. VR can help keep a job even with the wait list.",
+      "Students: apply by the end of junior year."
+    ],
+    "pro": [
+      "Apply online (Getting Started form on the MVR home page) or through the local office. MVR assigns a counselor to every public school district.",
+      "Eligibility determination within 60 days of application unless extended by agreement or for trial work (34 CFR 361.41(b)(1)). IPE within 90 days of eligibility, and before exit for students.",
+      "Use the VR Common Release Form. A financial needs test applies to some services; a parent or guardian completes it when the client is a dependent.",
+      "Under the order of selection: diagnostic and eligibility services continue; Pre-ETS continues for students who got it before placement in a closed category; people at immediate risk of losing a job can get the services or equipment needed to keep it.",
+      "Greene County ZIP split: Springfield North serves 65801, 65802, 65803, 65806, 65807; Springfield South serves 65804, 65805, 65808, 65809, 65810, 65814, 65817, 65619. Henry County is served by the MVR Sedalia office (contact the central office).",
+      "High school students: ask in junior year about MVR Summer Work Experience (paid, six weeks, 20 hours a week, for VR-eligible students)."
+    ]
+  },
+  "bring": [
+    "Proof of disability (IEP, 504 plan, school evaluation, or medical records)",
+    "SSI or SSDI award letter, if any",
+    "ID and proof the person can work in the U.S.",
+    "A current hearing test (audiogram), for Deaf or hard of hearing applicants"
+  ],
+  "wait": {
+    "plain": "VR must decide eligibility within 60 days. Category I is served now. Categories II and III are on a wait list with no set end date.",
+    "pro": "Eligibility within 60 days; IPE within 90 days of eligibility. FFY 2027 estimates: Category I 14,745 eligible, 0 not served; Category II 14,449 eligible, 4,998 not served; Category III 580 eligible, 205 not served (5,204 not served in all). Average months to an employment outcome: Category I about 23, II about 40, III about 32 (state plan estimate). Order within a category is by application date."
+  },
+  "cost": {
+    "plain": "Most services are free. Some services depend on family income.",
+    "pro": "'Most MVR services are provided at no cost'; payment for some services depends on individual and family income and resources. Comparable benefits (insurance, Medicaid, Pell grants) must be used first."
+  },
+  "watch_out": {
+    "plain": [
+      "Ask which category VR gives the person. You can appeal the category.",
+      "Apply early. People on the wait list are served in date order.",
+      "Tell VR if the person gets SSI or SSDI. VR must then treat the disability as significant.",
+      "Bring a current hearing test if the person is Deaf or hard of hearing."
+    ],
+    "pro": [
+      "Category II is common for people with one or two serious functional limits (for example some learning disabilities, ADHD, mild hearing loss, some physical disabilities). Appeal the category if functional limits are understated.",
+      "Status: the closure appears in the PY 2026-2027 State Plan modifications (PDF dated Feb 2026, labeled 'Draft'); RSA lists Missouri VR (MO-G) as '1 of 3 priority categories open'. No reopening notice was found as of 27 Oct 2026. Confirm with the local office.",
+      "MVR pays for supported employment only to case closure; 'the CRP or other identified provider is responsible for securing long-term funding' (usually a DD waiver, wait-listed since 15 Oct 2026)."
+    ]
+  },
+  "appeal": {
+    "plain": "You can ask for a review at any time. Send the request to info@vr.dese.mo.gov. Services in a signed job plan keep going during the appeal. After a hearing, you have 20 days to appeal to the Commissioner. Free help: Client Assistance Program, 800-392-8667.",
+    "pro": "Request informal review, mediation, or a due process hearing at any time (VR Due Process Brochure, 2026/04). Agency time limits: informal review within 20 days of the request; hearing within 60 days of the request; written decision within 30 days. Either party may appeal a hearing decision to the Commissioner of Education within 20 days. Services under an existing IPE continue. The category assignment can be appealed. Requests to info@vr.dese.mo.gov. CAP: Missouri Protection and Advocacy Services, 800-392-8667."
+  },
+  "alert": "Wait list: Missouri VR closed Priority Categories II and III on 9 Dec 2024. Only Category I is served. No reopening notice was found as of 27 Oct 2026.",
+  "requires": [],
+  "rule": {"any": [{"q": "work", "op": "in", "v": ["working", "wants"]}, {"q": "needs", "op": "has", "v": ["job"]}, {"all": [{"q": "age", "op": ">=", "v": 14}, {"q": "school", "op": "in", "v": ["iep", "504"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "VR Springfield North", "phone": "417-895-5863", "address": "613 East Kearney, Springfield, MO 65803", "counties": ["greene", "dade", "dallas", "douglas", "laclede", "polk", "webster", "wright"], "note": "Toll-free 1-877-222-8965. In Greene County, serves ZIP codes 65801, 65802, 65803, 65806, 65807."},
+    {"label": "VR Springfield South", "phone": "417-895-5720", "address": "1735 W. Catalpa, Suite C, Springfield, MO 65807", "counties": ["greene", "christian", "stone", "taney"], "note": "Toll-free 1-877-222-8967. In Greene County, serves ZIP codes 65804, 65805, 65808, 65809, 65810, 65814, 65817, 65619."},
+    {"label": "VR Joplin", "phone": "417-629-3067", "address": "801 East 15th Street, Suite B, Joplin, MO 64804-0922", "counties": ["barry", "barton", "jasper", "lawrence", "mcdonald", "newton"], "note": "Toll-free 1-877-222-8964."},
+    {"label": "VR West Plains", "phone": "417-895-6400", "address": "3417 Division Drive, Suite 2, West Plains, MO 65775", "counties": ["ozark"], "note": "Toll-free 1-877-222-8959."},
+    {"label": "VR Nevada", "phone": "417-448-1332", "address": "621 East Highland, Suite 2, Nevada, MO 64772-3971", "counties": ["cedar", "hickory", "st-clair", "vernon"], "note": "Toll-free 1-800-598-3471."},
+    {"label": "VR Central Office", "phone": "573-751-3251", "address": "3024 Dupont Circle, Jefferson City, MO 65109", "url": "https://dese.mo.gov/adult-learning-rehabilitation-services/vocational-rehabilitation/vr-offices", "counties": "all", "note": "Toll-free 1-877-222-8963. Email info@vr.dese.mo.gov. Henry County is served by the Sedalia office. Call this line for its number."},
+    {"label": "Rehabilitation Services for the Blind (RSB)", "phone": "1-800-592-6004", "url": "https://dss.mo.gov/fsd/rsb/contact-us", "counties": "all", "note": "For people who are blind or have low vision. Southwest office: 149 Park Central Sq, Rm 640, Springfield, MO 65806, 417-895-6386."},
+    {"label": "Client Assistance Program (Missouri Protection and Advocacy)", "phone": "800-392-8667", "counties": "all", "note": "Free help with VR problems and appeals."}
+  ],
+  "sources": [
+    {"title": "MVR home", "url": "https://dese.mo.gov/adult-learning-rehabilitation-services/vocational-rehabilitation"},
+    {"title": "MVR Offices", "url": "https://dese.mo.gov/adult-learning-rehabilitation-services/vocational-rehabilitation/vr-offices"},
+    {"title": "MVR section, Combined State Plan modifications PY 2026-2027 (Feb 2026, Draft)", "url": "https://dese.mo.gov/sites/g/files/zuston521/files/media/pdf/2026/02/VR-State_Plan_26-27_Mods_NG_Access_2.pdf"},
+    {"title": "RSA Order of Selection Information", "url": "https://rsa.ed.gov/about/programs/vocational-rehabilitation-state-grants/order-of-selection-information"},
+    {"title": "VR Due Process Brochure (2026/04)", "url": "https://dese.mo.gov/sites/g/files/zuston521/files/media/pdf/2026/04/VR-DueProcessBrochureACC.pdf"},
+    {"title": "5 CSR 20-500.150 (LII copy)", "url": "https://www.law.cornell.edu/regulations/missouri/5-CSR-20-500-150"},
+    {"title": "34 CFR 361.42", "url": "https://www.law.cornell.edu/cfr/text/34/361.42"},
+    {"title": "RSB Contact Us", "url": "https://dss.mo.gov/fsd/rsb/contact-us"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "dd-waiver-employment",
+  "name": "DD waiver job services",
+  "category": "work",
+  "order": 210,
+  "summary": {
+    "plain": "A DD waiver can pay for career planning, job finding, and a job coach. New people now go on a wait list.",
+    "pro": "Career Planning, Benefits Planning, Prevocational Services, Job Development, and Supported Employment are available in the Comprehensive, Community Support, and Partnership for Hope DD waivers (not MOCDD). New enrollment wait-listed since 15 Oct 2026."
+  },
+  "who": {
+    "plain": "Youth and adults with DMH DD eligibility who are in a DD waiver now. The waiver must be Partnership for Hope, Community Support, or Comprehensive.",
+    "pro": "DMH DD eligible; MO HealthNet; enrolled in PfH, CSW, or Comprehensive; the service must be in the person-centered plan. VR first: waiver Career Planning, Job Development, Prevocational, and Supported Employment 'may not include services available under' VR or IDEA, so the case record must document that the person is not eligible for, unable to access, has exhausted, or otherwise cannot use those services. Career Planning and Job Development can start without a VR referral when it is unknown whether the person can work competitively, when VR found the person ineligible or closed the case as 'disability too severe', or when VR services ended after VR thresholds were met. Career Planning: 'not to exceed 240 units of services within an annual PCSP' without regional director approval (DD Waiver Manual)."
+  },
+  "steps": {
+    "plain": [
+      "Ask the DD support coordinator to add a job service to the plan.",
+      "Ask the support coordinator for a list of job providers.",
+      "Apply to VR too. The waiver often needs VR to go first.",
+      "Ask for Benefits Planning before the person starts work."
+    ],
+    "pro": [
+      "Support coordinators 'must address employment at least annually'. DD Employment First policy (2018) makes competitive integrated employment 'the first service option and desired primary outcome.'",
+      "Document VR status in the case record (VR-first rule).",
+      "Providers on the DMH Employment Service Providers map that list Greene and nearby counties include The Arc of the Ozarks (417-864-7887), Firefly Springfield (417-864-3087), Nova Center of the Ozarks (417-889-3121), K and C Stepping Stones (417-863-7007), Developmental Center of the Ozarks (417-831-1545), Bayada Home Health Care (417-210-7852), and MERS Missouri Goodwill (314-241-3464). empower: abilities (417-886-1188) offers Benefits Planning only. Check the map for each county.",
+      "Open question: whether a closed MVR category counts as 'unable to access' VR under the DD Waiver Manual. Ask DMH in writing."
+    ]
+  },
+  "bring": ["DD eligibility letter", "MO HealthNet card", "Current person-centered plan", "VR case status letter"],
+  "wait": {
+    "plain": "People already on a waiver can ask now. New people go on a wait list with no end date.",
+    "pro": "Current participants: depends on provider capacity. New enrollment into PfH, CSW, and Comprehensive wait-listed from 15 Oct 2026 'due to current budget limitations', with 'no estimated end date' (DDD memo)."
+  },
+  "cost": "Free for waiver participants. Medicaid pays.",
+  "watch_out": {
+    "plain": [
+      "The waiver will not pay for what VR can pay for. Keep a record of what VR said.",
+      "Ask for job services, not only day programs.",
+      "Rural counties may have few job coaches."
+    ],
+    "pro": [
+      "Two wait lists can meet at school exit: MVR Categories II and III (closed since 9 Dec 2024) and DD waiver enrollment (since 15 Oct 2026). VR can place a Category I student in a job, but long-term job support may have no payer.",
+      "The 15 Oct 2026 memo names no crisis or PON 5 exception. Emergency criteria put a person at the top of the wait list, not into a slot."
+    ]
+  },
+  "appeal": {
+    "plain": "If a service is denied, appeal in writing to the DD regional director within 30 days. To keep current services, appeal before the change starts.",
+    "pro": "DMH track: appeal to the regional director within 30 calendar days of the decision letter (9 CSR 45-2.017). DSS track: in writing within 90 calendar days of written notice; starting the DSS track ends DMH appeal rights. Safest: appeal before the date of action, and within 10 days of the notice if possible (42 CFR 431.230, 431.231)."
+  },
+  "alert": "DD waiver wait list: since 15 Oct 2026, new people cannot enroll in the Partnership for Hope, Community Support, or Comprehensive waivers. DMH gave no end date.",
+  "requires": ["dmh-dd-eligibility", "mo-healthnet"],
+  "rule": {"all": [{"q": "dd_elig", "op": "in", "v": ["yes", "applied"]}, {"any": [{"q": "work", "op": "in", "v": ["working", "wants"]}, {"q": "needs", "op": "has", "v": ["job"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "DMH DD Springfield Regional Office", "phone": "417-895-7400", "counties": ["christian", "dallas", "douglas", "greene", "hickory", "laclede", "ozark", "polk", "stone", "taney", "webster", "wright"], "note": "Ask for your support coordinator."},
+    {"label": "DMH DD Joplin Satellite Office", "phone": "417-629-3020", "counties": ["barry", "barton", "cedar", "dade", "henry", "jasper", "lawrence", "mcdonald", "newton", "st-clair", "vernon"], "note": "Ask for your support coordinator."}
+  ],
+  "sources": [
+    {"title": "DMH DD Employment Services", "url": "https://dmh.mo.gov/node/13636"},
+    {"title": "DMH Employment Service Providers map", "url": "https://dmh.mo.gov/dev-disabilities/programs/employment/services-map"},
+    {"title": "MO HealthNet DD Waiver Manual (2026/09)", "url": "https://dss.mo.gov/sites/mydss/files/media/file/2026/09/DD-Waiver-Manual.docx"},
+    {"title": "DDD Wait List Memo, 15 Oct 2026", "url": "https://dmh.mo.gov/sites/g/files/zuston541/files/media/pdf/2026/10/wait%20list%20memo%202026.pdf"},
+    {"title": "DMH Springfield Regional Office", "url": "https://dmh.mo.gov/dev-disabilities/regional-offices/springfield"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "employment-first-act",
+  "name": "Missouri Employment First Act: your right to job information",
+  "category": "work",
+  "order": 220,
+  "summary": {
+    "plain": "State agencies must talk with families about work, benefits, ABLE accounts, and assistive technology.",
+    "pro": "RSMo 209.700 (effective 28 Aug 2023) makes competitive integrated employment 'the first and preferred outcome' for working-age people with disabilities and sets information duties for state agencies."
+  },
+  "who": {
+    "plain": "Youth ages 14 to 17 with a disability, and their parents. Also anyone with a disability age 16 or older.",
+    "pro": "'Youth with a disability': 14 or older and under 18. 'Working age': 16 or older. Agencies 'shall' offer information on competitive integrated employment to all working-age persons with disabilities, including 'an explanation of the relationship between a person's earned income and his or her public benefits, information on Achieving a Better Life Experience (ABLE) accounts, and information on accessing assistive technology', and 'At least once each year, discuss basic information about competitive integrated employment with the parents or guardians of a youth with a disability.'"
+  },
+  "steps": {
+    "plain": [
+      "Ask the school, VR counselor, or DD support coordinator for the yearly talk about work.",
+      "Ask how a paycheck would change the person's benefits.",
+      "Ask about ABLE accounts and assistive technology."
+    ],
+    "pro": [
+      "Request the annual Employment First discussion (ages 14 to 17) and written information on benefits, ABLE, and AT from any state agency contact (DESE, MVR, DMH, DSS).",
+      "Related: Executive Order 19-16 (2019), Missouri as a Model Employer."
+    ]
+  },
+  "bring": [],
+  "wait": {
+    "plain": "Once a year for youth ages 14 to 17.",
+    "pro": "Annual for youth 14 to 17."
+  },
+  "cost": "Free",
+  "watch_out": {
+    "plain": [
+      "The law names no lead agency. You may need to ask for the talk.",
+      "The law does not make anyone work to keep benefits."
+    ],
+    "pro": [
+      "The Act gives no individual enforcement route and names no lead agency for the annual youth discussion. 'Nothing in this section shall be construed to eliminate any supported employment services or sheltered workshop settings as options.'"
+    ]
+  },
+  "appeal": {
+    "plain": "The law has no appeal process.",
+    "pro": "None stated in RSMo 209.700."
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"any": [{"all": [{"q": "age", "op": ">=", "v": 14}, {"q": "age", "op": "<=", "v": 17}]}, {"all": [{"q": "age", "op": ">=", "v": 16}, {"any": [{"q": "work", "op": "in", "v": ["working", "wants"]}, {"q": "needs", "op": "has", "v": ["job"]}]}]}]},
+  "counties": "all",
+  "contacts": [],
+  "sources": [
+    {"title": "RSMo 209.700", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=209.700"},
+    {"title": "Missouri as a Model Employer (GCD)", "url": "https://disability.mo.gov/model-employer.htm"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "sheltered-workshops",
+  "name": "Sheltered workshops (extended employment)",
+  "category": "work",
+  "order": 230,
+  "summary": {
+    "plain": "Workshops give paid work in a separate setting. Pay can be below minimum wage. Young people must take VR steps first.",
+    "pro": "DESE-certified nonprofit extended employment sheltered workshops (RSMo 178.900 to 178.931); wages may be subminimum under an FLSA section 14(c) certificate; Section 511 limits for youth age 24 and under."
+  },
+  "who": {
+    "plain": "People age 16 and older who are not in school. A state specialist must certify the person first. People age 24 and under must finish VR steps first.",
+    "pro": "'Disabled persons' for workshops: 'sixteen years of age or over' with 'a productive work capacity in a sheltered environment' who are 'nonemployable in competitive business and industry' (RSMo 178.900). 'Individuals must be assessed by the DESE Certification Specialists' before hire. 89 workshop corporations statewide. Section 511 (VR-SEA agreement, section 7): no subminimum wage employment while a student of an LEA; for age 24 and under, the school documents transition and Pre-ETS (Summative Transition Outcomes form), MVR opens a case and provides career counseling and information and referral, and MVR gives documentation after a determination of 'unable to benefit from VR services.'"
+  },
+  "steps": {
+    "plain": [
+      "Call DESE Sheltered Workshops at 573-751-3547.",
+      "Ask which workshops serve your county.",
+      "If the person is 24 or younger, ask VR for the required career counseling first.",
+      "Ask the DESE specialist to do the certification."
+    ],
+    "pro": [
+      "DESE Sheltered Workshops: 573-751-3547, sesw@dese.mo.gov, for the certification specialist and the workshop list. No public list of Southwest Missouri workshops was found.",
+      "Age 24 and under: obtain MVR Section 511 documentation before any subminimum wage job.",
+      "Pay is by productivity (for example, 50% productivity earns 50% of the prevailing wage). State aid: at least $21 for each six-hour or longer day worked by a certified employee, up to 38 hours a week (RSMo 178.931)."
+    ]
+  },
+  "bring": ["MVR Section 511 papers (if age 24 or under)"],
+  "wait": {
+    "plain": "Workshops have hiring wait lists.",
+    "pro": "Statewide hiring wait list: 460 in FY2022 (actual), 360 projected for FY2023 to FY2025 (FY2024 budget program description)."
+  },
+  "cost": "Free. The worker earns wages, often below minimum wage.",
+  "watch_out": {
+    "plain": [
+      "A student still in school cannot work for less than minimum wage.",
+      "The VR wait list does not block the required career counseling. Ask for it.",
+      "State policy treats regular jobs in the community as the first choice."
+    ],
+    "pro": [
+      "The U.S. Department of Labor withdrew its 4 Dec 2024 proposal to phase out 14(c) certificates on 7 Jul 2025. Subminimum wage certificates remain available in 2026."
+    ]
+  },
+  "appeal": {
+    "plain": "If VR will not give the required papers, ask VR for a review. Free help: 800-392-8667.",
+    "pro": "MVR due process for Section 511 documentation issues; CAP 800-392-8667."
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 16}, {"q": "school", "op": "in", "v": ["left"]}, {"any": [{"q": "work", "op": "in", "v": ["working", "wants"]}, {"q": "needs", "op": "has", "v": ["job"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "DESE Sheltered Workshops", "phone": "573-751-3547", "url": "https://dese.mo.gov/special-education/sheltered-workshops", "note": "Email sesw@dese.mo.gov."}
+  ],
+  "sources": [
+    {"title": "DESE Sheltered Workshops", "url": "https://dese.mo.gov/special-education/sheltered-workshops"},
+    {"title": "DESE Sheltered Workshop FAQs", "url": "https://dese.mo.gov/special-education/sheltered-workshops/faqs"},
+    {"title": "RSMo 178.900", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=178.900"},
+    {"title": "RSMo 178.931", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=178.931"},
+    {"title": "OA budget program description, Sheltered Workshops (FY2024)", "url": "https://oa.mo.gov/sites/default/files/dese_sheltered_workshops24.pdf"},
+    {"title": "VR-SEA Transition Agreement FY26, section 7", "url": "https://dese.mo.gov/adult-learning-rehabilitation-services/vocational-rehabilitation/media/pdf/state-educational-agency-transition-agreement"},
+    {"title": "Federal Register, 7 Jul 2025, withdrawal of 14(c) proposal", "url": "https://www.govinfo.gov/content/pkg/FR-2025-07-07/html/2025-12534.htm"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "dhss-home-care",
+  "name": "In-home care from DHSS (personal care)",
+  "category": "home",
+  "order": 300,
+  "summary": {
+    "plain": "Missouri can pay an aide to help an adult at home with bathing, dressing, meals, and other daily tasks.",
+    "pro": "DHSS Division of Senior and Disability Services (DSDS) HCBS front door and MO HealthNet state plan personal care (agency model): Basic Personal Care, Advanced Personal Care, and Authorized Nurse Visits for adults 18 and older with Medicaid who meet nursing facility level of care (18 points)."
+  },
+  "who": {
+    "plain": "Adults age 18 and older who have MO HealthNet now. The person must score 18 points or more on a DHSS home visit test. The test looks at eating, bathing, moving, medicines, safety, and more.",
+    "pro": "Age 18 or older; active MO HealthNet with a matching ME code on the date of the request ('A referral will not be accepted for individuals who are not Medicaid or age-eligible on the date of the request'; HCBS Manual 4.05, rev. April 2025). People who appear eligible for HCB Medicaid are sent to FSD first; spenddown cases are not processed until the spenddown is met (Miller trust, IM-54A, exception). Nursing facility level of care: 'A score of 18 or higher qualifies for LOC and HCBS' (interRAI HC tool with Missouri changes; scored categories: cognition, eating, behavioral, toileting, bathing, treatments, dressing and grooming, rehabilitation, meal prep, medication management, mobility, safety). An unmet need HCBS can meet; face-to-face assessment; person-centered care plan; annual reassessment. Members of certain managed care health plans are not eligible for HCBS or certain DSDS-authorized HCBS; DSDS refers them to the plan."
+  },
+  "steps": {
+    "plain": [
+      "Make sure MO HealthNet is active first. DHSS will not take the referral without it.",
+      "Call the DHSS HCBS Call Center at 866-835-3505.",
+      "Or send the online referral form instead of calling.",
+      "Get ready for a DHSS home visit and assessment.",
+      "Tell DHSS about all the help the person needs, including reminders and supervision.",
+      "Choose a home care agency from the list DHSS gives you."
+    ],
+    "pro": [
+      "Referral: HCBS Call Center 866-835-3505 ('reserved for participants and their supports'); online referral at modhss.entellitrak.com (for people not yet authorized); or email form HCBS-1 to HCBSCallCenterReferrals@health.mo.gov. Anyone can refer.",
+      "DSDS (or a contracted provider for reassessments) completes the interRAI assessment in the home. DSDS may send a Healthcare Professional Inquiry or General Health Evaluation form to the physician.",
+      "Services: Basic Personal Care (maximum 412 fifteen-minute units a month, 60% column); Advanced Personal Care (devices or procedures, for example transfer devices or catheter care); Authorized Nurse Visits (26 units in 6 months). Advanced personal care and nurse visits can go up to 100% of the cost maximum.",
+      "Cost maximum effective 1 Jul 2026: 100% = $5,593.32 a month; 60% = $3,355.99 a month (HCBS Manual 3.00 Appendix 2, revised July 2026).",
+      "State plan personal care must be used before a comparable DD waiver service. People in DD Shared Living, Residential Habilitation, or ISL cannot also get DSDS state plan personal care. Only one Medicaid HCBS waiver at a time.",
+      "DSDS can also authorize personal care inside a licensed RCF or ALF for a Medicaid resident whose needs exceed the facility's basic duties."
+    ]
+  },
+  "bring": ["MO HealthNet number (DCN)", "Diagnosis and medical information", "List of medicines and treatments", "Doctor's name and phone number"],
+  "wait": {
+    "plain": "There is no wait list for this service. The wait is often for a worker. DHSS does not publish how soon it visits.",
+    "pro": "State plan personal care has no waiting list. No published day count from referral to assessment (Manual 4.05). Delays come from agency staffing."
+  },
+  "cost": {
+    "plain": "Free. Some people pay a spenddown or a share of the cost.",
+    "pro": "No charge for the service; spenddown or patient liability may apply."
+  },
+  "watch_out": {
+    "plain": [
+      "No Medicaid on the day of the referral means no referral. DHSS does not apply for Medicaid for you.",
+      "The test may score supervision lower than hands-on help. Describe a typical day, not a good day.",
+      "With an agency, the aide cannot be an immediate family member. Consumer Directed Services can pay a family member.",
+      "Guardianship warning: a legal guardian cannot be the paid attendant in Consumer Directed Services. Know this before you go to court.",
+      "Rural agencies may accept the case but have no worker to send."
+    ],
+    "pro": [
+      "Guardian conflict: the CDS attendant 'cannot be the participant's spouse or legal guardian' (HCBS Manual 3.25, rev. Jan 2026). A parent who becomes legal guardian can no longer be the paid CDS attendant.",
+      "The interRAI tool may under-count supervision and cueing needs of adults with IDD (field concern; not proven with data).",
+      "Workforce: 28.0% of Missouri DD provider agencies turned away or stopped accepting referrals in 2024 because of DSP staffing (NCI-IDD State of the Workforce 2024).",
+      "DSDS respite exists only in the Aged and Disabled Waiver (age 63 and older)."
+    ]
+  },
+  "appeal": {
+    "plain": "DHSS mails a notice if it denies, cuts, or stops care. To keep care during the appeal, ask within 10 calendar days of the mail date. To appeal a denial, ask within 90 days. You can ask by phone or in writing. If you lose, you may owe for care given during the appeal.",
+    "pro": "Adverse Action Notice (HCBS-12). Appeal within 10 calendar days of the mail date to keep services at the current level (the participant may be liable if DSDS prevails); 90 calendar days from the mail date to appeal an initial denial (no services pending). Request may be verbal or written; DSDS must confirm it with the participant or guardian (3 attempts on 3 business days, or it is not processed). DSS Division of Legal Services holds the hearing (HCBS Manual 6.00)."
+  },
+  "alert": "Since 1 Aug 2026, Missouri has paused new provider enrollment for consumer directed and personal care services for 6 months (it may extend to 1 year). Enrolled providers keep serving.",
+  "requires": ["mo-healthnet"],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 18}, {"any": [{"q": "daily", "op": "in", "v": ["yes"]}, {"q": "nursing", "op": "in", "v": ["yes"]}, {"q": "caregiver_risk", "op": "in", "v": ["yes"]}, {"q": "needs", "op": "has", "v": ["respite"]}, {"q": "dis", "op": "has", "v": ["idd", "tbi", "physical"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "DHSS HCBS Call Center", "phone": "866-835-3505", "url": "https://health.mo.gov/partners-providers/home-community-based-services-provider-information/hcbs-referrals-requests-eligibility-determination", "note": "Statewide. Email referrals to HCBSCallCenterReferrals@health.mo.gov."}
+  ],
+  "sources": [
+    {"title": "DHSS HCBS Referrals, Requests and Eligibility Determination", "url": "https://health.mo.gov/partners-providers/home-community-based-services-provider-information/hcbs-referrals-requests-eligibility-determination"},
+    {"title": "HCBS Manual 4.05 Intake Process (rev. April 2025)", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/400-home-and-community-based-services-16"},
+    {"title": "HCBS Manual 4.10 Level of Care Determination", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/400-home-and-community-based-services-17"},
+    {"title": "HCBS Manual 3.00 Appendix 2, Cost Maximums (rev. July 2026)", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/300-available-home-and-community-15"},
+    {"title": "HCBS Manual 6.00 Appeal and Hearing Process", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/600-appeal-and-hearing-process"},
+    {"title": "DHSS HCBS FAQ", "url": "https://health.mo.gov/senior-disability-services/home-community-based-services/frequently-asked-questions-about-hcbs"},
+    {"title": "HCBS Manual 4.35.1 DMH Service Coordination", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/400-home-and-community-based-services-22"},
+    {"title": "MMAC notice, DME and CDS enrollment moratoria (24 Jul 2026)", "url": "https://mmac.mo.gov/?p=11413"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "consumer-directed-services",
+  "name": "Consumer Directed Services (CDS): hire your own attendant",
+  "category": "home",
+  "order": 310,
+  "summary": {
+    "plain": "The person hires and directs their own home care worker. A parent or other family member can often be the paid worker.",
+    "pro": "MO HealthNet state plan Personal Care Assistance, consumer-directed model (HCBS Manual 3.25, rev. January 2026): the participant hires and supervises the attendant; an MMAC-enrolled CDS vendor does payroll, training, and EVV."
+  },
+  "who": {
+    "plain": "Adults 18 and older with MO HealthNet. The person needs hands-on help because of a problem with nerves, muscles, or bones. The person must be able to direct the worker. The person must score 18 points on the DHSS test.",
+    "pro": "Age 18 or older; 'physically disabled' under 19 CSR 15-8.100 (needs another person's help for routine tasks because of loss, or loss of use, of neurological, muscular, or skeletal function); able to self-direct (supervise the attendant, verify wages and time, monitor EVV, report changes); active Medicaid with the right ME code; nursing facility LOC (18 points); no prior Medicaid fraud. 'A physically disabled person who can direct their care but has a cognitive impairment that requires a designated person to assist with the administration of the program can only be authorized through the ILW.' 'An individual with a guardian or conservator cannot be rejected for CDS solely for that reason.'"
+  },
+  "steps": {
+    "plain": [
+      "Make sure MO HealthNet is active.",
+      "Call DHSS at 866-835-3505. Say the person wants Consumer Directed Services.",
+      "Answer the self-direction questions at the home visit.",
+      "Pick a CDS vendor. The vendor runs payroll for the worker.",
+      "Choose the worker. The worker cannot be the spouse or the legal guardian.",
+      "Record each visit in the electronic visit verification (EVV) system."
+    ],
+    "pro": [
+      "Referral through the HCBS Call Center (866-835-3505) or the online referral. DSDS uses the Self-Direction Assessment Questions form (Manual 4.00 Appendix 10).",
+      "Cap: 'CDS shall not exceed 60% of the cost maximum' ($3,355.99 a month from 1 Jul 2026; 641 units a month). Combined CDS and agency personal care is also capped at 60%.",
+      "Attendant: 'The attendant may be a family member. However, the attendant cannot be the participant's spouse or legal guardian.' The attendant cannot be a current CDS participant.",
+      "If more hours are needed (age 18 to 64 at entry, physical disability): Independent Living Waiver, CDS up to 868 units a month."
+    ]
+  },
+  "bring": ["MO HealthNet number (DCN)", "Medical information about the disability", "The worker's job and background check papers (through the vendor)"],
+  "wait": {
+    "plain": "There is no wait list for CDS. Finding a vendor may take longer during the enrollment pause.",
+    "pro": "No waiting list for state plan CDS."
+  },
+  "cost": {
+    "plain": "Free. A spenddown may apply.",
+    "pro": "No charge for the service; spenddown or patient liability may apply."
+  },
+  "watch_out": {
+    "plain": [
+      "Guardianship warning: a legal guardian cannot be the paid CDS attendant. A parent who becomes guardian loses this paid job. Look at other choices before you go to court.",
+      "A parent who is not the legal guardian can be the paid worker.",
+      "A spouse cannot be the paid worker.",
+      "Errors on time records can be treated as fraud. Keep careful records.",
+      "A person with a significant intellectual disability may be found unable to direct the worker."
+    ],
+    "pro": [
+      "Guardianship conflict (HCBS Manual 3.25): decide on guardianship versus supported decision-making or a limited arrangement knowing that a guardian cannot be the paid CDS attendant. Only the Structured Family Caregiving Waiver (dementia) lets a legal guardian be paid.",
+      "The self-direction test and the 19 CSR 15-8 physical disability basis exclude many adults with IDD. ILW counts cognitive impairment only with onset at or after 22.",
+      "Timesheet and EVV errors are treated as fraud risk (HB 1682, 2020)."
+    ]
+  },
+  "appeal": {
+    "plain": "The DHSS rules apply. To keep services, appeal within 10 calendar days of the notice mail date. You have 90 days to appeal a denial.",
+    "pro": "HCBS Manual 6.00: 10 calendar days from the Adverse Action Notice mail date to keep services; 90 calendar days to appeal an initial denial."
+  },
+  "alert": "Since 1 Aug 2026, Missouri has paused enrollment of new CDS vendors for 6 months (it may extend to 1 year). Enrolled vendors keep serving participants.",
+  "requires": ["mo-healthnet", "dhss-home-care"],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 18}, {"q": "dis", "op": "has", "v": ["physical", "idd", "tbi"]}, {"any": [{"q": "daily", "op": "in", "v": ["yes"]}, {"q": "nursing", "op": "in", "v": ["yes"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "DHSS HCBS Call Center", "phone": "866-835-3505", "url": "https://health.mo.gov/partners-providers/home-community-based-services-provider-information/hcbs-referrals-requests-eligibility-determination", "note": "Say the person wants Consumer Directed Services."}
+  ],
+  "sources": [
+    {"title": "HCBS Manual 3.25 Personal Care Assistance, CDS (rev. Jan 2026)", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/300-available-home-and-community-based-4"},
+    {"title": "DHSS HCBS FAQ, 'Who can be my caregiver?'", "url": "https://health.mo.gov/senior-disability-services/home-community-based-services/frequently-asked-questions-about-hcbs"},
+    {"title": "DHSS memo INFO 07-26-03, CDS Moratorium", "url": "https://health.mo.gov/our-programs-services/home-and-community-based-services/memos/info-07-26-03-consumer-directed"},
+    {"title": "MMAC notice, DME and CDS enrollment moratoria (24 Jul 2026)", "url": "https://mmac.mo.gov/?p=11413"},
+    {"title": "HCBS Manual 6.00 Appeal and Hearing Process", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/600-appeal-and-hearing-process"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "independent-living-waiver",
+  "name": "Independent Living Waiver (ILW)",
+  "category": "home",
+  "order": 320,
+  "summary": {
+    "plain": "More self-directed care hours, plus money for home changes and equipment, for adults with physical disabilities.",
+    "pro": "DSDS waiver for ages 18 to 64 at first enrollment with a physical disability who can self-direct CDS: CDS above state plan limits (up to 868 units a month), case management, Environmental Accessibility Adaptations and Specialized Medical Equipment (each up to $5,000 in 5 years), Specialized Medical Supplies, Financial Management Services."
+  },
+  "who": {
+    "plain": "Adults age 18 to 64 when they join. The person has a physical disability and can direct their own care. A thinking problem counts only if it started at age 22 or later. The person can stay after age 65.",
+    "pro": "Ages 18 to 64 at first enrollment; physical disability under 19 CSR 15-8; able to self-direct CDS; cognitive impairment counts only with onset at or after age 22 (so most people with IDD do not fit); may stay after 65 if still able to self-direct; nursing facility LOC; MO HealthNet (HCBS Manual 3.55, rev. July 2026)."
+  },
+  "steps": {
+    "plain": [
+      "Set up DHSS in-home care or CDS first.",
+      "Ask DHSS about the Independent Living Waiver if the person needs more hours.",
+      "Ask to be put on the waiver wait list if slots are full.",
+      "Keep the wait list letter. You have 90 days to appeal your place."
+    ],
+    "pro": [
+      "Request through DSDS (866-835-3505). Slots are limited each waiver year (1 Jul to 30 Jun); the waitlist is prioritized by LOC score and managed by the Bureau of Federal Programs.",
+      "ILW waitlist notices carry a 90-day appeal right (HCBS Manual 6.00).",
+      "Case management is required."
+    ]
+  },
+  "bring": ["MO HealthNet number (DCN)", "Medical information about the physical disability"],
+  "wait": {
+    "plain": "Slots are limited each year. There may be a wait list.",
+    "pro": "Limited slots per waiver year; waitlist prioritized by LOC score."
+  },
+  "cost": {
+    "plain": "Free. A spenddown may apply.",
+    "pro": "No charge for the service; spenddown or patient liability may apply."
+  },
+  "watch_out": {
+    "plain": [
+      "Most people with an intellectual disability do not qualify.",
+      "Home changes and equipment are each capped at $5,000 over 5 years.",
+      "A legal guardian cannot be the paid attendant."
+    ],
+    "pro": [
+      "One Medicaid HCBS waiver at a time; choosing a DD waiver ends a DSDS waiver."
+    ]
+  },
+  "appeal": {
+    "plain": "You have 90 days to appeal a denial or a wait list letter. To keep services during an appeal, ask within 10 calendar days.",
+    "pro": "HCBS Manual 6.00: 90 calendar days for a denial or an ILW waitlist number; 10 calendar days from the mail date to keep services."
+  },
+  "alert": "",
+  "requires": ["mo-healthnet", "dhss-home-care"],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 18}, {"q": "age", "op": "<=", "v": 64}, {"q": "dis", "op": "has", "v": ["physical", "tbi", "idd"]}, {"any": [{"q": "daily", "op": "in", "v": ["yes"]}, {"q": "nursing", "op": "in", "v": ["yes"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "DHSS HCBS Call Center", "phone": "866-835-3505", "url": "https://health.mo.gov/partners-providers/home-community-based-services-provider-information/hcbs-referrals-requests-eligibility-determination"}
+  ],
+  "sources": [
+    {"title": "HCBS Manual 3.55 Independent Living Waiver (rev. July 2026)", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/300-available-home-and-community-based-7"},
+    {"title": "HCBS Manual 3.25 CDS (rev. Jan 2026)", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/300-available-home-and-community-based-4"},
+    {"title": "HCBS Manual 6.00 Appeal and Hearing Process", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/600-appeal-and-hearing-process"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "adult-day-care-waiver",
+  "name": "Adult Day Care Waiver (ADCW)",
+  "category": "home",
+  "order": 330,
+  "summary": {
+    "plain": "Pays for care at a licensed adult day care center during the day.",
+    "pro": "DSDS waiver for disabled adults 18 to 63 (first authorization ages 18 to 62) with nursing facility LOC: licensed adult day care up to 10 hours a day, 5 days a week, with transportation up to 120 minutes a day."
+  },
+  "who": {
+    "plain": "Adults age 18 to 62 when they start. The person needs MO HealthNet and must score 18 points on the DHSS test. At 63, the person moves to the Aged and Disabled Waiver.",
+    "pro": "Disabled adults 18 to 63; first authorization only ages 18 to 62; at 63 move to ADW. Nursing facility LOC; active Medicaid (not Blind Pension); a licensed adult day care center (HCBS Manual 3.31, rev. Jan 2018; ages repeated on the current DHSS HCBS Services page)."
+  },
+  "steps": {
+    "plain": [
+      "Find a licensed adult day care center near you that takes MO HealthNet.",
+      "Call DHSS at 866-835-3505 and ask about the Adult Day Care Waiver.",
+      "Get ready for the DHSS home visit."
+    ],
+    "pro": [
+      "Request through DSDS after the LOC assessment. Confirm that a licensed adult day care center within reach accepts MO HealthNet."
+    ]
+  },
+  "bring": ["MO HealthNet number (DCN)"],
+  "wait": {
+    "plain": "Not published.",
+    "pro": "Not published."
+  },
+  "cost": {
+    "plain": "Free. A spenddown may apply.",
+    "pro": "No charge for the service; spenddown or patient liability may apply."
+  },
+  "watch_out": {
+    "plain": [
+      "Rural counties may have few licensed centers. Check before you apply.",
+      "A person can be in only one waiver at a time."
+    ],
+    "pro": [
+      "The number of licensed Medicaid adult day centers in the 23 counties was not verified. One HCBS waiver at a time (DD waivers count)."
+    ]
+  },
+  "appeal": {
+    "plain": "The DHSS rules apply. To keep services, appeal within 10 calendar days. You have 90 days to appeal a denial.",
+    "pro": "HCBS Manual 6.00: 10 calendar days from the mail date to keep services; 90 calendar days for a denial."
+  },
+  "alert": "",
+  "requires": ["mo-healthnet", "dhss-home-care"],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 18}, {"q": "age", "op": "<=", "v": 62}, {"any": [{"q": "daily", "op": "in", "v": ["yes"]}, {"q": "nursing", "op": "in", "v": ["yes"]}, {"q": "needs", "op": "has", "v": ["respite"]}, {"q": "dis", "op": "has", "v": ["idd", "tbi"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "DHSS HCBS Call Center", "phone": "866-835-3505", "url": "https://health.mo.gov/partners-providers/home-community-based-services-provider-information/hcbs-referrals-requests-eligibility-determination"}
+  ],
+  "sources": [
+    {"title": "HCBS Manual 3.31 Adult Day Care Waiver", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/300-available-home-and-community-11"},
+    {"title": "DHSS HCBS Services", "url": "https://health.mo.gov/partners-providers/home-community-based-services-provider-information/hcbs-services"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "aged-disabled-waiver",
+  "name": "Aged and Disabled Waiver (ADW), age 63 and older",
+  "category": "home",
+  "order": 335,
+  "summary": {
+    "plain": "For adults 63 and older. It can pay for respite, homemaker and chore help, meals, and adult day care.",
+    "pro": "DSDS waiver for age 63 and older with nursing facility LOC: homemaker, chore, respite, home delivered meals, adult day care. It is the only DSDS respite route."
+  },
+  "who": {
+    "plain": "Adults age 63 and older with MO HealthNet. The person must score 18 points on the DHSS test.",
+    "pro": "Age 63 or over; nursing facility LOC; MO HealthNet. Respite (HCBS Manual 3.50, rev. July 2026): participant at least 63; an unpaid caregiver regularly gives care; the respite aide must be an agency employee and not immediate family; Basic and Advanced respite; up to 49 hours a week; up to 868 units a month combined."
+  },
+  "steps": {
+    "plain": [
+      "Call DHSS at 866-835-3505.",
+      "Ask about the Aged and Disabled Waiver.",
+      "Ask for respite if an unpaid caregiver gives regular care."
+    ],
+    "pro": [
+      "Request through DSDS after the LOC assessment.",
+      "Relevant to aging adults with IDD who are not in a DD waiver."
+    ]
+  },
+  "bring": ["MO HealthNet number (DCN)"],
+  "wait": {
+    "plain": "Not published.",
+    "pro": "Not published."
+  },
+  "cost": {
+    "plain": "Free. A spenddown may apply.",
+    "pro": "No charge for the service; spenddown or patient liability may apply."
+  },
+  "watch_out": {
+    "plain": [
+      "The respite worker must work for an agency. The worker cannot be immediate family.",
+      "A person can be in only one waiver at a time."
+    ],
+    "pro": [
+      "One Medicaid HCBS waiver at a time (DD waivers count)."
+    ]
+  },
+  "appeal": {
+    "plain": "The DHSS rules apply. To keep services, appeal within 10 calendar days. You have 90 days to appeal a denial.",
+    "pro": "HCBS Manual 6.00: 10 calendar days from the mail date to keep services; 90 calendar days for a denial."
+  },
+  "alert": "",
+  "requires": ["mo-healthnet", "dhss-home-care"],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 63}, {"any": [{"q": "daily", "op": "in", "v": ["yes"]}, {"q": "nursing", "op": "in", "v": ["yes"]}, {"q": "needs", "op": "has", "v": ["respite"]}, {"q": "dis", "op": "has", "v": ["idd", "tbi", "physical"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "DHSS HCBS Call Center", "phone": "866-835-3505", "url": "https://health.mo.gov/partners-providers/home-community-based-services-provider-information/hcbs-referrals-requests-eligibility-determination"}
+  ],
+  "sources": [
+    {"title": "DSS MO HealthNet Aged and Disabled Waiver", "url": "https://dss.mo.gov/mhd/waiver/aged-and-disabled"},
+    {"title": "HCBS Manual 3.50 Respite (rev. July 2026)", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/300-available-home-and-community-based-5"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "medically-complex-adult-waiver",
+  "name": "Medically Complex Adult Waiver (MCAW): nursing at home after 21",
+  "category": "home",
+  "order": 340,
+  "summary": {
+    "plain": "After age 21, this waiver is the main way to keep private duty nursing at home. Start planning at age 19.",
+    "pro": "DHSS Special Health Care Needs waiver (formerly Medically Fragile Adult Waiver, MFAW) for age 21 and older who required HCY/EPSDT private duty nursing, or had a documented PDN need, before 21; ICF-IID level of care; PDN up to 448 units (112 hours) a week."
+  },
+  "who": {
+    "plain": "Adults age 21 and older with complex medical needs. The person must have had private duty nursing before 21, or a written need for it. The person needs regular MO HealthNet, not a managed care plan.",
+    "pro": "Age 21 or older; 'Have previously required PDN services through the Healthy Children and Youth (HCY)/ Early Periodic Screening Diagnosis and Treatment (EPSDT) Program in the State of Missouri, or had a documented need for PDN services prior to the age of 21'; MO HealthNet with a federally matched ME code; fee-for-service (not managed care); 'Require medical care equivalent to the level of care received in an Intermediate Care Facility for Individuals with Intellectual Disabilities (ICF-IID)' ('ICF-IID LOC requires the presence of developmental disabilities as defined in 42 CFR 435.1010'); 'Cannot receive services through another waiver' (MFAW Provider Manual, 2026/03)."
+  },
+  "steps": {
+    "plain": [
+      "At age 19, list every nursing and home service the person uses.",
+      "Call DHSS Special Health Care Needs at 573-751-6246.",
+      "Ask for a referral to the Medically Complex Adult Waiver.",
+      "Ask the nursing agency to send a plan of care signed by the doctor.",
+      "Keep records that show the person needed private duty nursing before 21."
+    ],
+    "pro": [
+      "Refer through the SHCN regional office (573-751-6246; shcn@health.mo.gov). A BSHCN RN service coordinator assesses level of care. The provider agency submits a physician-signed plan of care (diagnoses with ICD codes, functional limits, all medications, treatments, safety measures, measurable goals). Authorizations last up to 6 months.",
+      "PDN maximum 448 units (112 hours) a week, with short-term exceptions and more in 'unique circumstances such as post-hospitalization for a participant newly-requiring a ventilator.'",
+      "Services: private duty nursing, advanced personal care, personal care aide visits, RN visits, specialized medical supplies, service coordination.",
+      "At 21 and older, PDN is not a MO HealthNet state plan benefit; this waiver is the route (PDN Manual)."
+    ]
+  },
+  "bring": ["Records of private duty nursing before age 21", "MO HealthNet number (DCN)", "Plan of care signed by the doctor (from the nursing agency)"],
+  "wait": {
+    "plain": "Not published. Start at 19 so nursing does not stop at 21.",
+    "pro": "Authorizations up to 6 months; plan the move before the 21st birthday."
+  },
+  "cost": {
+    "plain": "MO HealthNet pays for covered services.",
+    "pro": "Medicaid waiver services; no family cost stated in the sources."
+  },
+  "watch_out": {
+    "plain": [
+      "A young adult who never had private duty nursing before 21 cannot join.",
+      "The person must need care like that in a facility for people with developmental disabilities. Some medical conditions may not count.",
+      "A person in a managed care health plan may not qualify.",
+      "The person can be in only one waiver at a time."
+    ],
+    "pro": [
+      "A young adult whose condition is not a 'related condition' under 42 CFR 435.1010 may not meet ICF-IID LOC (physician reading of the manual; DHSS decides). No clear adult PDN route exists for a need that starts after 21.",
+      "Name: DHSS uses MCAW; the MO HealthNet provider manual still says MFAW. Same program."
+    ]
+  },
+  "appeal": {
+    "plain": "If denied, call BSHCN at 800-451-0669 or MO HealthNet Constituent Services at 800-392-2161. Ask how to appeal in writing.",
+    "pro": "Grievance contacts in the MFAW manual: BSHCN (800) 451-0669; MHD Constituent Services (800) 392-2161. Medicaid fair hearing rights apply (RSMo 208.080; 42 CFR 431 Subpart E)."
+  },
+  "alert": "",
+  "requires": ["mo-healthnet"],
+  "rule": {"all": [{"q": "nursing", "op": "in", "v": ["yes"]}, {"q": "age", "op": ">=", "v": 19}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "DHSS Special Health Care Needs (SHCN)", "phone": "573-751-6246", "url": "https://health.mo.gov/senior-disability-services/special-health-care-needs/medically-complex-adult-waiver-program", "note": "Email shcn@health.mo.gov. BSHCN toll-free: 800-451-0669."}
+  ],
+  "sources": [
+    {"title": "DHSS Medically Complex Adult Waiver program page", "url": "https://health.mo.gov/senior-disability-services/special-health-care-needs/medically-complex-adult-waiver-program"},
+    {"title": "MO HealthNet MFAW Provider Manual (2026/03)", "url": "https://dss.mo.gov/sites/mydss/files/media/file/2026/03/Medically-Fragile-Adult-Waiver-Provider-Manual.docx"},
+    {"title": "MO HealthNet Private Duty Nursing Provider Manual (2026/04)", "url": "https://dss.mo.gov/sites/mydss/files/media/file/2026/04/Private-Duty-Nursing-Provider-Manual.docx"},
+    {"title": "MO HealthNet waiver page, Medically Fragile Adult", "url": "https://dss.mo.gov/mhd/waiver/medically-fragile-adult"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "brain-injury-waiver",
+  "name": "Brain Injury Waiver (BIW)",
+  "category": "home",
+  "order": 345,
+  "summary": {
+    "plain": "Services at home and in the community for adults age 21 to 65 with a traumatic brain injury.",
+    "pro": "DHSS Bureau of Long-Term Services and Supports waiver for ages 21 to 65 with documented traumatic brain injury, fee-for-service MO HealthNet, nursing home LOC; services may not exceed $32,000 a year per participant."
+  },
+  "who": {
+    "plain": "Adults age 21 to 65 with a traumatic brain injury. A medical record must show the injury. The person needs regular MO HealthNet, not a managed care plan. The person must need a nursing home level of care.",
+    "pro": "Ages 21 to 65; medical documentation of a traumatic brain injury; fee-for-service MO HealthNet; nursing home LOC; not in another waiver (BIW Fact Sheet, created January 2025)."
+  },
+  "steps": {
+    "plain": [
+      "Get the medical records that show the brain injury.",
+      "Contact DHSS for a referral at 573-751-6246 or Waivers.LTSS@health.mo.gov.",
+      "Ask which services fit the person's needs."
+    ],
+    "pro": [
+      "Referral: Waivers.LTSS@health.mo.gov; 573-751-6246 or toll-free 800-451-0669.",
+      "Services: ABA, assistive technology, cognitive rehabilitation, environmental access and modification, neuropsychological evaluation, OT, PT, speech therapy, personal care after state plan.",
+      "Cap: $32,000 a year per participant."
+    ]
+  },
+  "bring": ["Medical records that show the brain injury", "MO HealthNet number (DCN)"],
+  "wait": {
+    "plain": "Not published.",
+    "pro": "Not published."
+  },
+  "cost": {
+    "plain": "MO HealthNet pays for covered services.",
+    "pro": "Medicaid waiver services; no family cost stated in the sources."
+  },
+  "watch_out": {
+    "plain": [
+      "The brain injury must be traumatic. A medical record must show it.",
+      "Services cannot cost more than $32,000 a year.",
+      "The person can be in only one waiver at a time."
+    ],
+    "pro": [
+      "Fee-for-service MO HealthNet only; one waiver at a time."
+    ]
+  },
+  "appeal": {
+    "plain": "If denied, ask for the decision in writing and ask how to appeal. Medicaid deadlines can be as short as 10 days.",
+    "pro": "Medicaid fair hearing rights apply (RSMo 208.080; 42 CFR 431 Subpart E)."
+  },
+  "alert": "",
+  "requires": ["mo-healthnet"],
+  "rule": {"all": [{"q": "dis", "op": "has", "v": ["tbi"]}, {"q": "age", "op": ">=", "v": 21}, {"q": "age", "op": "<=", "v": 65}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "DHSS Bureau of Long-Term Services and Supports", "phone": "573-751-6246", "url": "https://health.mo.gov/sites/health/files/media/pdf/2026/03/BIW%20Fact%20Sheet.pdf", "note": "Toll-free 800-451-0669. Email Waivers.LTSS@health.mo.gov."}
+  ],
+  "sources": [
+    {"title": "BIW Fact Sheet (DHSS)", "url": "https://health.mo.gov/sites/health/files/media/pdf/2026/03/BIW%20Fact%20Sheet.pdf"},
+    {"title": "RSMo 208.080", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=208.080"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "dementia-caregiving",
+  "name": "Dementia care: Structured Family Caregiving Waiver and Missouri Caregiver Program",
+  "category": "home",
+  "order": 350,
+  "summary": {
+    "plain": "Two programs help when the person has Alzheimer's disease or another dementia. One can pay a family caregiver who lives with the person.",
+    "pro": "Structured Family Caregiving Waiver (SFCW, DSDS) pays a per diem for care by a live-in caregiver (family or legal guardian may be paid) for age 21 and older with Alzheimer's or a related dementia. The Missouri Caregiver Program (DHSS, contracted to Memory Care Home Solutions) gives caregiver training, in-home assessment, and Customized Caregiver Relief."
+  },
+  "who": {
+    "plain": "SFCW: adults 21 and older with a dementia diagnosis from a Missouri doctor. The person must live full time with the main caregiver. Caregiver Program: caregivers who live with a person who probably has dementia.",
+    "pro": "SFCW (HCBS Manual 3.60, rev. March 2025): age 21 or older at entry; Alzheimer's or a related dementia diagnosed by a Missouri-licensed physician (RSMo 172.800); lives full time with the primary caregiver, who already lives there and gives care; caregiver may be family or legal guardian; HCBS front door rules (Medicaid, LOC); limited slots each waiver year; per diem based on 60% of the nursing facility daily rate; provider keeps no more than 35%. Missouri Caregiver Program: caregivers who live with a person with probable Alzheimer's or a related dementia in Missouri, not in a long-term care facility; free; first come, first served; depends on funding; will not pay for anything Medicare or Medicaid pays."
+  },
+  "steps": {
+    "plain": [
+      "Ask the doctor about a dementia diagnosis.",
+      "For paid family care, call DHSS at 866-835-3505. Ask about the Structured Family Caregiving Waiver.",
+      "For caregiver training and relief, call Memory Care Home Solutions at 314-645-6247."
+    ],
+    "pro": [
+      "SFCW requires the HCBS front door: Medicaid on the referral date and the 18-point LOC.",
+      "Missouri Caregiver Program questions: DHSS Senior Programs, 573-526-4542.",
+      "Adults with Down syndrome have a high dementia risk; check eligibility case by case."
+    ]
+  },
+  "bring": ["Dementia diagnosis from a Missouri doctor", "MO HealthNet number (for SFCW)"],
+  "wait": {
+    "plain": "SFCW has limited slots each year. The Caregiver Program serves people in order until money runs out.",
+    "pro": "SFCW: limited slots per waiver year. Caregiver Program: first come, first served, subject to funding."
+  },
+  "cost": {
+    "plain": "The Caregiver Program is free. MO HealthNet pays for SFCW.",
+    "pro": "Caregiver Program free; SFCW is a Medicaid waiver."
+  },
+  "watch_out": {
+    "plain": [
+      "SFCW can pay a legal guardian as the caregiver. Most other programs cannot.",
+      "The Caregiver Program will not pay for things Medicare or Medicaid pay for.",
+      "Money for the Caregiver Program is limited."
+    ],
+    "pro": [
+      "SFCW is the only DSDS option found that allows a legal guardian to be the paid caregiver (contrast CDS, HCBS Manual 3.25)."
+    ]
+  },
+  "appeal": {
+    "plain": "For SFCW, the DHSS rules apply. To keep services, appeal within 10 calendar days. You have 90 days to appeal a denial.",
+    "pro": "SFCW: HCBS Manual 6.00 (10 calendar days to keep services; 90 calendar days for a denial)."
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 21}, {"q": "daily", "op": "in", "v": ["yes"]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "DHSS HCBS Call Center (for SFCW)", "phone": "866-835-3505", "url": "https://health.mo.gov/partners-providers/home-community-based-services-provider-information/hcbs-referrals-requests-eligibility-determination"},
+    {"label": "Memory Care Home Solutions (Missouri Caregiver Program)", "phone": "314-645-6247", "url": "https://health.mo.gov/senior-disability-services/senior-programs/missouri-caregiver-program"},
+    {"label": "DHSS Senior Programs", "phone": "573-526-4542", "note": "Questions about the Missouri Caregiver Program."}
+  ],
+  "sources": [
+    {"title": "HCBS Manual 3.60 Structured Family Caregiving Waiver (rev. March 2025)", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/300-available-home-and-community-based-8"},
+    {"title": "DHSS Missouri Caregiver Program", "url": "https://health.mo.gov/senior-disability-services/senior-programs/missouri-caregiver-program"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "aaa-caregiver-respite",
+  "name": "Family Caregiver Support and respite (Area Agency on Aging)",
+  "category": "home",
+  "order": 360,
+  "summary": {
+    "plain": "Parents and other relatives age 55 and older can get respite. This helps them care for an adult with a disability.",
+    "pro": "National Family Caregiver Support Program (Older Americans Act funds through DHSS and the local Area Agency on Aging). Eligible caregivers include 'Older relatives, including parents, aged 55 or older providing care to adults with disabilities aged 18-59.'"
+  },
+  "who": {
+    "plain": "A parent or relative age 55 or older who cares for an adult with a disability, age 18 to 59. Also caregivers of anyone 60 or older. Also caregivers of a person of any age with dementia. No Medicaid is needed.",
+    "pro": "DHSS: 'Older relatives, including parents, aged 55 or older providing care to adults with disabilities aged 18-59'; also caregivers of anyone 60 or older, and caregivers of a person of any age with Alzheimer's or a related dementia. No income test stated on the DHSS page. Funds are limited. An older AAA resource sheet (secondary) says respite is awarded on a 'caregiver burden' basis and the caregiver does not have to live with the care receiver."
+  },
+  "steps": {
+    "plain": [
+      "Call the Missouri Senior Resource Line at 1-800-235-5503.",
+      "Enter your ZIP code. The line sends you to your local Area Agency on Aging.",
+      "Say you are a caregiver age 55 or older. Ask for Family Caregiver Support respite.",
+      "Ask what other help they have, such as supplies or small home changes."
+    ],
+    "pro": [
+      "Services: information, counseling, support groups, caregiver training, respite care, and supplemental services (for example minor home modifications, medical or incontinence supplies, assistive technology, one-time help).",
+      "AAA by county (Missouri Association of Area Agencies on Aging list): SeniorAge for Barry, Christian, Dade, Dallas, Douglas, Greene, Lawrence, Ozark, Polk, Stone, Taney, Webster, Wright; Region X AAA for Barton, Jasper, McDonald, Newton; Care Connection for Aging Services for Cedar, Henry, Hickory, St. Clair, Vernon; Aging Best for Laclede.",
+      "For DD-eligible adults, also ask the support coordinator about DD waiver respite or county SB40 board funds. Respite is not a PfH waiver service."
+    ]
+  },
+  "bring": [],
+  "wait": {
+    "plain": "Not published. Money is limited and may run out.",
+    "pro": "Not published; funding-limited."
+  },
+  "cost": {
+    "plain": "No cost is stated. You may be asked for a donation.",
+    "pro": "None stated; contributions may be requested."
+  },
+  "watch_out": {
+    "plain": [
+      "Many parents do not know the aging network serves them. It does, from age 55.",
+      "For adults under 63 who are not on a DD waiver, this is the main paid respite route.",
+      "Money is limited. Ask what is left this year."
+    ],
+    "pro": [
+      "Missouri has no State Respite Coalition and no Lifespan Respite program on the ARCH national map. DSDS respite is ADW only (63 and older)."
+    ]
+  },
+  "appeal": {
+    "plain": "We did not find an appeal process. Ask the agency how to file a complaint.",
+    "pro": "AAA grievance process not researched."
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"any": [{"all": [{"q": "caregiver55", "op": "in", "v": ["yes"]}, {"q": "age", "op": ">=", "v": 18}, {"q": "age", "op": "<=", "v": 59}]}, {"q": "age", "op": ">=", "v": 60}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "Missouri Senior Resource Line", "phone": "1-800-235-5503", "url": "https://health.mo.gov/partners-providers/area-agencies-aging", "counties": "all", "note": "Enter your ZIP code to reach your local Area Agency on Aging."},
+    {"label": "SeniorAge Area Agency on Aging", "phone": "417-862-0762", "address": "1735 S. Fort Avenue, Springfield, MO 65807", "url": "https://www.senioragemo.org/caregiver-support", "counties": ["barry", "christian", "dade", "dallas", "douglas", "greene", "lawrence", "ozark", "polk", "stone", "taney", "webster", "wright"], "note": "Toll-free 800-497-0822."},
+    {"label": "Region X Area Agency on Aging (Joplin)", "phone": "417-781-7562", "counties": ["barton", "jasper", "mcdonald", "newton"], "note": "Or call 1-800-235-5503."},
+    {"label": "Care Connection for Aging Services (Warrensburg)", "phone": "660-747-3107", "counties": ["cedar", "henry", "hickory", "st-clair", "vernon"], "note": "Toll-free 800-748-7826. Or call 1-800-235-5503."},
+    {"label": "Aging Best (Columbia)", "phone": "573-443-5823", "counties": ["laclede"], "note": "Toll-free 800-369-5211. Or call 1-800-235-5503."}
+  ],
+  "sources": [
+    {"title": "DHSS AAA Caregiver Services", "url": "https://health.mo.gov/partners-providers/area-agencies-aging/caregiver-services"},
+    {"title": "DHSS Area Agencies on Aging", "url": "https://health.mo.gov/partners-providers/area-agencies-aging"},
+    {"title": "SeniorAge caregiver support", "url": "https://www.senioragemo.org/caregiver-support"},
+    {"title": "Missouri Association of Area Agencies on Aging, Find Your Local Agency (secondary)", "url": "https://www.ma4web.org/find-local-agency/"},
+    {"title": "ARCH State Respite Coalition and Lifespan Respite contacts", "url": "https://archrespite.org/ta-center-for-respite/state-respite-coalition-contacts/"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "home-health",
+  "name": "Home health visits (MO HealthNet)",
+  "category": "home",
+  "order": 370,
+  "summary": {
+    "plain": "A nurse or aide visits for short-term skilled care that a clinician orders.",
+    "pro": "MO HealthNet home health through Medicare-certified, state-licensed agencies: intermittent skilled nursing and aide visits on a practitioner's plan of care. Skilled nurse plus aide visits are capped at 100 a calendar year (13 CSR 70-90.010)."
+  },
+  "who": {
+    "plain": "People with MO HealthNet who need skilled care at home for a time. A doctor or other clinician must order it. It does not replace daily personal care.",
+    "pro": "Prescribed by a MO HealthNet-enrolled physician, nurse practitioner, clinical nurse specialist, or physician assistant. Face-to-face encounter 'no more than 90 days before or 30 days after the start of home health services' (42 CFR 440.70; telehealth allowed as state law permits). 'Intermittent' skilled need, usually at least once every 60 days. Plan of care reviewed by the ordering practitioner at least every 60 days; certification period no longer than 60 days (Home Health Provider Manual, 2026/05). Under 21, HCY allows 'expanded home health services.'"
+  },
+  "steps": {
+    "plain": [
+      "Ask the doctor if the person needs skilled care at home.",
+      "Make sure the doctor is enrolled with MO HealthNet.",
+      "Have a visit with the doctor. It must be within 90 days before or 30 days after home health starts.",
+      "Choose a home health agency."
+    ],
+    "pro": [
+      "Face-to-face documentation: clinical findings supporting need, primary reason, date, clinician name and credentials. The ordering practitioner certifies the need for intermittent skilled nursing or therapy.",
+      "For daily personal care, use DHSS state plan personal care. For continuous nursing at 21 and older, use the Medically Complex Adult Waiver."
+    ]
+  },
+  "bring": ["MO HealthNet number (DCN)", "The doctor's order"],
+  "wait": {
+    "plain": "Not published.",
+    "pro": "Not published."
+  },
+  "cost": {
+    "plain": "MO HealthNet pays for covered visits.",
+    "pro": "Covered MO HealthNet service."
+  },
+  "watch_out": {
+    "plain": [
+      "Nurse and aide visits together are capped at 100 a year.",
+      "Home health is short-term. It does not replace a daily aide or private duty nursing."
+    ],
+    "pro": [
+      "Age 21 cliff: HCY 'expanded home health services' end at 21; the 100-visit annual cap then applies (13 CSR 70-90.010)."
+    ]
+  },
+  "appeal": {
+    "plain": "If MO HealthNet denies it, you can ask for a state fair hearing. Read each letter the day it comes. Some deadlines are only 10 days.",
+    "pro": "Medicaid fair hearing (RSMo 208.080; 42 CFR 431 Subpart E)."
+  },
+  "alert": "",
+  "requires": ["mo-healthnet"],
+  "rule": {"any": [{"q": "nursing", "op": "in", "v": ["yes"]}, {"q": "daily", "op": "in", "v": ["yes"]}]},
+  "counties": "all",
+  "contacts": [],
+  "sources": [
+    {"title": "MO HealthNet Home Health Provider Manual (2026/05)", "url": "https://dss.mo.gov/sites/mydss/files/media/file/2026/05/Home%20Health%20Provider%20Manual.docx"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "adult-protective-services",
+  "name": "Adult Protective Services (APS) hotline",
+  "category": "home",
+  "order": 380,
+  "summary": {
+    "plain": "Call this hotline if an adult with a disability is not safe, or the caregiver suddenly cannot give care.",
+    "pro": "DHSS DSDS Adult Protective Services investigates and arranges services for an 'eligible adult' (18 to 59 with a disability, or 60 and over) who is unable to protect their own interests or meet essential needs."
+  },
+  "who": {
+    "plain": "Adults age 18 to 59 with a disability, or anyone age 60 or older. The person cannot protect themselves or meet basic needs.",
+    "pro": "'Eligible adult': 18 to 59 with a disability, or 60 and over, who is unable to protect their own interests or meet essential needs (DHSS Stop Adult Abuse)."
+  },
+  "steps": {
+    "plain": [
+      "If someone is in danger now, call 911.",
+      "Call the APS hotline at 1-800-392-0210. It is open 7 days a week, 7 a.m. to 8 p.m.",
+      "If the person has DD eligibility, call the DD support coordinator the same day.",
+      "If the person gets DHSS home care, call 866-835-3505 to change the care plan."
+    ],
+    "pro": [
+      "Report by phone (1-800-392-0210) or online at moapss.health.mo.gov. Relay Missouri: 1-800-735-2966.",
+      "APS investigates, then helps arrange personal care, respite, chore, home-delivered meals, financial or legal protection, counseling, and referrals; it may pursue guardianship or nursing home placement. APS is not a placement agency.",
+      "DD eligible: call the support coordinator or regional office the same day (Springfield 417-895-7400; Joplin 417-629-3020). Emergency criteria put a person at the top of the waiver wait list; the 15 Oct 2026 memo does not say emergency cases are exempt from the freeze.",
+      "If a nursing facility stay lasts 60 consecutive days or more, Show-Me Home (Money Follows the Person) can help the person move back to a home (HCBS Manual 7.00)."
+    ]
+  },
+  "bring": [],
+  "wait": {
+    "plain": "The hotline answers 7 days a week, 7 a.m. to 8 p.m.",
+    "pro": "Hotline hours: 7 days a week, 7 a.m. to 8 p.m."
+  },
+  "cost": "Free",
+  "watch_out": {
+    "plain": [
+      "APS is not a placement agency. It may not find a new home for the person.",
+      "People who are not DD eligible have no DD emergency door. Apply for DD eligibility while the caregiver is well.",
+      "Make a written plan now. List routines, medicines, and backup caregivers."
+    ],
+    "pro": [
+      "Adults who are not DD eligible or not on a waiver have no clear emergency placement door; the usual fallback is a nursing facility, then Show-Me Home after 60 days.",
+      "If the paid CDS attendant was the caregiver who can no longer work, DSDS can change the care plan and a new attendant is needed."
+    ]
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"all": [{"q": "caregiver_risk", "op": "in", "v": ["yes"]}, {"q": "age", "op": ">=", "v": 18}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "Adult Abuse and Neglect Hotline (APS)", "phone": "1-800-392-0210", "url": "https://health.mo.gov/report-adult-abuse/stop-adult-abuse", "note": "7 days a week, 7 a.m. to 8 p.m. Relay Missouri: 1-800-735-2966."}
+  ],
+  "sources": [
+    {"title": "DHSS Stop Adult Abuse", "url": "https://health.mo.gov/report-adult-abuse/stop-adult-abuse"},
+    {"title": "HCBS Manual 7.00 Show-Me Home", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/700-show-me-home"},
+    {"title": "DDD Wait List Memo, 15 Oct 2026", "url": "https://dmh.mo.gov/sites/g/files/zuston541/files/media/pdf/2026/10/wait%20list%20memo%202026.pdf"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "housing-vouchers",
+  "name": "Housing Choice Vouchers and Mainstream vouchers",
+  "category": "housing",
+  "order": 400,
+  "summary": {
+    "plain": "Rent help from a local housing agency. Some vouchers are set aside for adults with disabilities under 62.",
+    "pro": "Public housing agency Housing Choice Voucher (Section 8) programs and HUD Mainstream vouchers for non-elderly persons with disabilities. HACS (MO058) holds 23 and Jasper County PHA (MO215) holds 100 Mainstream vouchers (HUD table updated 15 Aug 2023)."
+  },
+  "who": {
+    "plain": "Households with low income. Mainstream vouchers are for adults age 18 to 61 with a disability. Some agencies give a preference to people with disabilities. Call to confirm the rules for your area.",
+    "pro": "HUD income limits apply. Mainstream vouchers 'assist non-elderly persons with disabilities' and follow HCV rules. Federal purpose (HUD archive; secondary for current targeting): non-elderly (18 to 61) people with disabilities who are leaving institutions, at risk of institutionalization, homeless, or at risk of homelessness. HACS waiting list status and disability preference come from secondary listings (2024) and were not verified in 2026. OACAC (MO216) serves Barry, Christian, Dade, Dallas, Greene outside Springfield city limits, Lawrence, Polk, Stone, Taney, Webster (secondary; list said open as of a January 2026 update; income at or below 50% AMI; county residents get priority)."
+  },
+  "steps": {
+    "plain": [
+      "Apply to every voucher waiting list you can reach.",
+      "Ask about a preference for people with disabilities.",
+      "Ask about Mainstream vouchers.",
+      "Keep your mailing address up to date with each agency.",
+      "Answer every letter. People who miss mail can be dropped from the list."
+    ],
+    "pro": [
+      "Springfield: Housing Authority of the City of Springfield (HACS, MO058), 421 W. Madison St., Springfield 65806, (417) 866-4329 (secondary listings; official site not found). Outside Springfield city limits in 10 counties: OACAC (MO216). Jasper County: Jasper County PHA (MO215), contact not verified. PHAs for Henry, St. Clair, Vernon, Cedar, Hickory, Laclede, Douglas, Ozark, Wright, Barton, McDonald, and Newton were not mapped.",
+      "Documents (211 listing, secondary): picture ID, Social Security card.",
+      "DD-eligible adults who need residential support should also request the Comprehensive Waiver (wait-listed since 15 Oct 2026)."
+    ]
+  },
+  "bring": ["Picture ID", "Social Security card"],
+  "wait": {
+    "plain": "Waits are often long. Call to confirm if a list is open.",
+    "pro": "Waiting list status not verified on primary sources in 2026."
+  },
+  "watch_out": {
+    "plain": [
+      "With a voucher, you still must find a landlord who takes it.",
+      "Few Mainstream vouchers exist: 23 in Springfield and 100 in Jasper County (2023).",
+      "Mail sent to an old address can get you dropped from the list."
+    ],
+    "pro": [
+      "Mainstream counts are from HUD's 15 Aug 2023 table; OACAC had none."
+    ]
+  },
+  "appeal": {
+    "plain": "If the agency denies you, ask for an informal review. Ask for the deadline in writing.",
+    "pro": "Informal review for denied applicants (24 CFR 982.554); informal hearing for participants (24 CFR 982.555)."
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 18}, {"any": [{"q": "needs", "op": "has", "v": ["housing"]}, {"q": "caregiver_risk", "op": "in", "v": ["yes"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "Housing Authority of the City of Springfield (HACS)", "phone": "417-866-4329", "address": "421 W. Madison St., Springfield, MO 65806", "counties": ["greene"], "note": "Springfield city only. From a secondary listing. Call to confirm."},
+    {"label": "Ozarks Area Community Action Corporation (OACAC) vouchers", "counties": ["barry", "christian", "dade", "dallas", "greene", "lawrence", "polk", "stone", "taney", "webster"], "note": "For areas outside Springfield city limits. We did not verify a phone number. Dial 2-1-1 and ask for it."},
+    {"label": "Jasper County Public Housing Agency", "counties": ["jasper"], "note": "Holds 100 Mainstream vouchers (HUD, 2023). We did not verify a phone number. Dial 2-1-1 and ask for it."},
+    {"label": "United Way 2-1-1", "phone": "2-1-1", "counties": ["henry", "st-clair", "vernon", "cedar", "hickory", "laclede", "douglas", "ozark", "wright", "barton", "mcdonald", "newton"], "note": "Ask which housing agency serves your county. Or call 1-800-427-4626."}
+  ],
+  "sources": [
+    {"title": "HUD Mainstream Vouchers", "url": "https://www.hud.gov/helping-americans/public-indian-housing-mainstream-vouchers"},
+    {"title": "HUD Mainstream Awards by PHA, updated 8/15/2023", "url": "https://www.hud.gov/sites/dfiles/PIH/documents/Mainstream_Allocations_by_PHA_and_Opportunity_8.15.23%20-%20FINAL-CLEAN.xlsx"},
+    {"title": "HACS HCV listing (secondary)", "url": "https://affordablehousingonline.com/housing-waiting-lists/Section-8-Voucher/Housing-Authority-of-the-City-of-Springfield/96247"},
+    {"title": "OACAC HCV listing (secondary)", "url": "https://affordablehousingonline.com/housing-waiting-lists/Section-8-Voucher/Ozarks-Area-Community-Action-Corporation/96256"}
+  ],
+  "confidence": "Low",
+  "checked": "2026-10-27"
+},
+{
+  "id": "missouri-811",
+  "name": "Missouri 811 rental help (HUD Section 811)",
+  "category": "housing",
+  "order": 410,
+  "summary": {
+    "plain": "Rent help in certain apartments for adults with disabilities who are homeless, in an institution, or at risk.",
+    "pro": "HUD Section 811 Project Rental Assistance run by MHDC with DSS and DMH: project-based units for extremely low income (30% AMI or below) people with disabilities ages 18 to 61 who are homeless or institutionalized, or at risk of either."
+  },
+  "who": {
+    "plain": "Adults age 18 to 61 with a disability and very low income. The person is homeless, lives in an institution, or is at risk of either.",
+    "pro": "Extremely low income (30% AMI or below); ages 18 to 61; experiencing homelessness or institutionalization, or at risk of either. Units are in tax credit properties (no more than 25% of units in a property). Supportive services are voluntary."
+  },
+  "steps": {
+    "plain": [
+      "Ask the DMH support coordinator or case manager about a Missouri 811 referral.",
+      "If the person is homeless or at risk, dial 2-1-1 and press 6."
+    ],
+    "pro": [
+      "MHDC does not take applications from tenants. DSS and DMH partners screen and refer.",
+      "Scale is small: the 2022 allocation plan expected about 35 units; a tenant selection plan cites 50; the FY2026 NOFA is in progress. No Springfield property list was found."
+    ]
+  },
+  "bring": [],
+  "wait": {
+    "plain": "There are very few units. Waits are not published.",
+    "pro": "Not published."
+  },
+  "cost": {
+    "plain": "The tenant pays no more than 30% of income for rent and utilities.",
+    "pro": "Tenant pays no more than 30% of income for rent and utilities."
+  },
+  "watch_out": {
+    "plain": [
+      "Families cannot apply directly. A DMH or DSS worker must refer the person.",
+      "An adult who lives with parents may not count as at risk until there is a crisis."
+    ],
+    "pro": [
+      "Few units statewide; referral partner required."
+    ]
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"all": [{"q": "age", "op": ">=", "v": 18}, {"q": "age", "op": "<=", "v": 61}, {"any": [{"q": "needs", "op": "has", "v": ["housing"]}, {"q": "caregiver_risk", "op": "in", "v": ["yes"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "United Way 2-1-1 (homeless or at risk)", "phone": "2-1-1", "url": "https://mhdc.com/programs/hud-programs/section-811-pra/", "note": "Press 6."}
+  ],
+  "sources": [
+    {"title": "MHDC Section 811 PRA program", "url": "https://mhdc.com/programs/hud-programs/section-811-pra/"},
+    {"title": "Missouri 811 PRA Program Summary, 3.12.26", "url": "https://mhdc.com/media/vewproxw/section-811-pra-fact-sheet31226.pdf"},
+    {"title": "Missouri 811 allocation plan (2022)", "url": "https://mhdc.com/media/k5al0jpt/missouri-811-allocation-plan.pdf"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "dmh-rental-assistance",
+  "name": "DMH Rental Assistance Program (RAP)",
+  "category": "housing",
+  "order": 420,
+  "summary": {
+    "plain": "One-time help with rent, deposits, and past-due utility bills for people in DMH mental health or substance use services. It is closed now.",
+    "pro": "DMH Housing Unit RAP: one-time assistance once a calendar year for households in DMH-contracted behavioral health services with income below 50% AMI. Closed for lack of funding through January 2027."
+  },
+  "who": {
+    "plain": "People who get mental health or substance use services from a DMH provider. Household income must be low. It is not a DD program.",
+    "pro": "Households actively receiving mental health and/or substance use disorder services from a DMH-contracted provider or in a DMH Housing Unit program; income under 50% AMI. Assistance: up to 3 months rent (back rent or move-in), utility deposits up to $500, past-due utilities up to $600, application fees up to $100 (zero income only); once per calendar year."
+  },
+  "steps": {
+    "plain": [
+      "Wait until the program opens again.",
+      "Ask the mental health provider's worker to apply for the person."
+    ],
+    "pro": [
+      "When open: applications only through a provider worker, by encrypted email to housing@dmh.mo.gov, in the first five business days of the month."
+    ]
+  },
+  "bring": [],
+  "wait": {
+    "plain": "Closed through January 2027.",
+    "pro": "Applications closed through January 2027."
+  },
+  "cost": "Free",
+  "watch_out": {
+    "plain": [
+      "Only a provider's worker can apply. A family cannot apply alone.",
+      "Adults with only a developmental disability do not qualify."
+    ],
+    "pro": [
+      "Relevant only to adults with IDD who also receive DMH behavioral health services (co-occurring conditions)."
+    ]
+  },
+  "alert": "Closed: DMH says applications stay closed through January 2027 for lack of funding.",
+  "requires": [],
+  "rule": {"all": [{"q": "dis", "op": "has", "v": ["mh"]}, {"q": "needs", "op": "has", "v": ["housing"]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "DMH Housing Unit", "url": "https://dmh.mo.gov/housing/unit/rental-assistance", "note": "Provider workers apply by encrypted email to housing@dmh.mo.gov when the program is open."}
+  ],
+  "sources": [
+    {"title": "DMH Rental Assistance Program", "url": "https://dmh.mo.gov/housing/unit/rental-assistance"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "home-modifications",
+  "name": "Ramps and home changes",
+  "category": "housing",
+  "order": 430,
+  "summary": {
+    "plain": "Several small programs help pay for ramps and bathroom or kitchen changes. Each one has limits.",
+    "pro": "No single home modification program exists for an adult not on a waiver. Sources: ILW Environmental Accessibility Adaptations ($5,000 in 5 years), DD waiver home modifications, AAA Family Caregiver Support supplemental services, Center for Independent Living (CIL) ramp and modification programs, MoAT Show Me Loans."
+  },
+  "who": {
+    "plain": "People with a disability who need changes to the home to live safely. Each program has its own rules.",
+    "pro": "ILW participants; DD waiver participants; caregivers 55 and older through the AAA; CIL consumers (empower: abilities lists 'some income guidelines', secondary 211 listing, May 2025); Missouri residents who can repay a Show Me Loan."
+  },
+  "steps": {
+    "plain": [
+      "If the person is on a waiver, ask the case manager or support coordinator first.",
+      "If a caregiver is 55 or older, ask the Area Agency on Aging about small home changes.",
+      "Call your local Center for Independent Living about ramps.",
+      "Ask MoAT about a low-interest Show Me Loan."
+    ],
+    "pro": [
+      "ILW Environmental Accessibility Adaptations: up to $5,000 in 5 years. DD waiver home modifications: see the DD waiver cards.",
+      "empower: abilities (Springfield CIL): ramp construction, bathroom and kitchen modification, AT equipment loan; no fees; 'some income guidelines' (secondary).",
+      "USDA Rural Development Section 504 Home Repair loans and grants exist for very low income rural homeowners; current amounts were not verified.",
+      "West-Central Independent Living Solutions (serves Henry County) reported in 2022 that ramp builds were on hold for lack of funding (secondary)."
+    ]
+  },
+  "bring": [],
+  "wait": {
+    "plain": "It depends on the program.",
+    "pro": "Varies by source."
+  },
+  "cost": {
+    "plain": "It depends. Some help is free. Loans must be paid back.",
+    "pro": "Varies by source."
+  },
+  "watch_out": {
+    "plain": [
+      "No one program pays for a large remodel. You may need to combine sources.",
+      "Some ramp programs stop when their money runs out.",
+      "Laclede County has no Center for Independent Living. Call MoAT instead."
+    ],
+    "pro": [
+      "Gap: no single home modification route for an adult with IDD who lives with parents and is not on a waiver."
+    ]
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"any": [{"q": "needs", "op": "has", "v": ["equipment", "housing"]}, {"q": "dis", "op": "has", "v": ["physical"]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "empower: abilities (Center for Independent Living)", "phone": "417-886-1188", "address": "3345 S. Campbell Ave., Springfield, MO 65807", "url": "https://empowerabilities.org/contact-us/", "counties": ["christian", "dallas", "greene", "lawrence", "polk", "stone", "taney", "webster"], "note": "Toll-free 800-676-7245."},
+    {"label": "The Independent Living Center (Joplin)", "phone": "417-659-8086", "counties": ["barry", "barton", "dade", "jasper", "mcdonald", "newton"], "note": "Toll-free 800-346-8951."},
+    {"label": "On My Own (Nevada)", "phone": "417-667-7007", "counties": ["cedar", "hickory", "st-clair", "vernon"], "note": "Toll-free 800-362-8852."},
+    {"label": "Ozark Independent Living (West Plains)", "phone": "417-257-0038", "counties": ["douglas", "ozark", "wright"]},
+    {"label": "West-Central Independent Living Solutions (Sedalia)", "phone": "660-829-1980", "counties": ["henry"], "note": "Toll-free 866-558-5588."},
+    {"label": "Missouri Assistive Technology (MoAT)", "phone": "816-655-6700", "url": "https://at.mo.gov/?p=8116", "counties": ["laclede"], "note": "No Center for Independent Living serves Laclede County. MoAT is the listed contact."},
+    {"label": "Missouri Senior Resource Line (caregivers 55 and older)", "phone": "1-800-235-5503", "counties": "all", "note": "Ask the Area Agency on Aging about minor home changes."},
+    {"label": "MoAT Show Me Loans", "phone": "816-655-6702", "url": "https://at.mo.gov/show-me-loans/", "counties": "all"}
+  ],
+  "sources": [
+    {"title": "HCBS Manual 3.55 Independent Living Waiver", "url": "https://health.mo.gov/providers/manuals/home-and-community-based-services-manual/300-available-home-and-community-based-7"},
+    {"title": "DHSS AAA Caregiver Services", "url": "https://health.mo.gov/partners-providers/area-agencies-aging/caregiver-services"},
+    {"title": "MoAT CIL directory", "url": "https://at.mo.gov/?p=8116"},
+    {"title": "empower: abilities Contact Us", "url": "https://empowerabilities.org/contact-us/"},
+    {"title": "MoAT Show Me Loans", "url": "https://at.mo.gov/show-me-loans/"},
+    {"title": "WILS Ramp Program 2022 (secondary)", "url": "https://w-ils.org/wp-content/uploads/2022/03/Ramp-Program-2022-1.pdf"}
+  ],
+  "confidence": "Medium",
+  "checked": "2026-10-27"
+},
+{
+  "id": "paratransit-springfield",
+  "name": "Access Express paratransit (Springfield)",
+  "category": "transport",
+  "order": 500,
+  "summary": {
+    "plain": "Curb-to-curb van rides in Springfield for people who cannot use the city bus because of a disability.",
+    "pro": "City Utilities of Springfield (CU Transit) ADA complementary paratransit within 3/4 mile of any CU bus route; functional eligibility; $2.00 a one-way ride (Policies and Procedures updated 1 Jul 2025)."
+  },
+  "who": {
+    "plain": "People of any age who cannot use the city bus for some or all trips because of a disability. The trip must be within 3/4 mile of a CU bus route. A health professional must sign the form.",
+    "pro": "Eligibility is functional (inability to use the fixed-route bus), not diagnosis based. 'A physician, health professional, or rehabilitation professional must verify all applications.' Codes: B (unconditional), C (conditional, trip by trip; may be sent to the fixed route); A exists for bus-not-accessible situations. Service area within 3/4 mile of any CU route. Curb-to-curb basic mode, with origin-to-destination help on request (drivers do not go inside). Hours mirror the fixed route: Monday to Saturday 6 a.m. to about 10 p.m.; Sunday 8 a.m. to 5 p.m. (web page says 5:10 p.m.); no service on Thanksgiving or Christmas. Visitors: up to 21 days a year with proof of eligibility elsewhere."
+  },
+  "steps": {
+    "plain": [
+      "Download the Access Express application.",
+      "Ask a doctor or therapist to sign the professional page.",
+      "Send the form to City Utilities Transit, 211 N Main Ave, Springfield, MO 65806.",
+      "Wait for a letter. CU must decide within 21 days.",
+      "Book rides 1 to 7 days ahead at 417-831-8711."
+    ],
+    "pro": [
+      "Application for ADA Paratransit Service (PDF). Return to City Utilities Transit, 211 N Main Ave, Springfield 65806; fax (417) 831-8803. Customer service (417) 831-8782, Monday to Friday 8 a.m. to 5 p.m.",
+      "Decision within 21 days of receipt; if there is no decision in 21 days, the applicant gets presumptive eligibility until a decision.",
+      "Trips: (417) 831-8711, 1 to 7 days ahead; weekday trips also through the Passenger Portal.",
+      "If the person could learn the fixed route, ask CU about Transit Ambassador training."
+    ]
+  },
+  "bring": ["Completed application", "Professional verification page signed by a health or rehabilitation professional"],
+  "wait": {
+    "plain": "CU must decide within 21 days. If it does not, the person can ride until it decides.",
+    "pro": "21 days, then presumptive eligibility."
+  },
+  "cost": {
+    "plain": "$2.00 per one-way ride. A personal care attendant rides free. A guest pays the same fare.",
+    "pro": "$2.00 per one-way ride; 30-ride book $43.00; 60-ride book $72.00 (2025 policy, still on the web page 26 Oct 2026). PCA rides free; a guest pays the fare. MO HealthNet non-emergency medical trips are free (CU bills MO HealthNet; tell the dispatcher)."
+  },
+  "watch_out": {
+    "plain": [
+      "Homes more than 3/4 mile from a bus route are not served.",
+      "Drivers do not go inside. Some people need an attendant to ride along. The attendant rides free.",
+      "Missed rides (no-shows) can lead to a suspension.",
+      "Tell the dispatcher if MO HealthNet covers a medical trip. Those trips are free."
+    ],
+    "pro": [
+      "Code C riders may be sent to the fixed route for some trips. Most of Greene County outside Springfield, and all other counties, are outside the service area."
+    ]
+  },
+  "appeal": {
+    "plain": "Appeal a denial or limited eligibility within 60 days of the letter. You get a written answer within 30 days after the appeal process.",
+    "pro": "Appeal denial or conditional eligibility within 60 days of the letter, to an appeal board of persons not involved in the first decision; written decision within 30 days after the appeal process. Service is not required during the appeal, but if there is no decision within 30 days after the process ends, service is provided until a decision (49 CFR 37.125(g)). Reasonable modification requests: answer within 7 business days."
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"any": [{"q": "needs", "op": "has", "v": ["transport"]}, {"q": "work", "op": "in", "v": ["working", "wants"]}]},
+  "counties": ["greene"],
+  "contacts": [
+    {"label": "CU Transit Access Express customer service", "phone": "417-831-8782", "address": "211 N Main Ave, Springfield, MO 65806", "url": "https://www.cityutilities.net/accessexpress", "counties": ["greene"], "note": "Monday to Friday, 8 a.m. to 5 p.m. Book trips at 417-831-8711."}
+  ],
+  "sources": [
+    {"title": "CU Access Express Paratransit", "url": "https://www.cityutilities.net/accessexpress"},
+    {"title": "Access Express Policies and Procedures (updated 7/1/2025)", "url": "https://mo-springfieldutilities.civicplus.com/DocumentCenter/View/343/Access-Express-Policies-and-Procedures-PDF?bidId="},
+    {"title": "Access Express Application for ADA Paratransit Service", "url": "https://mo-springfieldutilities.civicplus.com/DocumentCenter/View/322/Access-Express-Application-for-ADA-Paratransit-Service-PDF?bidId="},
+    {"title": "49 CFR 37 Subpart F", "url": "https://www.ecfr.gov/current/title-49/subtitle-A/part-37/subpart-F"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "cu-transit-reduced-fare",
+  "name": "CU bus Reduced Fare Card and bus training (Springfield)",
+  "category": "transport",
+  "order": 510,
+  "summary": {
+    "plain": "A card for half-price rides on the Springfield city bus. CU also teaches groups how to ride the bus.",
+    "pro": "City Utilities Transit Persons with Disabilities Reduced Fare Card (Form 1755, rev. 4-29-24): $0.50 fixed-route fare (posted 15 Aug 2025) versus $1.00 adult; Transit Ambassadors bus orientation."
+  },
+  "who": {
+    "plain": "People with a disability who ride or could ride the city bus. A doctor or other approved person must sign the form. A copy of a Medicare card also works. A Medicaid card does not.",
+    "pro": "Needs a physician or other certifying agent signature, or a copy of a Medicare card. 'State Medicaid does not qualify.' Fares posted 15 Aug 2025: adult $1.00; seniors 65 and older, disabled, and Medicare $0.50; transfer $0.25; paratransit $2.00 (the post says 'effective October 1, 2024', possibly a typo)."
+  },
+  "steps": {
+    "plain": [
+      "Get Form 1755, the Reduced Fare Card application.",
+      "Ask the doctor to sign it, or attach a copy of the Medicare card.",
+      "Take it to the Transit Center at 211 N. Main.",
+      "Pay $2 for the card.",
+      "Call 417-831-8782 to ask about Transit Ambassador bus training."
+    ],
+    "pro": [
+      "Card: $2 new or expired; $5 replacement; valid 3 years; issued at the Transit Center, 211 N. Main.",
+      "Transit Ambassadors teach stops, routes, trip planning, fares, ramps, and securement; they can come to a community center, office, housing complex, or neighborhood for groups. Cost and eligibility not stated."
+    ]
+  },
+  "bring": ["Form 1755 signed by a doctor or certifying agent, or a copy of the Medicare card", "$2 for the card"],
+  "wait": {
+    "plain": "Not published.",
+    "pro": "Not published."
+  },
+  "cost": {
+    "plain": "The card costs $2. Rides cost $0.50 with the card.",
+    "pro": "Card $2 (new or expired), $5 replacement; fixed-route fare $0.50."
+  },
+  "watch_out": {
+    "plain": [
+      "A young adult with only Medicaid needs a doctor to sign the form.",
+      "CU training is general bus training, often for groups."
+    ],
+    "pro": [
+      "No one-to-one travel training program for people with IDD was found on a public Springfield page."
+    ]
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"any": [{"q": "needs", "op": "has", "v": ["transport"]}, {"q": "work", "op": "in", "v": ["working", "wants"]}]},
+  "counties": ["greene"],
+  "contacts": [
+    {"label": "CU Transit customer service", "phone": "417-831-8782", "address": "Transit Center, 211 N. Main, Springfield", "url": "https://www.cityutilities.net/248/Transit-Ambassadors", "counties": ["greene"]}
+  ],
+  "sources": [
+    {"title": "CU Transit news flash, 15 Aug 2025", "url": "https://www.cityutilities.net/CivicAlerts.asp?AID=104"},
+    {"title": "CU Form 1755 Reduced Farecard Application", "url": "https://www.cityutilities.net/DocumentCenter/View/263"},
+    {"title": "CU Transit Ambassadors", "url": "https://www.cityutilities.net/248/Transit-Ambassadors"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "oats-transit",
+  "name": "OATS Transit (rural rides)",
+  "category": "transport",
+  "order": 520,
+  "summary": {
+    "plain": "Public van rides in rural counties for anyone. Book ahead. Many routes run only on certain days.",
+    "pro": "OATS Transit, a nonprofit rural public transit provider (87 Missouri counties), open to anyone regardless of age, income, or disability. Southwest Region fares since February 2023. AAA contract rides for people 60 and older and people with disabilities 18 to 59 by contribution."
+  },
+  "who": {
+    "plain": "Anyone can ride. Some riders pay only a donation under the AAA contract. This covers people 60 and older, and people with disabilities age 18 to 59.",
+    "pro": "'Available to anyone regardless of age, income' or disability. Riders 60 and older and people with disabilities 18 to 59 riding under the AAA contract have no set fare and are asked for a contribution."
+  },
+  "steps": {
+    "plain": [
+      "Call the OATS office for your county.",
+      "Ask which days the van goes where you need to go.",
+      "Ask if the trip counts under the AAA contract.",
+      "Set up a prepaid account. Drivers do not take cash.",
+      "Book the ride ahead of time."
+    ],
+    "pro": [
+      "Southwest Region (2909 N. Martin Ave., Springfield; 417-887-9272 or 800-770-6287): Barry, Barton, Christian, Dade, Dallas, Douglas, Greene, Jasper, Lawrence, McDonald, Newton, Ozark, Polk, Stone, Taney, Webster, Wright.",
+      "Vernon County: 660-827-2611 or 800-276-6287; call at least 24 hours ahead. Laclede County: 573-449-3789 or 800-269-6287 (Lebanon in-town Monday to Friday 7 a.m. to 4 p.m.). Cedar, Henry, Hickory, St. Clair: OATS county pages not checked.",
+      "Prepaid account required, $10 minimum top-up; no cash on board.",
+      "Rural routes run on set days (for example, Wright County to Springfield every Wednesday on the Hwy 60 Express; Vernon County to Nevada on the 1st Friday)."
+    ]
+  },
+  "bring": ["Money for a prepaid account ($10 minimum)"],
+  "wait": {
+    "plain": "Book ahead. Some rural routes run only 1 to 4 days a month.",
+    "pro": "Advance booking; rural routes on set days."
+  },
+  "cost": {
+    "plain": "Southwest Region: $2 in town, $3 in the county, $4 to the next county, $6 for long trips. AAA contract riders give a donation.",
+    "pro": "Southwest Region (since Feb 2023): in-town $2.00; in-county $3.00; adjacent county $4.00; long distance (3 or more counties) $6.00; en-route stop $1.00. Vernon County page: in-town $2.50, county $5.00. AAA contract riders: contribution."
+  },
+  "watch_out": {
+    "plain": [
+      "A daily job or day program is hard to reach on a route that runs once a month.",
+      "You must prepay. Drivers do not take cash."
+    ],
+    "pro": [
+      "Southwest Region fares are dated 2023; confirm current fares."
+    ]
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"any": [{"q": "needs", "op": "has", "v": ["transport"]}, {"q": "work", "op": "in", "v": ["working", "wants"]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "OATS Southwest Region", "phone": "417-887-9272", "address": "2909 N. Martin Ave., Springfield", "url": "https://www.oatstransit.org/post/oats-transit-s-southwest-region-announces-fare-increase", "counties": ["barry", "barton", "christian", "dade", "dallas", "douglas", "greene", "jasper", "lawrence", "mcdonald", "newton", "ozark", "polk", "stone", "taney", "webster", "wright"], "note": "Toll-free 800-770-6287."},
+    {"label": "OATS Vernon County", "phone": "660-827-2611", "url": "https://www.oatstransit.org/vernon", "counties": ["vernon"], "note": "Toll-free 800-276-6287. Call at least 24 hours ahead."},
+    {"label": "OATS Laclede County", "phone": "573-449-3789", "url": "https://www.oatstransit.org/laclede", "counties": ["laclede"], "note": "Toll-free 800-269-6287."},
+    {"label": "OATS Transit (Cedar, Henry, Hickory, St. Clair)", "counties": ["cedar", "henry", "hickory", "st-clair"], "note": "We did not confirm the OATS office for this county. Call the Southwest Region at 800-770-6287 and ask."}
+  ],
+  "sources": [
+    {"title": "OATS Southwest Region fare announcement (2023)", "url": "https://www.oatstransit.org/post/oats-transit-s-southwest-region-announces-fare-increase"},
+    {"title": "OATS Wright County", "url": "https://www.oatstransit.org/wright"},
+    {"title": "OATS Vernon County", "url": "https://www.oatstransit.org/vernon"},
+    {"title": "OATS Laclede County", "url": "https://www.oatstransit.org/laclede"}
+  ],
+  "confidence": "Medium",
+  "checked": "2026-10-27"
+},
+{
+  "id": "medicaid-rides",
+  "name": "Free rides to medical visits (MO HealthNet NEMT)",
+  "category": "transport",
+  "order": 530,
+  "summary": {
+    "plain": "MO HealthNet gives free rides to covered medical visits when the person has no other free ride.",
+    "pro": "MO HealthNet Non-Emergency Medical Transportation (NEMT) through the statewide broker MTM Health (NEMT Manual, 2026/04 file). Managed care members use their health plan."
+  },
+  "who": {
+    "plain": "People with MO HealthNet going to a covered medical visit. The person must have no other free ride. People in a managed care health plan call the number on their plan card.",
+    "pro": "MO HealthNet participants going to a MO HealthNet-covered service with no other free transport. Not covered: certain ME codes (for example 02 Blind Pension, 55 QMB only, 82 Missouri Rx, presumptive eligibility non-subsidized, some premium CHIP and foster care codes); people with Medicare NEMT; hospice for the terminal illness; managed care plan members (the plan arranges rides). Not for DD waiver or DHSS waiver services ('NEMT services are arranged by those programs'). An attendant and one parent or guardian are covered only for children under 21. Public transit is not assigned if the walk is over 4 blocks or 1/2 mile. Up to 3 legs (2 stops) a day without prior authorization."
+  },
+  "steps": {
+    "plain": [
+      "Check the MO HealthNet card. If it names a health plan, call the plan's number.",
+      "If not, call MTM at 866-269-5927.",
+      "Book at least 2 business days ahead in Greene County. Book 3 business days ahead in other counties.",
+      "If a ride is late, call Where's My Ride at 866-269-5944.",
+      "If family drives, ask about mileage money. Send the claim within 60 days."
+    ],
+    "pro": [
+      "MTM scheduling (866) 269-5927: non-urgent Monday to Friday 8 a.m. to 6 p.m.; urgent 24/7. Travel standards: Greene urban (2 business days notice); Christian, Jasper, Newton, Taney basic; all other counties in the region rural (3 business days).",
+      "Mileage reimbursement at no less than the IRS medical mileage rate; submit within 60 days of the trip.",
+      "MTM mobile app available. Broker complaints (866) 436-0457 (acknowledged within 10 business days); MHD Constituent Services (800) 392-2161."
+    ]
+  },
+  "bring": ["MO HealthNet card", "Appointment date, time, and address"],
+  "wait": {
+    "plain": "Book 2 business days ahead in Greene County. Book 3 business days ahead in the other counties.",
+    "pro": "2 business days (urban, Greene); 3 business days (basic or rural, all other counties in the region)."
+  },
+  "cost": "Free",
+  "watch_out": {
+    "plain": [
+      "NEMT will not take the person to a day program or other waiver service.",
+      "The rules cover an attendant or parent only for riders under 21. Ask MTM if an adult needs an escort.",
+      "Old state web pages name a different company. The current manual names MTM Health."
+    ],
+    "pro": [
+      "Older DSS pages (2014, 2015) still name LogistiCare. Adult escort rules are not addressed in the manual (open question)."
+    ]
+  },
+  "appeal": {
+    "plain": "If MO HealthNet denies, cuts, or stops rides, you can ask for a state fair hearing. Act within 10 days of the notice if you can.",
+    "pro": "Denial, reduction, or stop of NEMT goes to a state fair hearing (NEMT Manual section 8.1; RSMo 208.080). Broker grievances acknowledged within 10 business days."
+  },
+  "alert": "",
+  "requires": ["mo-healthnet"],
+  "rule": {"q": "mhn", "op": "in", "v": ["yes", "applied"]},
+  "counties": "all",
+  "contacts": [
+    {"label": "MTM Health (MO HealthNet rides)", "phone": "866-269-5927", "url": "https://mydss.mo.gov/mhd/nemt", "note": "Non-urgent: Monday to Friday, 8 a.m. to 6 p.m. Urgent: 24/7. Where's My Ride: 866-269-5944."}
+  ],
+  "sources": [
+    {"title": "MO HealthNet NEMT Manual (2026/04 file)", "url": "https://dss.mo.gov/sites/mydss/files/media/file/2026/04/NEMT-Manual.docx"},
+    {"title": "DSS NEMT page", "url": "https://mydss.mo.gov/mhd/nemt"},
+    {"title": "RSMo 208.080", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=208.080"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "missouri-assistive-technology",
+  "name": "Missouri Assistive Technology (MoAT): try, borrow, or reuse equipment",
+  "category": "equipment",
+  "order": 600,
+  "summary": {
+    "plain": "MoAT lends devices for free so the person can try them. It also helps people find used equipment.",
+    "pro": "Missouri's state AT Act program: free 5-week device loans shipped statewide, device reutilization (refurbished AT and DME) through partner sites, and the Swap 'n Shop online exchange."
+  },
+  "who": {
+    "plain": "Missouri residents with a disability, their families, and the people who help them.",
+    "pro": "Individuals borrow directly; organizations need a signed loan agreement. SFY 2025: 2,924 devices to 1,053 borrowers. 2025 reuse: 3,028 Missourians got 4,214 reused devices (annual report, secondary summary)."
+  },
+  "steps": {
+    "plain": [
+      "Call MoAT at 816-655-6700.",
+      "Ask to borrow a device to try for 5 weeks.",
+      "For used equipment, ask about a reuse center near you.",
+      "Send the loaned device back with the prepaid label."
+    ],
+    "pro": [
+      "Loans: 5 weeks; shipped free in 3 to 5 business days with a prepaid return label; a waitlist is possible for high-demand items.",
+      "Reuse partners in the region: empower: abilities (Springfield) and On My Own (Nevada). Donations: nearest center or MoAT 816-655-6705. Swap 'n Shop: free person-to-person exchange.",
+      "MoAT, 1501 NW Jefferson St., Blue Springs, MO 64015; info@mo-at.org."
+    ]
+  },
+  "bring": [],
+  "wait": {
+    "plain": "Loans ship in 3 to 5 business days. Popular items may have a wait.",
+    "pro": "3 to 5 business days shipping; waitlist for high-demand items."
+  },
+  "cost": {
+    "plain": "Loans are free. Used equipment is free or low cost.",
+    "pro": "Loans free; reutilization at no or little cost."
+  },
+  "watch_out": {
+    "plain": [
+      "Loans last 5 weeks.",
+      "For equipment MO HealthNet covers, start with a doctor's prescription."
+    ],
+    "pro": [
+      "Order of steps for equipment: MO HealthNet DME first; then waiver or AAA funds for non-covered items; MoAT to try or reuse; Show Me Loans to buy."
+    ]
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"any": [{"q": "needs", "op": "has", "v": ["equipment"]}, {"q": "daily", "op": "in", "v": ["yes"]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "Missouri Assistive Technology (MoAT)", "phone": "816-655-6700", "url": "https://at.mo.gov/device-loan/", "note": "Email info@mo-at.org."},
+    {"label": "empower: abilities reuse site (Springfield)", "phone": "417-886-1188", "address": "3345 S. Campbell Ave., Springfield, MO 65807", "note": "MoAT reuse partner."},
+    {"label": "On My Own reuse site (Nevada)", "phone": "417-667-7007", "note": "MoAT reuse partner."}
+  ],
+  "sources": [
+    {"title": "MoAT Device Loan", "url": "https://at.mo.gov/device-loan/"},
+    {"title": "MoAT Device Reutilization", "url": "https://at.mo.gov/?p=1231"},
+    {"title": "MoAT 2025 Annual Report", "url": "https://at.mo.gov/wp-content/uploads/MoAT-Annual-Report_2025-Accessible.pdf"},
+    {"title": "MoAT CIL directory", "url": "https://at.mo.gov/?p=8116"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "moat-tap",
+  "name": "Telecommunications Access Program (TAP): adapted phones and computer tools",
+  "category": "equipment",
+  "order": 610,
+  "summary": {
+    "plain": "Adapted phones and computer tools for Missouri residents whose disability makes phone or computer use hard.",
+    "pro": "MoAT TAP-T (adapted telephones) and TAP-I (adaptive computer input and output). Household AGI under $60,000 for 1 or 2 people, plus $5,000 per added dependent."
+  },
+  "who": {
+    "plain": "Missouri residents with a disability that makes phone or computer use hard. A household of 1 or 2 must make under $60,000 a year. Add $5,000 for each extra dependent.",
+    "pro": "TAP-T: any disability; annual adjusted gross income for a 1- or 2-person household under $60,000, plus $5,000 per added dependent; must already have basic phone service; disability certified by a physician, audiologist, speech pathologist, hearing instrument specialist, or qualified agency. TAP-I: same income test; must have a computer and internet at home; disability certification if none in the last 3 years; application labeled 'TAP-I 2027'. The income year is not stated on the page."
+  },
+  "steps": {
+    "plain": [
+      "Get the TAP application from the MoAT web page.",
+      "Ask a professional to certify the disability.",
+      "Send the form to info@mo-at.org, or send it by fax or mail."
+    ],
+    "pro": [
+      "TAP-T devices: text telephones, voice and hearing carry-over phones, amplified, Braille, hands-free, and photo phones.",
+      "TAP-I: alternative keyboards, pointing devices, screen readers, magnification, word prediction, voice recognition. TAP-I does not provide computers or speech generating devices.",
+      "Return by email info@mo-at.org, fax (816) 655-6710, or mail to MoAT, Blue Springs.",
+      "iCanConnect (DeafBlind equipment distribution) is also listed; its rules were not checked."
+    ]
+  },
+  "bring": ["Disability certification from a qualified professional"],
+  "wait": {
+    "plain": "Not published.",
+    "pro": "Not published."
+  },
+  "cost": {
+    "plain": "TAP-I is free. Ask MoAT about any cost for TAP-T.",
+    "pro": "TAP-I free (MoAT page); TAP-T cost not stated."
+  },
+  "watch_out": {
+    "plain": [
+      "TAP-T needs phone service at home already.",
+      "TAP-I needs a computer and internet at home. It does not give computers.",
+      "TAP does not give speech devices. Ask the doctor about MO HealthNet for those."
+    ],
+    "pro": [
+      "Augmentative communication devices are a MO HealthNet DME benefit 'regardless of the participant's age' when medically necessary through pre-certification."
+    ]
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"any": [{"q": "dis", "op": "has", "v": ["deaf", "blind", "physical", "tbi"]}, {"q": "needs", "op": "has", "v": ["equipment"]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "Missouri Assistive Technology (MoAT)", "phone": "816-655-6700", "url": "https://at.mo.gov/telecommunications-access-program/", "note": "Email info@mo-at.org."}
+  ],
+  "sources": [
+    {"title": "MoAT Telecommunications Access Programs", "url": "https://at.mo.gov/telecommunications-access-program/"},
+    {"title": "MoAT TAP-I", "url": "https://at.mo.gov/tap-i/"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "show-me-loans",
+  "name": "Show Me Loans (MoAT): low-interest loans for equipment, home, and vehicle changes",
+  "category": "equipment",
+  "order": 620,
+  "summary": {
+    "plain": "Low-interest loans to buy assistive devices, change a home, or buy an accessible vehicle.",
+    "pro": "MoAT Show Me Loans: General AT Loan $500 to $20,000; Micro Loan under $500; Accessible Vehicle Loan up to $50,000 (vehicle no more than 9 years old; limited number); WorkAbility Loan $500 to $15,000 at 1%; other loans 2% to 4% by income."
+  },
+  "who": {
+    "plain": "Missouri residents with a disability or an age-related change. A family member can apply for them. The borrower must be able to repay the loan.",
+    "pro": "Missouri resident; a person with a disability or age-related change, or a family member applying for them; legal age to contract; vendor quote; able to repay (2026 application)."
+  },
+  "steps": {
+    "plain": [
+      "Get a price quote from the seller.",
+      "Fill out the Show Me Loans application.",
+      "Send it by mail, fax, or email to ehoutman@mo-at.org.",
+      "Call 816-655-6702 with questions."
+    ],
+    "pro": [
+      "Submit by mail, fax (816) 655-6710, or email ehoutman@mo-at.org. Questions: (816) 655-6702."
+    ]
+  },
+  "bring": ["A price quote from the seller"],
+  "wait": {
+    "plain": "Not published.",
+    "pro": "Not published."
+  },
+  "cost": {
+    "plain": "You repay the loan with interest. Rates run from 1% to 4%.",
+    "pro": "WorkAbility Loan 1%; other loans 2% to 4% by income."
+  },
+  "watch_out": {
+    "plain": [
+      "This is a loan, not a grant. You must pay it back.",
+      "Vehicle loans are limited. The vehicle must be 9 years old or newer."
+    ],
+    "pro": [
+      "Accessible Vehicle Loans are limited in number."
+    ]
+  },
+  "alert": "",
+  "requires": [],
+  "rule": {"q": "needs", "op": "has", "v": ["equipment", "housing"]},
+  "counties": "all",
+  "contacts": [
+    {"label": "MoAT Show Me Loans", "phone": "816-655-6702", "url": "https://at.mo.gov/show-me-loans/", "note": "Email ehoutman@mo-at.org."}
+  ],
+  "sources": [
+    {"title": "MoAT Show Me Loans", "url": "https://at.mo.gov/show-me-loans/"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+},
+{
+  "id": "mo-healthnet-dme",
+  "name": "Medical equipment through MO HealthNet (DME)",
+  "category": "equipment",
+  "order": 630,
+  "summary": {
+    "plain": "With a prescription, MO HealthNet pays for medical equipment such as wheelchairs, walkers, lifts, and incontinence supplies.",
+    "pro": "MO HealthNet Durable Medical Equipment (DME Manual dated 07/06/2026): written prescription, enrolled ordering provider, CMN and prior authorization where required. Managed care plans cover DME for their members."
+  },
+  "who": {
+    "plain": "People with MO HealthNet who have a written prescription. The person must have MO HealthNet on the delivery date. Some items are only for people age 20 and younger.",
+    "pro": "MO HealthNet eligible on the delivery date (custom items excepted). Items 'must be ordered in writing by the participant's physician, advanced practice nurse, or nurse practitioner.' Covered items include adult incontinence briefs, augmentative communication devices ('regardless of the participant's age' when medically necessary, through pre-certification), canes, crutches, commodes, hospital beds, patient lifts and trapeze, scooters, walkers, wheelchairs. The less expensive item must be used if two items meet the need. Not covered: electric patient lifts (hydraulic lifts rent-to-purchase with pre-certification), rollator walkers. HCY-only items (age 20 and under): high frequency chest wall oscillation vest, cough stimulating device, enteral formula (under 21), purchased pulse oximeter probe allowance."
+  },
+  "steps": {
+    "plain": [
+      "Ask the doctor for a written prescription.",
+      "Check that the doctor is enrolled with MO HealthNet. If not, the claim is denied.",
+      "Ask the doctor for a letter that explains why the person needs the item.",
+      "Choose a DME supplier that takes MO HealthNet.",
+      "Before age 21, ask the doctor about items that coverage stops at 21."
+    ],
+    "pro": [
+      "The ordering, prescribing, or referring (OPR) provider 'must be actively enrolled with MHD even if the provider does not accept MO HealthNet participants', or 'the claim will be denied.'",
+      "CMN: procedure codes, modifiers, item description (brand and model), accessories, reason needed, anticipated length of need, date prescribed, diagnosis, prognosis. CMN period 6 months from the prescription date; 12 months for wheelchair codes K0001, K0002, K0003, K0006.",
+      "Prior authorization: diagnosis, prognosis, detailed explanation from the prescriber or therapist, length of need, projected outcome, invoice. 'Listing only a diagnosis code and description does not provide sufficient information.' PA expires 3 months after approval unless stated.",
+      "Custom or power wheelchairs: 8-point justification, including 'why a less costly mobility device is unable to meet participant needs'; include any PT, OT, or wheelchair clinic evaluation; the chair must fit the home. Complex rehab suppliers must employ a RESNA-certified ATP (since 1 Aug 2025).",
+      "Incontinence products: up to 186 a month in any combination; more needs pre-certification (Pharmacy and Medical Pre-Certification Help Desk, (800) 392-8030). No automatic shipping.",
+      "Exceptions process (age 21 and older, non-covered items): initiated by the treating prescriber (physician, physician assistant, or advanced practice nurse); covered alternatives tried first; the item must sustain life, substantially improve quality of life for a terminally ill patient, replace an item lost in a natural disaster, or prevent a higher level of care; approval before the item is provided (Exceptions Manual, 2026/04)."
+    ]
+  },
+  "bring": ["Written prescription", "Doctor's letter that explains the need", "Therapy or seating evaluation (for wheelchairs)"],
+  "wait": {
+    "plain": "Not published. A prior approval lasts 3 months.",
+    "pro": "Not published. PA valid 3 months; CMN 6 or 12 months."
+  },
+  "cost": {
+    "plain": "No cost for covered items when the rules are followed.",
+    "pro": "Participant non-liability for covered items when the rules are followed."
+  },
+  "watch_out": {
+    "plain": [
+      "A letter with only a diagnosis is not enough. It must explain the need.",
+      "Electric lifts and rollator walkers are not covered.",
+      "Some items stop at age 21, such as cough assist devices and chest vests. Plan before the 21st birthday.",
+      "People in a managed care plan get equipment through the plan."
+    ],
+    "pro": [
+      "Age 21 cliff: HCY-only items move to the Exceptions process, which has a high bar.",
+      "Bulletin dated 23 Sep 2026: new Power Wheelchair Seat Elevation Medical Criteria (not reviewed)."
+    ]
+  },
+  "appeal": {
+    "plain": "If MO HealthNet denies the item, you can ask for a state fair hearing. Ask within 90 days of the notice. Read every letter the day it comes.",
+    "pro": "Medicaid fair hearing: request within 90 days of the notice mailing date (42 CFR 431.221(d); RSMo 208.080). For non-covered items at 21 and older, the treating prescriber can file an Exceptions request."
+  },
+  "alert": "Since 1 Aug 2026, Missouri has paused enrollment of new DME providers for 6 months (it may extend to 1 year). Enrolled DME providers keep serving.",
+  "requires": ["mo-healthnet"],
+  "rule": {"all": [{"q": "mhn", "op": "in", "v": ["yes", "applied"]}, {"any": [{"q": "needs", "op": "has", "v": ["equipment"]}, {"q": "daily", "op": "in", "v": ["yes"]}, {"q": "nursing", "op": "in", "v": ["yes"]}, {"q": "dis", "op": "has", "v": ["physical"]}]}]},
+  "counties": "all",
+  "contacts": [
+    {"label": "MO HealthNet Constituent Services", "phone": "800-392-2161", "url": "https://dss.mo.gov/mhd/dme", "note": "Questions about MO HealthNet coverage."}
+  ],
+  "sources": [
+    {"title": "MO HealthNet DME Manual (07/06/2026)", "url": "https://dss.mo.gov/sites/mydss/files/media/file/2026/08/Durable-Medical-Equipment-Manual-07-06-2026.docx"},
+    {"title": "MO HealthNet DME page", "url": "https://dss.mo.gov/mhd/dme"},
+    {"title": "MO HealthNet Exceptions Manual (2026/04)", "url": "https://dss.mo.gov/sites/mydss/files/media/file/2026/04/Exceptions-Manual.docx"},
+    {"title": "MMAC notice, DME and CDS enrollment moratoria (24 Jul 2026)", "url": "https://mmac.mo.gov/?p=11413"},
+    {"title": "42 CFR 431 Subpart E", "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-431/subpart-E"}
+  ],
+  "confidence": "High",
+  "checked": "2026-10-27"
+}
+]
