@@ -14,5 +14,7 @@ Status on 27 Oct 2026:
 - Some facts are marked "Call to confirm". A professional should review the page before
   families use it.
 
+`11-open-items.md` lists gaps found after the fact checks that still need research.
+
 `00-team-brief.md` holds the scope, rules, and file format for each agent.
 `00-data-schema.md` holds the data format for the page.
